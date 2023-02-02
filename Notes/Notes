@@ -1,0 +1,61 @@
+###### csv-reconcile
+# https://github.com/gitonthescene/csv-reconcile
+# Note: files need to be *.tsv files  # Go here: Reconciliation Project/Python scripts/CSV_2_TSV.pyv
+
+# Installation directions:
+# 1. Clone the repository, cd into repo and do everything from the repo directory
+# 2. Create virtual environment, install csv-reconcile and initialize database
+python3 -m venv .venv                                         
+.venv/bin/pip install csv-reconcile                            
+source .venv/bin/activate                                       
+csv-reconcile init data/nalt_labels_nodups.tsv NALT_URI Label
+# So, having no duplicates in the rows in either column and switching the column labels in the commmand above worked....
+# 505 terms in beta prepared were reconciled to nalt concepts
+# Now, what I'll do is create a nalt_preflabel.tsv and a nalt_altlabel.tsv and use both seperately....        
+csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
+csv-reconcile serve 
+csv-reconcile init nalt_labels_data/nalt_altlabels.tsv NALT_URI Label
+csv-reconcile serve
+# Service: http://127.0.0.1:5000/reconcile                                     
+deactivate   
+# So, nalt_preflabels.tsv worked because it has no duplicates...but, nalt_altlabels.tsv still has duplicate URI's
+# Reconciling the nalt_preflabels.tsv to the beta prepared.tsv improved the reconciliation / increased the labels that
+# reconciled....from 505 terms to 739 terms...  
+
+# side note:
+# This worked - read somewhere that the architecture needed to be explicitly called out. 
+python3 -m venv venv
+ARCHFLAGS="-arch x86_64" venv/bin/pip install csv-reconcile
+source venv/bin/activate
+
+
+####### reconcile-csv
+cd into reconciliation folder where jar file and nalt_labels.csv is and execute:
+java -Xmx2g -jar "reconcile-csv-0.1.2.jar" "nalt_labels.csv" "Label" "NALT_URI" 
+# It worked 
+# I went to http://localhost:8000/reconcile in my browser and got the expected output (the service manifest in a web browser)
+# Than I opened OpenRefine and uploaded the beta_prepared.csv and created a project
+# Selected the Label header and than started reconciling
+# I added the standard service http://localhost:8000/reconcile and got the following error
+
+# error in browser: Guess Types query failed error : java.io.IOException: HTTP error 500 : Server Error for URL /reconcile
+# error in terminal: 
+    # java.util.concurrent.ExecutionException: java.lang.NullPointerException
+        at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+        at java.util.concurrent.FutureTask.get(FutureTask.java:188)
+        at clojure.core$deref_future.invoke(core.clj:2108)
+        at clojure.core$future_call$reify__6267.deref(core.clj:6308)
+        at clojure.core$deref.invoke(core.clj:2128)
+        at clojure.core$pmap$step__6280$fn__6282.invoke(core.clj:6358)
+        at clojure.lang.LazySeq.sval(LazySeq.java:42)
+        at clojure.lang.LazySeq.seq(LazySeq.java:60)
+        at clojure.lang.RT.seq(RT.java:484)
+
+        at clojure.core$seq.invoke(core.clj:133)
+        at clojure.core$zipmap.invoke(core.clj:2713)
+        at reconcile_csv.core$reconcile_params.invoke(core.clj:130)
+    # etc...
+# I read in https://github.com/okfn/reconcile-csv/issues/28 that "text string should be delimited by quotes (only necessary for text strings)."
+# SO, I need to add quotes to all the strings in each column including the headers in both csv's and try again
+# Adding quotes seemed to help but I was waiting for a really long time and gave up.
+# Try again later.
