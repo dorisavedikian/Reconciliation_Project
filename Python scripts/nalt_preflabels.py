@@ -1,5 +1,4 @@
 
-
 '''
  - I used Tom Bakers nalt_label.ipynb to create this 
  - This collects all the preflabel values and URI's instead of the altlabels and the preflabels values and URI's
