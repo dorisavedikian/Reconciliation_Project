@@ -7,10 +7,10 @@ Original [nalt_label.tsv](https://github.com/dorisavedikian/Reconciliation_Proje
 
 After splitting it into two files...
 
-- nalt_preflabel.tsv had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [739 reconciled nalt terms](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared%20pref_labels_only_reconciled.xls)
+- nalt_preflabel.tsv had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [742 reconciled nalt terms](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared%20pref_labels_only_reconciled.xls)
 
-- nalt_altlabel.tsv had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked.
+- nalt_altlabel.tsv had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked. 5 beta prepared labels were reconciled to 5 pref labels in the nalt.
 
 
-I aggregated the outputs and there are 749 nalt terms in the beta prepared csv
+I aggregated the outputs and there are 747 nalt terms in the beta prepared csv - which is what was expected per the beta prepared reconciliation I have as a reference.
 
