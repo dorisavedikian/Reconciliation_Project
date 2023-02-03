@@ -16,6 +16,7 @@ I aggregated the outputs and there are [744 nalt terms in the beta prepared csv]
 
 The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/nalt_labels_DATA/nalt_preflabels_only.tsv) that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
 
+- Ames test (Ames is uppercase in the NALT but lower case in the beta prepared data - 100% matching score in openRefine)
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - New Zealand White rabbit (rabbit is lowercase in the NALT but uppercase in the beta prepared data - also, 100% matching score in openRefine)
 - Limulus amebocyte lysate assay (Limulus is uppercase in the NALT but lowercase in the beta prepared data - also 100% matching score in openRefine)
