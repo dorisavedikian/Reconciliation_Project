@@ -1,7 +1,7 @@
 # Reconciliation_Project
 
 
-$ This Repo is to document the reconciliation process. $
+$$ This Repo is to document the reconciliation process. $$
 
 Original nalt_label.tsv file has 145,755 rows
 
