@@ -7,7 +7,7 @@ Original [nalt_label.tsv](https://github.com/dorisavedikian/Reconciliation_Proje
 
 After splitting it into two files...
 
-- nalt_preflabel_only.tsv had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [742 reconciled nalt terms](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared%20pref_labels_only_reconciled.xls)
+- nalt_preflabel_only.tsv had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [742 reconciled nalt terms]()
 
 - nalt_altlabel_only_withsuffix.tsv had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked. 5 beta prepared labels were reconciled to [5 pref labels in the nalt.]()
 
