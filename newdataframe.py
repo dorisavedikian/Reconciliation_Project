@@ -1,5 +1,5 @@
 '''
- - Trying to create a script that will iterate a df row by row and for the values == null create a 
+ - Trying to create a script that will iterate a df row by row and for the values == null / empty create a 
    new column and append the previous row and column value to that new column
 '''
 from fileinput import filename
@@ -21,4 +21,6 @@ def createnewdf():
     outfile = df2.to_csv('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/nalt_labels_DATA/nalt_altlabels_2.csv')
 
 createnewdf()
+
+# this really needs some work
 
