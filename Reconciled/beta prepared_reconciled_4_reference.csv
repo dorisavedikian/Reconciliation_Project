@@ -1,909 +1,749 @@
-Level,Label,Score,NALT_URI,1,2,3,4,5,6,7,8
-2,anthropology,1,https://lod.nal.usda.gov/nalt/10088,,anthropology,,,,,,
-3,anti-inflammatory agents,1,https://lod.nal.usda.gov/nalt/10149,,,anti-inflammatory agents,,,,,
-4,betamethasone,1,https://lod.nal.usda.gov/nalt/10152,,,,betamethasone,,,,
-4,dexamethasone,1,https://lod.nal.usda.gov/nalt/10153,,,,dexamethasone,,,,
-4,meloxicam,1,https://lod.nal.usda.gov/nalt/10157,,,,meloxicam,,,,
-4,meloxicam,1,https://lod.nal.usda.gov/nalt/10157,,,,meloxicam,,,,
-4,nonsteroidal anti-inflammatory agents,1,https://lod.nal.usda.gov/nalt/10158,,,,nonsteroidal anti-inflammatory agents,,,,
-4,triamcinolone,1,https://lod.nal.usda.gov/nalt/10159,,,,triamcinolone,,,,
-2,antibodies,1,https://lod.nal.usda.gov/nalt/10218,,antibodies,,,,,,
-3,antibody production,1,https://lod.nal.usda.gov/nalt/10230,,,antibody production,,,,,
-3,antibody formation,1,https://lod.nal.usda.gov/nalt/10230,,,antibody formation,,,,,
-3,necropsy,1,https://lod.nal.usda.gov/nalt/104870,,,necropsy,,,,,
-4,toxins,1,https://lod.nal.usda.gov/nalt/10551,,,,toxins,,,,
-3,venoms,1,https://lod.nal.usda.gov/nalt/10560,,,venoms,,,,,
-2,captive animals,1,https://lod.nal.usda.gov/nalt/105920,,captive animals,,,,,,
-3,birds,1,https://lod.nal.usda.gov/nalt/106,,,birds,,,,,
-6,Aotus (Cebidae),1,https://lod.nal.usda.gov/nalt/10604,,,,,,Aotus (Cebidae),,
-5,Pongidae,1,https://lod.nal.usda.gov/nalt/10646,,,,,Pongidae,,,
-2,biological properties and phenomena,1,https://lod.nal.usda.gov/nalt/107,,biological properties and phenomena,,,,,,
-3,aquatic organisms,1,https://lod.nal.usda.gov/nalt/11423,,,aquatic organisms,,,,,
-2,zoology,1,https://lod.nal.usda.gov/nalt/1144,,zoology,,,,,,
-3,body temperature,1,https://lod.nal.usda.gov/nalt/118,,,body temperature,,,,,
-3,exercise test,1,https://lod.nal.usda.gov/nalt/12222,,,exercise test,,,,,
-7,Papio hamadryas,1,https://lod.nal.usda.gov/nalt/123448,,,,,,,Papio hamadryas,
-7,Papio cynocephalus,1,https://lod.nal.usda.gov/nalt/123449,,,,,,,Papio cynocephalus,
-7,Papio ursinus,1,https://lod.nal.usda.gov/nalt/123450,,,,,,,Papio ursinus,
-7,Papio papio,1,https://lod.nal.usda.gov/nalt/123451,,,,,,,Papio papio,
-4,prostheses,1,https://lod.nal.usda.gov/nalt/12575,,,,prostheses,,,,
-4,nutritional support,1,https://lod.nal.usda.gov/nalt/12584,,,,nutritional support,,,,
-4,lighting,1,https://lod.nal.usda.gov/nalt/12598,,,,lighting,,,,
-4,artificial neural networks,1,https://lod.nal.usda.gov/nalt/12606,,,,artificial neural networks,,,,
-5,ibuprofen,1,https://lod.nal.usda.gov/nalt/126092,,,,,ibuprofen,,,
-5,ketoprofen,1,https://lod.nal.usda.gov/nalt/126093,,,,,ketoprofen,,,
-4,ungulates,1,https://lod.nal.usda.gov/nalt/12636,,,,ungulates,,,,
-2,Breeding and Genetic Improvement,1,https://lod.nal.usda.gov/nalt/127296,,breeding and genetic improvement,,,,,,
-4,animal control services,1,https://lod.nal.usda.gov/nalt/127349,,,,animal control services,,,,
-4,assays,1,https://lod.nal.usda.gov/nalt/13160,,,,assays,,,,
-3,bioassays,1,https://lod.nal.usda.gov/nalt/13161,,,bioassays,,,,,
-5,immunoassays,1,https://lod.nal.usda.gov/nalt/13162,,,,,immunoassays,,,
-3,organizations,1,https://lod.nal.usda.gov/nalt/13189,,,organizations,,,,,
-7,Ateles,1,https://lod.nal.usda.gov/nalt/13564,,,,,,,Ateles,
-4,splints (medical),1,https://lod.nal.usda.gov/nalt/135881,,,,splints (medical),,,,
-3,risk analysis,1,https://lod.nal.usda.gov/nalt/136472,,,risk analysis,,,,,
-3,risk analysis,1,https://lod.nal.usda.gov/nalt/136472,,,risk analysis,,,,,
-5,probability,1,https://lod.nal.usda.gov/nalt/137027,,,,,probability,,,
-4,audiovisuals,1,https://lod.nal.usda.gov/nalt/13817,,,,audiovisuals,,,,
-2,mutants,1,https://lod.nal.usda.gov/nalt/14079,,mutants,,,,,,
-3,avoidance conditioning,1,https://lod.nal.usda.gov/nalt/14242,,,avoidance conditioning,,,,,
-4,axenic culture,1,https://lod.nal.usda.gov/nalt/14256,,,,axenic culture,,,,
-3,in vitro culture,1,https://lod.nal.usda.gov/nalt/14257,,,in vitro culture,,,,,
-4,azaperone,1,https://lod.nal.usda.gov/nalt/14300,,,,azaperone,,,,
-6,USDA National Agricultural Library,1,https://lod.nal.usda.gov/nalt/143005,,,,,,USDA National Agricultural Library,,
-6,Papio,1,https://lod.nal.usda.gov/nalt/14452,,,,,,Papio,,
-3,visual aids,1,https://lod.nal.usda.gov/nalt/146549,,,visual aids,,,,,
-5,positron-emission tomography,1,https://lod.nal.usda.gov/nalt/146566,,,,,positron-emission tomography,,,
-4,butorphanol,1,https://lod.nal.usda.gov/nalt/149099,,,,butorphanol,,,,
-3,urinalysis,1,https://lod.nal.usda.gov/nalt/153592,,,urinalysis,,,,,
-4,body temperature changes,1,https://lod.nal.usda.gov/nalt/155,,,,body temperature changes,,,,
-3,signs and symptoms (animals and humans),1,https://lod.nal.usda.gov/nalt/156,,,signs and symptoms (animals and humans),,,,,
-5,fever,1,https://lod.nal.usda.gov/nalt/157,,,,,fever,,,
-4,bandages,1,https://lod.nal.usda.gov/nalt/15724,,,,bandages,,,,
-5,hypothermia,1,https://lod.nal.usda.gov/nalt/158,,,,,hypothermia,,,
-4,pentobarbital,1,https://lod.nal.usda.gov/nalt/15823,,,,pentobarbital,,,,
-5,swine,1,https://lod.nal.usda.gov/nalt/15907,,,,,swine,,,
-5,normal values,1,https://lod.nal.usda.gov/nalt/15979,,,,,normal values,,,
-5,Bayesian theory,1,https://lod.nal.usda.gov/nalt/16108,,,,,Bayesian theory,,,
-7,Macaca arctoides,1,https://lod.nal.usda.gov/nalt/16225,,,,,,,Macaca arctoides,
-5,cosmetics,1,https://lod.nal.usda.gov/nalt/16241,,,,,cosmetics,,,
-7,beef cattle,1,https://lod.nal.usda.gov/nalt/16293,,,,,,,beef cattle,
-7,bulls,1,https://lod.nal.usda.gov/nalt/16297,,,,,,,bulls,
-6,cattle,1,https://lod.nal.usda.gov/nalt/16304,,,,,,cattle,,
-7,cows,1,https://lod.nal.usda.gov/nalt/16309,,,,,,,cows,
-2,maternal behavior,1,https://lod.nal.usda.gov/nalt/16452,,maternal behavior,,,,,,
-2,social behavior,1,https://lod.nal.usda.gov/nalt/16457,,social behavior,,,,,,
-3,bile,1,https://lod.nal.usda.gov/nalt/17153,,,bile,,,,,
-4,biomarkers,1,https://lod.nal.usda.gov/nalt/17262,,,,biomarkers,,,,
-3,cold stress,1,https://lod.nal.usda.gov/nalt/1730,,,cold stress,,,,,
-3,heat stress,1,https://lod.nal.usda.gov/nalt/1731,,,heat stress,,,,,
-2,water stress,1,https://lod.nal.usda.gov/nalt/1733,,water stress,,,,,,
-2,ethics,1,https://lod.nal.usda.gov/nalt/17341,,ethics,,,,,,
-4,indicator species,1,https://lod.nal.usda.gov/nalt/17401,,,,indicator species,,,,
-3,genetic techniques and protocols,1,https://lod.nal.usda.gov/nalt/17409,,,genetic techniques and protocols,,,,,
-4,developmental toxicity,1,https://lod.nal.usda.gov/nalt/17446,,,,developmental toxicity,,,,
-3,scientists,1,https://lod.nal.usda.gov/nalt/17471,,,scientists,,,,,
-2,abnormal behavior,1,https://lod.nal.usda.gov/nalt/1750,,abnormal behavior,,,,,,
-3,stereotyped behavior,1,https://lod.nal.usda.gov/nalt/1755,,,stereotyped behavior,,,,,
-8,Leontopithecus chrysopygus,1,https://lod.nal.usda.gov/nalt/17775,,,,,,,,Leontopithecus chrysopygus
-3,toxic substances,1,https://lod.nal.usda.gov/nalt/1780,,,toxic substances,,,,,
-3,blood,1,https://lod.nal.usda.gov/nalt/18059,,,blood,,,,,
-4,blood cells,1,https://lod.nal.usda.gov/nalt/18061,,,,blood cells,,,,
-4,blood plasma,1,https://lod.nal.usda.gov/nalt/18062,,,,blood plasma,,,,
-2,blood transfusion,1,https://lod.nal.usda.gov/nalt/18064,,blood transfusion,,,,,,
-3,hematologic tests,1,https://lod.nal.usda.gov/nalt/18068,,,hematologic tests,,,,,
-2,blood sampling,1,https://lod.nal.usda.gov/nalt/18122,,blood sampling,,,,,,
-2,chemical substances,1,https://lod.nal.usda.gov/nalt/183,,chemical substances,,,,,,
-3,colostrum,1,https://lod.nal.usda.gov/nalt/18315,,,colostrum,,,,,
-3,defensive secretions,1,https://lod.nal.usda.gov/nalt/18316,,,defensive secretions,,,,,
-3,gastric juice,1,https://lod.nal.usda.gov/nalt/18317,,,gastric juice,,,,,
-3,mucus,1,https://lod.nal.usda.gov/nalt/18319,,,mucus,,,,,
-3,pancreatic juice,1,https://lod.nal.usda.gov/nalt/18320,,,pancreatic juice,,,,,
-3,saliva,1,https://lod.nal.usda.gov/nalt/18322,,,saliva,,,,,
-3,sebum,1,https://lod.nal.usda.gov/nalt/18323,,,sebum,,,,,
-3,semen,1,https://lod.nal.usda.gov/nalt/18324,,,semen,,,,,
-3,sweat,1,https://lod.nal.usda.gov/nalt/18325,,,sweat,,,,,
-3,tears,1,https://lod.nal.usda.gov/nalt/18326,,,tears,,,,,
-3,body water,1,https://lod.nal.usda.gov/nalt/18332,,,body water,,,,,
-3,cerebrospinal fluid,1,https://lod.nal.usda.gov/nalt/18339,,,cerebrospinal fluid,,,,,
-3,digesta,1,https://lod.nal.usda.gov/nalt/18340,,,digesta,,,,,
-3,extracellular fluids,1,https://lod.nal.usda.gov/nalt/18341,,,extracellular fluids,,,,,
-3,follicular fluid,1,https://lod.nal.usda.gov/nalt/18342,,,follicular fluid,,,,,
-3,lymph,1,https://lod.nal.usda.gov/nalt/18343,,,lymph,,,,,
-3,oviductal fluids,1,https://lod.nal.usda.gov/nalt/18344,,,oviductal fluids,,,,,
-3,synovial fluid,1,https://lod.nal.usda.gov/nalt/18345,,,synovial fluid,,,,,
-4,casts (medical),1,https://lod.nal.usda.gov/nalt/18518,,,,casts (medical),,,,
-5,bone marrow cells,1,https://lod.nal.usda.gov/nalt/18522,,,,,bone marrow cells,,,
-7,Macaca radiata,1,https://lod.nal.usda.gov/nalt/18568,,,,,,,Macaca radiata,
-7,Pan paniscus,1,https://lod.nal.usda.gov/nalt/18570,,,,,,,Pan paniscus,
-4,diagnostic equipment,1,https://lod.nal.usda.gov/nalt/185708,,,,diagnostic equipment,,,,
-5,endoscopes,1,https://lod.nal.usda.gov/nalt/185709,,,,,endoscopes,,,
-4,dexmedetomidine,1,https://lod.nal.usda.gov/nalt/188008,,,,dexmedetomidine,,,,
-4,dexmedetomidine,1,https://lod.nal.usda.gov/nalt/188008,,,,dexmedetomidine,,,,
-6,incandescent lamps,1,https://lod.nal.usda.gov/nalt/189805,,,,,,incandescent lamps,,
-5,U.S. Fish and Wildlife Service,1,https://lod.nal.usda.gov/nalt/189930,,,,,U.S. Fish and Wildlife Service,,,
-5,mole rats,1,https://lod.nal.usda.gov/nalt/190028,,,,,mole rats,,,
-4,Taeniopygia guttata,1,https://lod.nal.usda.gov/nalt/190060,,,,Taeniopygia guttata,,,,
-8,Leontopithecus caissara,1,https://lod.nal.usda.gov/nalt/190167,,,,,,,,Leontopithecus caissara
-3,biotelemetry,1,https://lod.nal.usda.gov/nalt/192887,,,biotelemetry,,,,,
-7,Gorilla beringei,1,https://lod.nal.usda.gov/nalt/196313,,,,,,,Gorilla beringei,
-2,genetic lines,1,https://lod.nal.usda.gov/nalt/19698,,genetic lines,,,,,,
-2,thermal stress,1,https://lod.nal.usda.gov/nalt/198222,,thermal stress,,,,,,
-2,genotyping,1,https://lod.nal.usda.gov/nalt/199091,,genotyping,,,,,,
-4,chickens,1,https://lod.nal.usda.gov/nalt/19929,,,,chickens,,,,
-1,animal research,1,https://lod.nal.usda.gov/nalt/199785,animal research,,,,,,,
-3,browsing,1,https://lod.nal.usda.gov/nalt/20122,,,browsing,,,,,
-3,computer simulation,1,https://lod.nal.usda.gov/nalt/203662,,,computer simulation,,,,,
-3,breath tests,1,https://lod.nal.usda.gov/nalt/203771,,,breath tests,,,,,
-5,National Institutes of Health,1,https://lod.nal.usda.gov/nalt/204110,,,,,National Institutes of Health,,,
-6,National Library of Medicine,1,https://lod.nal.usda.gov/nalt/204113,,,,,,National Library of Medicine,,
-6,micro-computed tomography,1,https://lod.nal.usda.gov/nalt/204242,,,,,,micro-computed tomography,,
-7,National Center for Biotechnology Information,1,https://lod.nal.usda.gov/nalt/205083,,,,,,,National Center for Biotechnology Information,
-5,Lorisidae,1,https://lod.nal.usda.gov/nalt/20565,,,,,Lorisidae,,,
-4,halitosis,1,https://lod.nal.usda.gov/nalt/205686,,,,halitosis,,,,
-4,cage design,1,https://lod.nal.usda.gov/nalt/21006,,,,cage design,,,,
-4,cage size,1,https://lod.nal.usda.gov/nalt/21010,,,,cage size,,,,
-7,Pongo abelii,1,https://lod.nal.usda.gov/nalt/210122,,,,,,,Pongo abelii,
-2,laboratory experimentation,1,https://lod.nal.usda.gov/nalt/210165,,laboratory experimentation,,,,,,
-6,National Animal Health Monitoring System,1,https://lod.nal.usda.gov/nalt/210476,,,,,,National Animal Health Monitoring System,,
-3,intestinal secretions,1,https://lod.nal.usda.gov/nalt/211311,,,intestinal secretions,,,,,
-7,calves,1,https://lod.nal.usda.gov/nalt/21177,,,,,,,calves,
-6,Callitrichidae,1,https://lod.nal.usda.gov/nalt/21305,,,,,,Callitrichidae,,
-6,Callithrix,1,https://lod.nal.usda.gov/nalt/21306,,,,,,Callithrix,,
-8,Callithrix jacchus,1,https://lod.nal.usda.gov/nalt/21307,,,,,,,,Callithrix jacchus
-7,Leontopithecus,1,https://lod.nal.usda.gov/nalt/21315,,,,,,,Leontopithecus,
-7,Saguinus,1,https://lod.nal.usda.gov/nalt/21316,,,,,,,Saguinus,
-4,callus culture,1,https://lod.nal.usda.gov/nalt/21345,,,,callus culture,,,,
-4,dogs,1,https://lod.nal.usda.gov/nalt/21847,,,,dogs,,,,
-4,acepromazine,1,https://lod.nal.usda.gov/nalt/2185,,,,acepromazine,,,,
-3,sedatives,1,https://lod.nal.usda.gov/nalt/2187,,,sedatives,,,,,
-4,cannulas,1,https://lod.nal.usda.gov/nalt/21916,,,,cannulas,,,,
-7,goats,1,https://lod.nal.usda.gov/nalt/22030,,,,,,,goats,
-6,Cebus,1,https://lod.nal.usda.gov/nalt/22092,,,,,,Cebus,,
-5,Atelidae,1,https://lod.nal.usda.gov/nalt/221169,,,,,Atelidae,,,
-6,Atelinae,1,https://lod.nal.usda.gov/nalt/221170,,,,,,Atelinae,,
-8,Ateles geoffroyi,1,https://lod.nal.usda.gov/nalt/221179,,,,,,,,Ateles geoffroyi
-4,carcinogenicity,1,https://lod.nal.usda.gov/nalt/22361,,,,carcinogenicity,,,,
-4,cats,1,https://lod.nal.usda.gov/nalt/22915,,,,cats,,,,
-3,glucose tolerance tests,1,https://lod.nal.usda.gov/nalt/229208,,,glucose tolerance tests,,,,,
-4,catheters,1,https://lod.nal.usda.gov/nalt/23043,,,,catheters,,,,
-7,dairy cattle,1,https://lod.nal.usda.gov/nalt/23071,,,,,,,dairy cattle,
-7,heifers,1,https://lod.nal.usda.gov/nalt/23072,,,,,,,heifers,
-7,oxen,1,https://lod.nal.usda.gov/nalt/23073,,,,,,,oxen,
-7,steers,1,https://lod.nal.usda.gov/nalt/23074,,,,,,,steers,
-4,acetaminophen,1,https://lod.nal.usda.gov/nalt/2311,,,,acetaminophen,,,,
-4,acetaminophen,1,https://lod.nal.usda.gov/nalt/2311,,,,acetaminophen,,,,
-5,guinea pigs,1,https://lod.nal.usda.gov/nalt/23179,,,,,guinea pigs,,,
-3,analgesics,1,https://lod.nal.usda.gov/nalt/2318,,,analgesics,,,,,
-5,Centers for Disease Control and Prevention,1,https://lod.nal.usda.gov/nalt/23204,,,,,Centers for Disease Control and Prevention,,,
-5,National Center for Health Statistics,1,https://lod.nal.usda.gov/nalt/232245,,,,,National Center for Health Statistics,,,
-6,Saimiri,1,https://lod.nal.usda.gov/nalt/23237,,,,,,Saimiri,,
-5,cloning (cells),1,https://lod.nal.usda.gov/nalt/23367,,,,,cloning (cells),,,
-4,cell culture,1,https://lod.nal.usda.gov/nalt/23373,,,,cell culture,,,,
-5,cell suspension culture,1,https://lod.nal.usda.gov/nalt/23377,,,,,cell suspension culture,,,
-5,protoplast fusion,1,https://lod.nal.usda.gov/nalt/23378,,,,,protoplast fusion,,,
-4,cell lines,1,https://lod.nal.usda.gov/nalt/23379,,,,cell lines,,,,
-3,cell lines,1,https://lod.nal.usda.gov/nalt/23379,,,cell lines,,,,,
-4,hybridomas,1,https://lod.nal.usda.gov/nalt/23404,,,,hybridomas,,,,
-3,psychotropic agents,1,https://lod.nal.usda.gov/nalt/234584,,,psychotropic agents,,,,,
-5,hepatocytes,1,https://lod.nal.usda.gov/nalt/23469,,,,,hepatocytes,,,
-5,keratinocytes,1,https://lod.nal.usda.gov/nalt/23470,,,,,keratinocytes,,,
-5,kidney cells,1,https://lod.nal.usda.gov/nalt/23471,,,,,kidney cells,,,
-5,stem cells,1,https://lod.nal.usda.gov/nalt/23484,,,,,stem cells,,,
-3,vivisection,1,https://lod.nal.usda.gov/nalt/235151,,,vivisection,,,,,
-6,Center for Food Safety and Applied Nutrition,1,https://lod.nal.usda.gov/nalt/23638,,,,,,Center for Food Safety and Applied Nutrition,,
-5,Food and Drug Administration,1,https://lod.nal.usda.gov/nalt/23640,,,,,Food and Drug Administration,,,
-4,Department of Health and Human Services,1,https://lod.nal.usda.gov/nalt/23650,,,,Department of Health and Human Services,,,,
-4,National Aeronautics and Space Administration,1,https://lod.nal.usda.gov/nalt/237643,,,,National Aeronautics and Space Administration,,,,
-4,U.S. Department of the Interior,1,https://lod.nal.usda.gov/nalt/237645,,,,U.S. Department of the Interior,,,,
-6,Octopodidae,1,https://lod.nal.usda.gov/nalt/23765,,,,,,Octopodidae,,
-6,Sepiidae,1,https://lod.nal.usda.gov/nalt/23767,,,,,,Sepiidae,,
-3,intracellular fluids,1,https://lod.nal.usda.gov/nalt/238185,,,intracellular fluids,,,,,
-6,Cercocebus,1,https://lod.nal.usda.gov/nalt/23975,,,,,,Cercocebus,,
-5,Cercopithecidae,1,https://lod.nal.usda.gov/nalt/23977,,,,,Cercopithecidae,,,
-6,Cercopithecus,1,https://lod.nal.usda.gov/nalt/23985,,,,,,Cercopithecus,,
-6,Macaca,1,https://lod.nal.usda.gov/nalt/23988,,,,,,Macaca,,
-5,Trachemys scripta scripta,1,https://lod.nal.usda.gov/nalt/240383,,,,,Trachemys scripta scripta,,,
-2,cervical dislocation,1,https://lod.nal.usda.gov/nalt/24103,,cervical dislocation,,,,,,
-7,Lemur catta,1,https://lod.nal.usda.gov/nalt/243135,,,,,,,Lemur catta,
-8,Callithrix penicillata,1,https://lod.nal.usda.gov/nalt/243184,,,,,,,,Callithrix penicillata
-3,California mastitis test,1,https://lod.nal.usda.gov/nalt/243947,,,California mastitis test,,,,,
-3,pharmacology,1,https://lod.nal.usda.gov/nalt/24572,,,pharmacology,,,,,
-5,Merostomata,1,https://lod.nal.usda.gov/nalt/24577,,,,,Merostomata,,,
-7,Pan troglodytes,1,https://lod.nal.usda.gov/nalt/24997,,,,,,,Pan troglodytes,
-4,rodents,1,https://lod.nal.usda.gov/nalt/25072,,,,rodents,,,,
-5,hamsters,1,https://lod.nal.usda.gov/nalt/25091,,,,,hamsters,,,
-5,chloroform,1,https://lod.nal.usda.gov/nalt/25338,,,,,chloroform,,,
-4,aspirin,1,https://lod.nal.usda.gov/nalt/2534,,,,aspirin,,,,
-4,aspirin,1,https://lod.nal.usda.gov/nalt/2534,,,,aspirin,,,,
-4,solid state culture,1,https://lod.nal.usda.gov/nalt/253555,,,,solid state culture,,,,
-3,intraocular injection,1,https://lod.nal.usda.gov/nalt/254566,,,intraocular injection,,,,,
-4,intravitreal injection,1,https://lod.nal.usda.gov/nalt/254567,,,,intravitreal injection,,,,
-7,Hylobates lar,1,https://lod.nal.usda.gov/nalt/255141,,,,,,,Hylobates lar,
-5,Ambystoma mexicanum,1,https://lod.nal.usda.gov/nalt/255147,,,,,Ambystoma mexicanum,,,
-8,Callithrix geoffroyi,1,https://lod.nal.usda.gov/nalt/255237,,,,,,,,Callithrix geoffroyi
-3,cholinergic agents,1,https://lod.nal.usda.gov/nalt/25588,,,cholinergic agents,,,,,
-4,chronic toxicity,1,https://lod.nal.usda.gov/nalt/25889,,,,chronic toxicity,,,,
-2,semi-domestic animals,1,https://lod.nal.usda.gov/nalt/261033,,semi-domestic animals,,,,,,
-3,biological models,1,https://lod.nal.usda.gov/nalt/261145,,,biological models,,,,,
-4,Cichlidae,1,https://lod.nal.usda.gov/nalt/26238,,,,Cichlidae,,,,
-3,clinical examination,1,https://lod.nal.usda.gov/nalt/26913,,,clinical examination,,,,,
-6,Callimico,1,https://lod.nal.usda.gov/nalt/269778,,,,,,Callimico,,
-7,Callimico goeldii,1,https://lod.nal.usda.gov/nalt/269779,,,,,,,Callimico goeldii,
-8,Callithrix aurita,1,https://lod.nal.usda.gov/nalt/269783,,,,,,,,Callithrix aurita
-8,Callithrix flaviceps,1,https://lod.nal.usda.gov/nalt/269787,,,,,,,,Callithrix flaviceps
-8,Saguinus bicolor,1,https://lod.nal.usda.gov/nalt/269791,,,,,,,,Saguinus bicolor
-7,Saimiri oerstedii,1,https://lod.nal.usda.gov/nalt/269795,,,,,,,Saimiri oerstedii,
-8,Saguinus geoffroyi,1,https://lod.nal.usda.gov/nalt/269797,,,,,,,,Saguinus geoffroyi
-8,Saguinus leucopus,1,https://lod.nal.usda.gov/nalt/269801,,,,,,,,Saguinus leucopus
-7,Cercocebus galeritus,1,https://lod.nal.usda.gov/nalt/269804,,,,,,,Cercocebus galeritus,
-7,Macaca silenus,1,https://lod.nal.usda.gov/nalt/269810,,,,,,,Macaca silenus,
-5,Lepilemuridae,1,https://lod.nal.usda.gov/nalt/269864,,,,,Lepilemuridae,,,
-6,Nycticebus,1,https://lod.nal.usda.gov/nalt/269867,,,,,,Nycticebus,,
-5,Pitheciidae,1,https://lod.nal.usda.gov/nalt/269868,,,,,Pitheciidae,,,
-4,code of practice,1,https://lod.nal.usda.gov/nalt/27600,,,,code of practice,,,,
-4,dysoxia,1,https://lod.nal.usda.gov/nalt/277632,,,,dysoxia,,,,
-6,Varecia,1,https://lod.nal.usda.gov/nalt/277733,,,,,,Varecia,,
-6,Lepilemur,1,https://lod.nal.usda.gov/nalt/281198,,,,,,Lepilemur,,
-7,Lepilemur edwardsi,1,https://lod.nal.usda.gov/nalt/281199,,,,,,,Lepilemur edwardsi,
-6,Eulemur,1,https://lod.nal.usda.gov/nalt/281204,,,,,,Eulemur,,
-3,government agencies,1,https://lod.nal.usda.gov/nalt/28156,,,government agencies,,,,,
-7,Saimiri sciureus,1,https://lod.nal.usda.gov/nalt/28235,,,,,,,Saimiri sciureus,
-3,bird banding,1,https://lod.nal.usda.gov/nalt/282746,,,bird banding,,,,,
-5,computed tomography,1,https://lod.nal.usda.gov/nalt/28416,,,,,computed tomography,,,
-3,operant conditioning,1,https://lod.nal.usda.gov/nalt/28487,,,operant conditioning,,,,,
-5,Sepiida,1,https://lod.nal.usda.gov/nalt/285118,,,,,Sepiida,,,
-5,Octopoda,1,https://lod.nal.usda.gov/nalt/285121,,,,,Octopoda,,,
-6,Prolemur,1,https://lod.nal.usda.gov/nalt/285944,,,,,,Prolemur,,
-7,Prolemur simus,1,https://lod.nal.usda.gov/nalt/285945,,,,,,,Prolemur simus,
-6,metabolic diseases,1,https://lod.nal.usda.gov/nalt/2862,,,,,,metabolic diseases,,
-5,product testing,1,https://lod.nal.usda.gov/nalt/28682,,,,,product testing,,,
-6,safety testing,1,https://lod.nal.usda.gov/nalt/28683,,,,,,safety testing,,
-4,pesticides,1,https://lod.nal.usda.gov/nalt/287,,,,pesticides,,,,
-3,tail flick test,1,https://lod.nal.usda.gov/nalt/287202,,,tail flick test,,,,,
-3,formalin test,1,https://lod.nal.usda.gov/nalt/287220,,,formalin test,,,,,
-3,pain tests,1,https://lod.nal.usda.gov/nalt/287225,,,pain tests,,,,,
-3,tail suspension test,1,https://lod.nal.usda.gov/nalt/287245,,,tail suspension test,,,,,
-3,hot plate test,1,https://lod.nal.usda.gov/nalt/287250,,,hot plate test,,,,,
-4,United States Agency for International Development,1,https://lod.nal.usda.gov/nalt/287329,,,,United States Agency for International Development,,,,
-5,estimation,1,https://lod.nal.usda.gov/nalt/28752,,,,,estimation,,,
-4,contraceptives,1,https://lod.nal.usda.gov/nalt/28771,,,,contraceptives,,,,
-6,fluorescent lamps,1,https://lod.nal.usda.gov/nalt/289671,,,,,,fluorescent lamps,,
-4,methylprednisolone,1,https://lod.nal.usda.gov/nalt/289977,,,,methylprednisolone,,,,
-3,behavioral despair tests,1,https://lod.nal.usda.gov/nalt/291314,,,behavioral despair tests,,,,,
-3,forced swimming test,1,https://lod.nal.usda.gov/nalt/291315,,,forced swimming test,,,,,
-3,elevated plus-maze test,1,https://lod.nal.usda.gov/nalt/291318,,,elevated plus-maze test,,,,,
-4,genotoxicity tests,1,https://lod.nal.usda.gov/nalt/291471,,,,genotoxicity tests,,,,
-5,comet assay,1,https://lod.nal.usda.gov/nalt/291475,,,,,comet assay,,,
-7,Galago granti,1,https://lod.nal.usda.gov/nalt/295180,,,,,,,Galago granti,
-5,Galagidae,1,https://lod.nal.usda.gov/nalt/295181,,,,,Galagidae,,,
-8,Saguinus oedipus,1,https://lod.nal.usda.gov/nalt/29646,,,,,,,,Saguinus oedipus
-7,Cebus apella,1,https://lod.nal.usda.gov/nalt/296495,,,,,,,Cebus apella,
-5,advisory committees,1,https://lod.nal.usda.gov/nalt/299427,,,,,advisory committees,,,
-7,Eulemur fulvus,1,https://lod.nal.usda.gov/nalt/300464,,,,,,,Eulemur fulvus,
-2,agricultural sciences,1,https://lod.nal.usda.gov/nalt/300503,,agricultural sciences,,,,,,
-5,frequency distribution,1,https://lod.nal.usda.gov/nalt/301411,,,,,frequency distribution,,,
-5,descriptive statistics,1,https://lod.nal.usda.gov/nalt/302051,,,,,descriptive statistics,,,
-4,electronarcosis,1,https://lod.nal.usda.gov/nalt/302202,,,,electronarcosis,,,,
-3,fecal examination,1,https://lod.nal.usda.gov/nalt/302235,,,fecal examination,,,,,
-2,cryopreservation,1,https://lod.nal.usda.gov/nalt/30341,,cryopreservation,,,,,,
-2,wool producing animals,1,https://lod.nal.usda.gov/nalt/305677,,wool producing animals,,,,,,
-4,culture filtrates,1,https://lod.nal.usda.gov/nalt/30700,,,,culture filtrates,,,,
-4,explants,1,https://lod.nal.usda.gov/nalt/30702,,,,explants,,,,
-4,enrichment culture,1,https://lod.nal.usda.gov/nalt/30705,,,,enrichment culture,,,,
-5,biostatistics,1,https://lod.nal.usda.gov/nalt/307601,,,,,biostatistics,,,
-4,National Science Foundation,1,https://lod.nal.usda.gov/nalt/307906,,,,National Science Foundation,,,,
-6,sensometrics,1,https://lod.nal.usda.gov/nalt/308348,,,,,,sensometrics,,
-4,animal cell lines,1,https://lod.nal.usda.gov/nalt/308521,,,,animal cell lines,,,,
-4,viability assays,1,https://lod.nal.usda.gov/nalt/309738,,,,viability assays,,,,
-5,bioluminescence assay,1,https://lod.nal.usda.gov/nalt/309744,,,,,bioluminescence assay,,,
-5,micronucleus tests,1,https://lod.nal.usda.gov/nalt/309754,,,,,micronucleus tests,,,
-2,translational medical research,1,https://lod.nal.usda.gov/nalt/310018,,translational medical research,,,,,,
-2,nestlets,1,https://lod.nal.usda.gov/nalt/310450,,nestlets,,,,,,
-4,graduate students,1,https://lod.nal.usda.gov/nalt/310506,,,,graduate students,,,,
-4,ketamine,1,https://lod.nal.usda.gov/nalt/31057,,,,ketamine,,,,
-4,skin prick tests,1,https://lod.nal.usda.gov/nalt/311643,,,,skin prick tests,,,,
-4,Interagency Coordinating Committee on the Validation of Alternative Methods,1,https://lod.nal.usda.gov/nalt/311683,,,,Interagency Coordinating Committee on the Validation of Alternative Methods,,,,
-4,Interagency Coordinating Committee on the Validation of Alternative Methods,1,https://lod.nal.usda.gov/nalt/311683,,,,Interagency Coordinating Committee on the Validation of Alternative Methods,,,,
-7,Macaca fascicularis,1,https://lod.nal.usda.gov/nalt/31202,,,,,,,Macaca fascicularis,
-5,Cynomys,1,https://lod.nal.usda.gov/nalt/31203,,,,,Cynomys,,,
-4,organ-on-a-chip,1,https://lod.nal.usda.gov/nalt/312711,,,,organ-on-a-chip,,,,
-3,artificial skin,1,https://lod.nal.usda.gov/nalt/312748,,,artificial skin,,,,,
-4,Limulus amebocyte lysate assay,1,https://lod.nal.usda.gov/nalt/312827,,,,limulus amebocyte lysate assay,,,,
-3,grimace scale,1,https://lod.nal.usda.gov/nalt/313200,,,grimace scale,,,,,
-4,adverse outcome pathways,1,https://lod.nal.usda.gov/nalt/313203,,,,adverse outcome pathways,,,,
-2,validation of alternative methods,1,https://lod.nal.usda.gov/nalt/313305,,validation of alternative methods,,,,,,
-3,welfare assessment,1,https://lod.nal.usda.gov/nalt/313307,,,welfare assessment,,,,,
-2,feeding enrichment,1,https://lod.nal.usda.gov/nalt/313312,,feeding enrichment,,,,,,
-4,maximum tolerated dose,1,https://lod.nal.usda.gov/nalt/313439,,,,maximum tolerated dose,,,,
-4,maximum tolerated concentration,1,https://lod.nal.usda.gov/nalt/313598,,,,maximum tolerated concentration,,,,
-5,animal reproduction,1,https://lod.nal.usda.gov/nalt/3138,,,,,animal reproduction,,,
-6,Chlorocebus,1,https://lod.nal.usda.gov/nalt/314431,,,,,,Chlorocebus,,
-7,Chlorocebus pygerythrus,1,https://lod.nal.usda.gov/nalt/314432,,,,,,,Chlorocebus pygerythrus,
-7,Cebus capucinus,1,https://lod.nal.usda.gov/nalt/314522,,,,,,,Cebus capucinus,
-4,cytotoxicity,1,https://lod.nal.usda.gov/nalt/31518,,,,cytotoxicity,,,,
-2,protocols,1,https://lod.nal.usda.gov/nalt/315825,,protocols,,,,,,
-5,sevoflurane,1,https://lod.nal.usda.gov/nalt/317737,,,,,sevoflurane,,,
-4,inhalation anesthetics,1,https://lod.nal.usda.gov/nalt/317739,,,,inhalation anesthetics,,,,
-5,desflurane,1,https://lod.nal.usda.gov/nalt/317741,,,,,desflurane,,,
-5,trichloroethane,1,https://lod.nal.usda.gov/nalt/317742,,,,,trichloroethane,,,
-4,romifidine,1,https://lod.nal.usda.gov/nalt/317986,,,,romifidine,,,,
-3,mortality,1,https://lod.nal.usda.gov/nalt/31862,,,mortality,,,,,
-3,debridement,1,https://lod.nal.usda.gov/nalt/31873,,,debridement,,,,,
-2,wound treatment,1,https://lod.nal.usda.gov/nalt/31874,,wound treatment,,,,,,
-2,decapitation,1,https://lod.nal.usda.gov/nalt/31883,,decapitation,,,,,,
-7,dehydration (animal physiology),1,https://lod.nal.usda.gov/nalt/32026,,,,,,,dehydration (animal physiology),
-7,delta-endotoxins,1,https://lod.nal.usda.gov/nalt/32187,,,,,,,delta-endotoxins,
-6,endotoxins,1,https://lod.nal.usda.gov/nalt/32188,,,,,,endotoxins,,
-3,microfluidic technology,1,https://lod.nal.usda.gov/nalt/322814,,,microfluidic technology,,,,,
-4,lab-on-a-chip technology,1,https://lod.nal.usda.gov/nalt/322816,,,,lab-on-a-chip technology,,,,
-4,alfaxalone,1,https://lod.nal.usda.gov/nalt/323328,,,,alfaxalone,,,,
-5,microbial toxins,1,https://lod.nal.usda.gov/nalt/323561,,,,,microbial toxins,,,
-4,dental equipment,1,https://lod.nal.usda.gov/nalt/32372,,,,dental equipment,,,,
-3,skin tests,1,https://lod.nal.usda.gov/nalt/32456,,,skin tests,,,,,
-3,skin (animal),1,https://lod.nal.usda.gov/nalt/32499,,,skin (animal),,,,,
-7,Sapajus xanthosternos,1,https://lod.nal.usda.gov/nalt/326191,,,,,,,Sapajus xanthosternos,
-3,psychological tests,1,https://lod.nal.usda.gov/nalt/327779,,,psychological tests,,,,,
-4,detomidine,1,https://lod.nal.usda.gov/nalt/32801,,,,detomidine,,,,
-5,embryotoxicity,1,https://lod.nal.usda.gov/nalt/32918,,,,,embryotoxicity,,,
-4,embryotoxicity,1,https://lod.nal.usda.gov/nalt/32918,,,,embryotoxicity,,,,
-5,teratogenicity,1,https://lod.nal.usda.gov/nalt/32920,,,,,teratogenicity,,,
-4,teratogenicity,1,https://lod.nal.usda.gov/nalt/32920,,,,teratogenicity,,,,
-4,medical equipment,1,https://lod.nal.usda.gov/nalt/32927,,,,medical equipment,,,,
-4,Association for Assessment and Accreditation of Laboratory Animal Care International,1,https://lod.nal.usda.gov/nalt/329563,,,,Association for Assessment and Accreditation of Laboratory Animal Care International,,,,
-4,Animal Welfare Institute,1,https://lod.nal.usda.gov/nalt/329840,,,,Animal Welfare Institute,,,,
-5,noninfectious diseases,1,https://lod.nal.usda.gov/nalt/330,,,,,noninfectious diseases,,,
-3,medical history,1,https://lod.nal.usda.gov/nalt/33026,,,medical history,,,,,
-3,xenodiagnosis,1,https://lod.nal.usda.gov/nalt/33027,,,xenodiagnosis,,,,,
-4,drug development,1,https://lod.nal.usda.gov/nalt/330369,,,,drug development,,,,
-1,animal science,1,https://lod.nal.usda.gov/nalt/332,animal science,,,,,,,
-3,cadaver,1,https://lod.nal.usda.gov/nalt/332018,,,cadaver,,,,,
-5,Center for Alternatives to Animal Testing,1,https://lod.nal.usda.gov/nalt/332042,,,,,Center for Alternatives to Animal Testing,,,
-5,central venous catheters,1,https://lod.nal.usda.gov/nalt/332048,,,,,central venous catheters,,,
-3,biomedical imaging,1,https://lod.nal.usda.gov/nalt/332148,,,biomedical imaging,,,,,
-2,facilities management,1,https://lod.nal.usda.gov/nalt/332181,,facilities management,,,,,,
-3,hearing tests,1,https://lod.nal.usda.gov/nalt/333208,,,hearing tests,,,,,
-2,water deprivation,1,https://lod.nal.usda.gov/nalt/33355,,water deprivation,,,,,,
-3,librarians,1,https://lod.nal.usda.gov/nalt/335071,,,librarians,,,,,
-6,National Institute of Environmental Health Sciences,1,https://lod.nal.usda.gov/nalt/335939,,,,,,National Institute of Environmental Health Sciences,,
-4,luminescent assay,1,https://lod.nal.usda.gov/nalt/336017,,,,luminescent assay,,,,
-3,sample size,1,https://lod.nal.usda.gov/nalt/336235,,,sample size,,,,,
-6,organoids,1,https://lod.nal.usda.gov/nalt/336476,,,,,,organoids,,
-5,bullfrogs,1,https://lod.nal.usda.gov/nalt/337027,,,,,bullfrogs,,,
-3,plethysmography,1,https://lod.nal.usda.gov/nalt/338617,,,plethysmography,,,,,
-2,fistulated animals,1,https://lod.nal.usda.gov/nalt/339492,,fistulated animals,,,,,,
-4,lethal dose,1,https://lod.nal.usda.gov/nalt/34021,,,,lethal dose,,,,
-2,morbidity,1,https://lod.nal.usda.gov/nalt/34035,,morbidity,,,,,,
-4,genotoxicity,1,https://lod.nal.usda.gov/nalt/34182,,,,genotoxicity,,,,
-5,artificial habitats,1,https://lod.nal.usda.gov/nalt/342117,,,,,artificial habitats,,,
-6,Callicebus,1,https://lod.nal.usda.gov/nalt/342191,,,,,,Callicebus,,
-4,physicians,1,https://lod.nal.usda.gov/nalt/34271,,,,physicians,,,,
-7,Aotus nancymaae,1,https://lod.nal.usda.gov/nalt/343758,,,,,,,Aotus nancymaae,
-2,drug injection,1,https://lod.nal.usda.gov/nalt/34637,,drug injection,,,,,,
-3,pharmacokinetics,1,https://lod.nal.usda.gov/nalt/34640,,,pharmacokinetics,,,,,
-3,intramuscular injection,1,https://lod.nal.usda.gov/nalt/34650,,,intramuscular injection,,,,,
-3,intraperitoneal injection,1,https://lod.nal.usda.gov/nalt/34651,,,intraperitoneal injection,,,,,
-3,intravenous injection,1,https://lod.nal.usda.gov/nalt/34652,,,intravenous injection,,,,,
-3,subcutaneous injection,1,https://lod.nal.usda.gov/nalt/34653,,,subcutaneous injection,,,,,
-4,drug toxicity,1,https://lod.nal.usda.gov/nalt/34664,,,,drug toxicity,,,,
-3,narcotics,1,https://lod.nal.usda.gov/nalt/34676,,,narcotics,,,,,
-4,tranquilizers,1,https://lod.nal.usda.gov/nalt/34680,,,,tranquilizers,,,,
-4,feces,1,https://lod.nal.usda.gov/nalt/34880,,,,feces,,,,
-5,Dutch Belted (rabbit breed),1,https://lod.nal.usda.gov/nalt/34944,,,,,Dutch Belted (rabbit breed),,,
-4,algae,1,https://lod.nal.usda.gov/nalt/35,,,,algae,,,,
-4,earthworms,1,https://lod.nal.usda.gov/nalt/35126,,,,earthworms,,,,
-3,soil invertebrates,1,https://lod.nal.usda.gov/nalt/35133,,,soil invertebrates,,,,,
-3,ecotoxicology,1,https://lod.nal.usda.gov/nalt/35713,,,ecotoxicology,,,,,
-4,prediction,1,https://lod.nal.usda.gov/nalt/35747,,,,prediction,,,,
-2,toxicology,1,https://lod.nal.usda.gov/nalt/35791,,toxicology,,,,,,
-7,enzyme-linked immunosorbent assay,1,https://lod.nal.usda.gov/nalt/36291,,,,,,,enzyme-linked immunosorbent assay,
-2,equipment,1,https://lod.nal.usda.gov/nalt/365,,equipment,,,,,,
-5,embryonic stem cells,1,https://lod.nal.usda.gov/nalt/36807,,,,,embryonic stem cells,,,
-4,embryo culture,1,https://lod.nal.usda.gov/nalt/36815,,,,embryo culture,,,,
-3,endoscopy,1,https://lod.nal.usda.gov/nalt/37074,,,endoscopy,,,,,
-3,risk assessment,1,https://lod.nal.usda.gov/nalt/37432,,,risk assessment,,,,,
-4,risk assessment,1,https://lod.nal.usda.gov/nalt/37432,,,,risk assessment,,,,
-4,humidifiers,1,https://lod.nal.usda.gov/nalt/37437,,,,humidifiers,,,,
-3,shade,1,https://lod.nal.usda.gov/nalt/37449,,,shade,,,,,
-4,United States Environmental Protection Agency,1,https://lod.nal.usda.gov/nalt/37461,,,,United States Environmental Protection Agency,,,,
-6,enzyme immunoassays,1,https://lod.nal.usda.gov/nalt/37485,,,,,,enzyme immunoassays,,
-3,environmental control systems,1,https://lod.nal.usda.gov/nalt/375,,,environmental control systems,,,,,
-5,horses,1,https://lod.nal.usda.gov/nalt/37683,,,,,horses,,,
-4,surgical equipment,1,https://lod.nal.usda.gov/nalt/37753,,,,surgical equipment,,,,
-3,laboratory equipment,1,https://lod.nal.usda.gov/nalt/381,,,laboratory equipment,,,,,
-5,ethyl ether,1,https://lod.nal.usda.gov/nalt/38244,,,,,ethyl ether,,,
-5,methoxyflurane,1,https://lod.nal.usda.gov/nalt/38245,,,,,methoxyflurane,,,
-3,medical and veterinary equipment,1,https://lod.nal.usda.gov/nalt/384,,,medical and veterinary equipment,,,,,
-7,sheep,1,https://lod.nal.usda.gov/nalt/38846,,,,,,,sheep,
-4,urine,1,https://lod.nal.usda.gov/nalt/38868,,,,urine,,,,
-2,toys,1,https://lod.nal.usda.gov/nalt/390,,toys,,,,,,
-2,strains,1,https://lod.nal.usda.gov/nalt/39571,,strains,,,,,,
-4,acute toxicity,1,https://lod.nal.usda.gov/nalt/3966,,,,acute toxicity,,,,
-3,toxicity,1,https://lod.nal.usda.gov/nalt/3967,,,toxicity,,,,,
-5,eye irritation,1,https://lod.nal.usda.gov/nalt/3968,,,,,eye irritation,,,
-5,skin irritation,1,https://lod.nal.usda.gov/nalt/3969,,,,,skin irritation,,,
-3,foraging,1,https://lod.nal.usda.gov/nalt/39711,,,foraging,,,,,
-4,parenteral feeding,1,https://lod.nal.usda.gov/nalt/39720,,,,parenteral feeding,,,,
-4,ferrets,1,https://lod.nal.usda.gov/nalt/39893,,,,ferrets,,,,
-3,amphibians,1,https://lod.nal.usda.gov/nalt/40,,,amphibians,,,,,
-3,feeding methods,1,https://lod.nal.usda.gov/nalt/4047,,,feeding methods,,,,,
-3,feeding methods,1,https://lod.nal.usda.gov/nalt/4047,,,feeding methods,,,,,
-2,animal feeding,1,https://lod.nal.usda.gov/nalt/4048,,animal feeding,,,,,,
-3,fluid therapy,1,https://lod.nal.usda.gov/nalt/40688,,,fluid therapy,,,,,
-4,oral rehydration,1,https://lod.nal.usda.gov/nalt/40690,,,,oral rehydration,,,,
-5,fluorescent lighting,1,https://lod.nal.usda.gov/nalt/40710,,,,,fluorescent lighting,,,
-5,Food Safety and Inspection Service,1,https://lod.nal.usda.gov/nalt/41016,,,,,Food Safety and Inspection Service,,,
-5,USDA Forest Service,1,https://lod.nal.usda.gov/nalt/41198,,,,,USDA Forest Service,,,
-6,Galago,1,https://lod.nal.usda.gov/nalt/42162,,,,,,Galago,,
-3,government and administration,1,https://lod.nal.usda.gov/nalt/4261,,,government and administration,,,,,
-2,standard operating procedures,1,https://lod.nal.usda.gov/nalt/4281,,standard operating procedures,,,,,,
-5,gerbils,1,https://lod.nal.usda.gov/nalt/42829,,,,,gerbils,,,
-2,specific pathogen-free animals,1,https://lod.nal.usda.gov/nalt/42856,,specific pathogen-free animals,,,,,,
-5,Hylobatidae,1,https://lod.nal.usda.gov/nalt/42944,,,,,Hylobatidae,,,
-8,Leontopithecus rosalia,1,https://lod.nal.usda.gov/nalt/43392,,,,,,,,Leontopithecus rosalia
-8,Leontopithecus chrysomelas,1,https://lod.nal.usda.gov/nalt/43398,,,,,,,,Leontopithecus chrysomelas
-6,Gorilla,1,https://lod.nal.usda.gov/nalt/43523,,,,,,Gorilla,,
-7,Gorilla gorilla,1,https://lod.nal.usda.gov/nalt/43524,,,,,,,Gorilla gorilla,
-5,Marmota monax,1,https://lod.nal.usda.gov/nalt/43927,,,,,Marmota monax,,,
-2,insects,1,https://lod.nal.usda.gov/nalt/4395,,insects,,,,,,
-3,products and commodities,1,https://lod.nal.usda.gov/nalt/4403,,,products and commodities,,,,,
-4,product quality,1,https://lod.nal.usda.gov/nalt/4405,,,,product quality,,,,
-4,veterinarians,1,https://lod.nal.usda.gov/nalt/44744,,,,veterinarians,,,,
-2,dead animals,1,https://lod.nal.usda.gov/nalt/45,,dead animals,,,,,,
-2,medical sciences,1,https://lod.nal.usda.gov/nalt/45052,,medical sciences,,,,,,
-4,hepatotoxicity,1,https://lod.nal.usda.gov/nalt/45149,,,,hepatotoxicity,,,,
-5,Hominidae,1,https://lod.nal.usda.gov/nalt/45760,,,,,Hominidae,,,
-2,sentinel animals,1,https://lod.nal.usda.gov/nalt/46008,,sentinel animals,,,,,,
-4,Hydra,1,https://lod.nal.usda.gov/nalt/46250,,,,Hydra,,,,
-6,Hylobates,1,https://lod.nal.usda.gov/nalt/46460,,,,,,Hylobates,,
-4,animal anatomy,1,https://lod.nal.usda.gov/nalt/47,,,,animal anatomy,,,,
-4,mixed culture,1,https://lod.nal.usda.gov/nalt/47055,,,,mixed culture,,,,
-4,monoxenic culture,1,https://lod.nal.usda.gov/nalt/47056,,,,monoxenic culture,,,,
-5,incandescent lighting,1,https://lod.nal.usda.gov/nalt/47083,,,,,incandescent lighting,,,
-4,research institutions,1,https://lod.nal.usda.gov/nalt/47452,,,,research institutions,,,,
-3,macroinvertebrates,1,https://lod.nal.usda.gov/nalt/47594,,,macroinvertebrates,,,,,
-4,irritant properties,1,https://lod.nal.usda.gov/nalt/47786,,,,irritant properties,,,,
-2,bodily secretions and exudates,1,https://lod.nal.usda.gov/nalt/48,,bodily secretions and exudates,,,,,,
-7,Macaca fuscata,1,https://lod.nal.usda.gov/nalt/48042,,,,,,,Macaca fuscata,
-4,nephrotoxicity,1,https://lod.nal.usda.gov/nalt/48383,,,,nephrotoxicity,,,,
-3,knockout mutants,1,https://lod.nal.usda.gov/nalt/48530,,,knockout mutants,,,,,
-5,mice,1,https://lod.nal.usda.gov/nalt/48531,,,,,mice,,,
-5,stochastic processes,1,https://lod.nal.usda.gov/nalt/48588,,,,,stochastic processes,,,
-7,Cercopithecus aethiops,1,https://lod.nal.usda.gov/nalt/4863,,,,,,,Cercopithecus aethiops,
-2,body fluids,1,https://lod.nal.usda.gov/nalt/49,,body fluids,,,,,,
-7,vicunas,1,https://lod.nal.usda.gov/nalt/49017,,,,,,,vicunas,
-5,lamps,1,https://lod.nal.usda.gov/nalt/49108,,,,,lamps,,,
-4,standards and grades,1,https://lod.nal.usda.gov/nalt/49384,,,,standards and grades,,,,
-5,lethal dose 50,1,https://lod.nal.usda.gov/nalt/49401,,,,,lethal dose 50,,,
-6,Lemur,1,https://lod.nal.usda.gov/nalt/49615,,,,,,Lemur,,
-5,Lemuridae,1,https://lod.nal.usda.gov/nalt/49616,,,,,Lemuridae,,,
-4,rabbits,1,https://lod.nal.usda.gov/nalt/49693,,,,rabbits,,,,
-3,excreta,1,https://lod.nal.usda.gov/nalt/50,,,excreta,,,,,
-4,phototoxicity,1,https://lod.nal.usda.gov/nalt/50029,,,,phototoxicity,,,,
-5,supplementary lighting,1,https://lod.nal.usda.gov/nalt/50044,,,,,supplementary lighting,,,
-3,line differences,1,https://lod.nal.usda.gov/nalt/50224,,,line differences,,,,,
-3,mathematical models,1,https://lod.nal.usda.gov/nalt/50226,,,mathematical models,,,,,
-3,mathematical models,1,https://lod.nal.usda.gov/nalt/50226,,,mathematical models,,,,,
-7,Macaca mulatta,1,https://lod.nal.usda.gov/nalt/50975,,,,,,,Macaca mulatta,
-7,Macaca nemestrina,1,https://lod.nal.usda.gov/nalt/50976,,,,,,,Macaca nemestrina,
-1,animal behavior,1,https://lod.nal.usda.gov/nalt/5156,animal behavior,,,,,,,
-4,nonlinear models,1,https://lod.nal.usda.gov/nalt/51656,,,,nonlinear models,,,,
-4,syringes,1,https://lod.nal.usda.gov/nalt/51840,,,,syringes,,,,
-4,tourniquets,1,https://lod.nal.usda.gov/nalt/51841,,,,tourniquets,,,,
-2,medical treatment,1,https://lod.nal.usda.gov/nalt/51847,,medical treatment,,,,,,
-6,miniature swine,1,https://lod.nal.usda.gov/nalt/53095,,,,,,miniature swine,,
-5,rats,1,https://lod.nal.usda.gov/nalt/53727,,,,,rats,,,
-4,mutagenicity,1,https://lod.nal.usda.gov/nalt/53830,,,,mutagenicity,,,,
-3,laws and regulations,1,https://lod.nal.usda.gov/nalt/5387,,,laws and regulations,,,,,
-4,issues and policy,1,https://lod.nal.usda.gov/nalt/5436,,,,issues and policy,,,,
-4,nonfood products,1,https://lod.nal.usda.gov/nalt/5448,,,,nonfood products,,,,
-5,Agricultural Research Service,1,https://lod.nal.usda.gov/nalt/5460,,,,,Agricultural Research Service,,,
-4,USDA,1,https://lod.nal.usda.gov/nalt/5464,,,,USDA,,,,
-4,neurotoxicity,1,https://lod.nal.usda.gov/nalt/54749,,,,neurotoxicity,,,,
-5,New Zealand White rabbit,1,https://lod.nal.usda.gov/nalt/54783,,,,,New Zealand White Rabbit,,,
-3,manmade structures,1,https://lod.nal.usda.gov/nalt/5481,,,manmade structures,,,,,
-2,animal housing,1,https://lod.nal.usda.gov/nalt/5482,,animal housing,,,,,,
-4,no observed adverse effect level,1,https://lod.nal.usda.gov/nalt/54939,,,,no observed adverse effect level,,,,
-4,no observed adverse effect level,1,https://lod.nal.usda.gov/nalt/54939,,,,no observed adverse effect level,,,,
-3,researchers,1,https://lod.nal.usda.gov/nalt/55543,,,researchers,,,,,
-7,Octopus (Octopodidae),1,https://lod.nal.usda.gov/nalt/55627,,,,,,,Octopus (Octopodidae),
-3,mammals,1,https://lod.nal.usda.gov/nalt/558,,,mammals,,,,,
-4,Oncorhynchus mykiss,1,https://lod.nal.usda.gov/nalt/55842,,,,Oncorhynchus mykiss,,,,
-7,Pongo pygmaeus,1,https://lod.nal.usda.gov/nalt/56008,,,,,,,Pongo pygmaeus,
-5,organ culture,1,https://lod.nal.usda.gov/nalt/56061,,,,,organ culture,,,
-5,ovule culture,1,https://lod.nal.usda.gov/nalt/56420,,,,,ovule culture,,,
-6,Pan (Pongidae),1,https://lod.nal.usda.gov/nalt/56624,,,,,,Pan (Pongidae),,
-7,Papio anubis,1,https://lod.nal.usda.gov/nalt/56769,,,,,,,Papio anubis,
-5,Peromyscus,1,https://lod.nal.usda.gov/nalt/57495,,,,,Peromyscus,,,
-5,phenylbutazone,1,https://lod.nal.usda.gov/nalt/57755,,,,,phenylbutazone,,,
-5,surgeons,1,https://lod.nal.usda.gov/nalt/58065,,,,,surgeons,,,
-4,ventilation systems,1,https://lod.nal.usda.gov/nalt/5827,,,,ventilation systems,,,,
-6,Pongo,1,https://lod.nal.usda.gov/nalt/59210,,,,,,Pongo,,
-3,postoperative care,1,https://lod.nal.usda.gov/nalt/59368,,,postoperative care,,,,,
-4,prednisolone,1,https://lod.nal.usda.gov/nalt/59555,,,,prednisolone,,,,
-4,prednisone,1,https://lod.nal.usda.gov/nalt/59556,,,,prednisone,,,,
-3,preoperative care,1,https://lod.nal.usda.gov/nalt/59573,,,preoperative care,,,,,
-5,Tarsiidae,1,https://lod.nal.usda.gov/nalt/59619,,,,,Tarsiidae,,,
-4,quantitative structure-activity relationships,1,https://lod.nal.usda.gov/nalt/60701,,,,quantitative structure-activity relationships,,,,
-2,telemetry,1,https://lod.nal.usda.gov/nalt/61067,,telemetry,,,,,,
-5,scalpels,1,https://lod.nal.usda.gov/nalt/62501,,,,,scalpels,,,
-3,sedation,1,https://lod.nal.usda.gov/nalt/62736,,,sedation,,,,,
-3,social facilitation,1,https://lod.nal.usda.gov/nalt/63282,,,social facilitation,,,,,
-5,Xenopus laevis,1,https://lod.nal.usda.gov/nalt/63629,,,,,Xenopus laevis,,,
-3,mathematics and statistics,1,https://lod.nal.usda.gov/nalt/6369,,,mathematics and statistics,,,,,
-4,Cephalopoda,1,https://lod.nal.usda.gov/nalt/637,,,,Cephalopoda,,,,
-5,variance,1,https://lod.nal.usda.gov/nalt/64124,,,,,variance,,,
-3,strain differences,1,https://lod.nal.usda.gov/nalt/64245,,,strain differences,,,,,
-1,animals,1,https://lod.nal.usda.gov/nalt/65,animals,,,,,,,
-4,subacute toxicity,1,https://lod.nal.usda.gov/nalt/65102,,,,subacute toxicity,,,,
-4,subchronic toxicity,1,https://lod.nal.usda.gov/nalt/65105,,,,subchronic toxicity,,,,
-4,sublethal effects,1,https://lod.nal.usda.gov/nalt/65110,,,,sublethal effects,,,,
-5,sutures,1,https://lod.nal.usda.gov/nalt/65254,,,,,sutures,,,
-3,toxicity testing,1,https://lod.nal.usda.gov/nalt/65620,,,toxicity testing,,,,,
-3,health care workers,1,https://lod.nal.usda.gov/nalt/6592,,,health care workers,,,,,
-4,enzymes,1,https://lod.nal.usda.gov/nalt/6744,,,,enzymes,,,,
-7,bullocks,1,https://lod.nal.usda.gov/nalt/67757,,,,,,,bullocks,
-5,acute dermal toxicity,1,https://lod.nal.usda.gov/nalt/68509,,,,,acute dermal toxicity,,,
-6,Alouatta,1,https://lod.nal.usda.gov/nalt/6851,,,,,,Alouatta,,
-5,acute inhalation toxicity,1,https://lod.nal.usda.gov/nalt/68510,,,,,acute inhalation toxicity,,,
-5,acute oral toxicity,1,https://lod.nal.usda.gov/nalt/68511,,,,,acute oral toxicity,,,
-3,acute toxic class method,1,https://lod.nal.usda.gov/nalt/68515,,,acute toxic class method,,,,,
-4,acute toxic class method,1,https://lod.nal.usda.gov/nalt/68515,,,,acute toxic class method,,,,
-5,Ames test,1,https://lod.nal.usda.gov/nalt/68516,,,,,ames test,,,
-4,Ames test,1,https://lod.nal.usda.gov/nalt/68516,,,,Ames test,,,,
-3,animal rooms,1,https://lod.nal.usda.gov/nalt/68517,,,animal rooms,,,,,
-4,caecilians,1,https://lod.nal.usda.gov/nalt/68520,,,,caecilians,,,,
-4,cell transformation assay,1,https://lod.nal.usda.gov/nalt/68521,,,,cell transformation assay,,,,
-5,coculture,1,https://lod.nal.usda.gov/nalt/68522,,,,,coculture,,,
-4,committees,1,https://lod.nal.usda.gov/nalt/68524,,,,committees,,,,
-6,cosmetics testing,1,https://lod.nal.usda.gov/nalt/68525,,,,,,cosmetics testing,,
-2,animal tests,1,https://lod.nal.usda.gov/nalt/68527,,animal tests,,,,,,
-3,eye irritation tests,1,https://lod.nal.usda.gov/nalt/68528,,,eye irritation tests,,,,,
-3,fixed dose procedure,1,https://lod.nal.usda.gov/nalt/68538,,,fixed dose procedure,,,,,
-4,frog embryo teratogenesis assay-Xenopus,1,https://lod.nal.usda.gov/nalt/68539,,,,frog embryo teratogenesis assay-Xenopus,,,,
-5,Cebidae,1,https://lod.nal.usda.gov/nalt/6854,,,,,Cebidae,,,
-4,household products,1,https://lod.nal.usda.gov/nalt/68541,,,,household products,,,,
-5,human cell lines,1,https://lod.nal.usda.gov/nalt/68542,,,,,human cell lines,,,
-4,inhibitory concentration 50,1,https://lod.nal.usda.gov/nalt/68543,,,,inhibitory concentration 50,,,,
-3,lethal concentration 50,1,https://lod.nal.usda.gov/nalt/68545,,,lethal concentration 50,,,,,
-4,lethal concentration 50,1,https://lod.nal.usda.gov/nalt/68545,,,,lethal concentration 50,,,,
-3,local lymph node assay,1,https://lod.nal.usda.gov/nalt/68546,,,local lymph node assay,,,,,
-3,local lymph node assay,1,https://lod.nal.usda.gov/nalt/68546,,,local lymph node assay,,,,,
-4,pair housing,1,https://lod.nal.usda.gov/nalt/68548,,,,pair housing,,,,
-4,patch test,1,https://lod.nal.usda.gov/nalt/68549,,,,patch test,,,,
-4,principal investigators,1,https://lod.nal.usda.gov/nalt/68551,,,,principal investigators,,,,
-2,social enrichment,1,https://lod.nal.usda.gov/nalt/68552,,social enrichment,,,,,,
-3,whistleblowing,1,https://lod.nal.usda.gov/nalt/68554,,,whistleblowing,,,,,
-5,personal care products,1,https://lod.nal.usda.gov/nalt/68555,,,,,personal care products,,,
-7,alpacas,1,https://lod.nal.usda.gov/nalt/6857,,,,,,,alpacas,
-6,small ruminants,1,https://lod.nal.usda.gov/nalt/6859,,,,,,small ruminants,,
-3,animal breeders,1,https://lod.nal.usda.gov/nalt/68610,,,animal breeders,,,,,
-4,Danio rerio,1,https://lod.nal.usda.gov/nalt/69971,,,,Danio rerio,,,,
-3,perches (animal housing),1,https://lod.nal.usda.gov/nalt/70047,,,perches (animal housing),,,,,
-2,farmed animal species,1,https://lod.nal.usda.gov/nalt/7150,,farmed animal species,,,,,,
-7,deer,1,https://lod.nal.usda.gov/nalt/7153,,,,,,,deer,
-4,frogs,1,https://lod.nal.usda.gov/nalt/7156,,,,frogs,,,,
-7,llamas,1,https://lod.nal.usda.gov/nalt/7157,,,,,,,llamas,
-4,turtles,1,https://lod.nal.usda.gov/nalt/7161,,,,turtles,,,,
-2,animal use alternatives,1,https://lod.nal.usda.gov/nalt/7182,,animal use alternatives,,,,,,
-3,animal stress,1,https://lod.nal.usda.gov/nalt/732,,,animal stress,,,,,
-4,ascites,1,https://lod.nal.usda.gov/nalt/733,,,,ascites,,,,
-6,ambient temperature,1,https://lod.nal.usda.gov/nalt/7424,,,,,,ambient temperature,,
-5,Chinchilla lanigera,1,https://lod.nal.usda.gov/nalt/75690,,,,,Chinchilla lanigera,,,
-3,biochemical compounds,1,https://lod.nal.usda.gov/nalt/7812,,,biochemical compounds,,,,,
-3,students,1,https://lod.nal.usda.gov/nalt/784,,,students,,,,,
-4,arthropods,1,https://lod.nal.usda.gov/nalt/79,,,,arthropods,,,,
-3,amniotic fluid,1,https://lod.nal.usda.gov/nalt/8003,,,amniotic fluid,,,,,
-2,vertebrates,1,https://lod.nal.usda.gov/nalt/8079,,vertebrates,,,,,,
-4,salamanders and newts,1,https://lod.nal.usda.gov/nalt/8080,,,,salamanders and newts,,,,
-4,polymerase chain reaction,1,https://lod.nal.usda.gov/nalt/8124,,,,polymerase chain reaction,,,,
-2,surgery,1,https://lod.nal.usda.gov/nalt/8137,,surgery,,,,,,
-3,kidney function tests,1,https://lod.nal.usda.gov/nalt/84007,,,kidney function tests,,,,,
-3,anesthetics,1,https://lod.nal.usda.gov/nalt/8422,,,anesthetics,,,,,
-3,analgesia,1,https://lod.nal.usda.gov/nalt/8442,,,analgesia,,,,,
-3,analgesic effect,1,https://lod.nal.usda.gov/nalt/8443,,,analgesic effect,,,,,
-3,anesthesia,1,https://lod.nal.usda.gov/nalt/8444,,,anesthesia,,,,,
-3,animal use refinement,1,https://lod.nal.usda.gov/nalt/8445,,,animal use refinement,,,,,
-3,fish,1,https://lod.nal.usda.gov/nalt/845,,,fish,,,,,
-4,medicinal properties,1,https://lod.nal.usda.gov/nalt/8450,,,,medicinal properties,,,,
-4,buprenorphine,1,https://lod.nal.usda.gov/nalt/8452,,,,buprenorphine,,,,
-4,etorphine,1,https://lod.nal.usda.gov/nalt/8453,,,,etorphine,,,,
-4,etorphine,1,https://lod.nal.usda.gov/nalt/8453,,,,etorphine,,,,
-4,flunixin,1,https://lod.nal.usda.gov/nalt/8454,,,,flunixin,,,,
-4,flunixin,1,https://lod.nal.usda.gov/nalt/8454,,,,flunixin,,,,
-4,medetomidine,1,https://lod.nal.usda.gov/nalt/8455,,,,medetomidine,,,,
-4,methadone,1,https://lod.nal.usda.gov/nalt/8456,,,,methadone,,,,
-4,morphine,1,https://lod.nal.usda.gov/nalt/8457,,,,morphine,,,,
-4,xylazine,1,https://lod.nal.usda.gov/nalt/8459,,,,xylazine,,,,
-4,xylazine,1,https://lod.nal.usda.gov/nalt/8459,,,,xylazine,,,,
-4,statistical methods,1,https://lod.nal.usda.gov/nalt/8465,,,,statistical methods,,,,
-5,statistical analysis,1,https://lod.nal.usda.gov/nalt/8465,,,,,statistical analysis,,,
-4,analytical methods,1,https://lod.nal.usda.gov/nalt/8468,,,,analytical methods,,,,
-3,liver function tests,1,https://lod.nal.usda.gov/nalt/84877,,,liver function tests,,,,,
-4,magnetic resonance imaging,1,https://lod.nal.usda.gov/nalt/8489,,,,magnetic resonance imaging,,,,
-4,tomography,1,https://lod.nal.usda.gov/nalt/8496,,,,tomography,,,,
-2,diagnostic techniques,1,https://lod.nal.usda.gov/nalt/8499,,diagnostic techniques,,,,,,
-2,anatomy and morphology,1,https://lod.nal.usda.gov/nalt/8586,,anatomy and morphology,,,,,,
-3,plants (botany),1,https://lod.nal.usda.gov/nalt/874,,,plants (botany),,,,,
-4,anesthesia reversal,1,https://lod.nal.usda.gov/nalt/8798,,,,anesthesia reversal,,,,
-4,depth of anesthesia,1,https://lod.nal.usda.gov/nalt/8799,,,,depth of anesthesia,,,,
-4,preanesthetic medication,1,https://lod.nal.usda.gov/nalt/8800,,,,preanesthetic medication,,,,
-4,diazepam,1,https://lod.nal.usda.gov/nalt/8804,,,,diazepam,,,,
-4,diazepam,1,https://lod.nal.usda.gov/nalt/8804,,,,diazepam,,,,
-4,droperidol,1,https://lod.nal.usda.gov/nalt/8805,,,,droperidol,,,,
-4,fentanyl,1,https://lod.nal.usda.gov/nalt/8806,,,,fentanyl,,,,
-4,general anesthetics,1,https://lod.nal.usda.gov/nalt/8807,,,,general anesthetics,,,,
-5,halothane,1,https://lod.nal.usda.gov/nalt/8808,,,,,halothane,,,
-5,isoflurane,1,https://lod.nal.usda.gov/nalt/8809,,,,,isoflurane,,,
-4,local anesthetics,1,https://lod.nal.usda.gov/nalt/8810,,,,local anesthetics,,,,
-4,tiletamine,1,https://lod.nal.usda.gov/nalt/8811,,,,tiletamine,,,,
-4,urethane,1,https://lod.nal.usda.gov/nalt/8812,,,,urethane,,,,
-3,pharmacodynamics,1,https://lod.nal.usda.gov/nalt/88549,,,pharmacodynamics,,,,,
-5,lidocaine,1,https://lod.nal.usda.gov/nalt/8954,,,,,lidocaine,,,
-2,young animals,1,https://lod.nal.usda.gov/nalt/8964,,young animals,,,,,,
-2,animal tissues,1,https://lod.nal.usda.gov/nalt/8967,,animal tissues,,,,,,
-5,Animal and Plant Health Inspection Service,1,https://lod.nal.usda.gov/nalt/8978,,,,,Animal and Plant Health Inspection Service,,,
-2,animal preferences,1,https://lod.nal.usda.gov/nalt/8987,,animal preferences,,,,,,
-2,displacement activities,1,https://lod.nal.usda.gov/nalt/8992,,displacement activities,,,,,,
-2,feeding behavior,1,https://lod.nal.usda.gov/nalt/8996,,feeding behavior,,,,,,
-3,social dominance,1,https://lod.nal.usda.gov/nalt/9013,,,social dominance,,,,,
-2,animal experimentation,1,https://lod.nal.usda.gov/nalt/9019,,animal experimentation,,,,,,
-2,animal breeding,1,https://lod.nal.usda.gov/nalt/9021,,animal breeding,,,,,,
-3,capture of animals,1,https://lod.nal.usda.gov/nalt/9051,,,capture of animals,,,,,
-2,animal care,1,https://lod.nal.usda.gov/nalt/9052,,animal care,,,,,,
-1,animal husbandry,1,https://lod.nal.usda.gov/nalt/9054,animal husbandry,,,,,,,
-2,animal handling,1,https://lod.nal.usda.gov/nalt/9055,,animal handling,,,,,,
-2,animal identification,1,https://lod.nal.usda.gov/nalt/9056,,animal identification,,,,,,
-2,environmental enrichment,1,https://lod.nal.usda.gov/nalt/9057,,environmental enrichment,,,,,,
-3,reptiles,1,https://lod.nal.usda.gov/nalt/906,,,reptiles,,,,,
-5,Institutional Animal Care and Use Committee,1,https://lod.nal.usda.gov/nalt/9060,,,,,Institutional Animal Care and Use Committee,,,
-3,ear tags,1,https://lod.nal.usda.gov/nalt/9065,,,ear tags,,,,,
-3,cages,1,https://lod.nal.usda.gov/nalt/9070,,,cages,,,,,
-2,restraint of animals,1,https://lod.nal.usda.gov/nalt/9072,,restraint of animals,,,,,,
-4,veterinary equipment,1,https://lod.nal.usda.gov/nalt/9073,,,,veterinary equipment,,,,
-2,working animals,1,https://lod.nal.usda.gov/nalt/9074,,working animals,,,,,,
-4,animal technicians,1,https://lod.nal.usda.gov/nalt/9076,,,,animal technicians,,,,
-4,animal comfort,1,https://lod.nal.usda.gov/nalt/9082,,,,animal comfort,,,,
-1,animal welfare,1,https://lod.nal.usda.gov/nalt/9084,animal welfare,,,,,,,
-4,animal physiology,1,https://lod.nal.usda.gov/nalt/9107,,,,animal physiology,,,,
-3,animal disease models,1,https://lod.nal.usda.gov/nalt/9117,,,animal disease models,,,,,
-2,animal models,1,https://lod.nal.usda.gov/nalt/9120,,animal models,,,,,,
-4,apnea,1,https://lod.nal.usda.gov/nalt/914,,,,apnea,,,,
-4,human-wildlife relations,1,https://lod.nal.usda.gov/nalt/9141,,,,human-wildlife relations,,,,
-2,laboratory animals,1,https://lod.nal.usda.gov/nalt/9147,,laboratory animals,,,,,,
-2,asphyxia,1,https://lod.nal.usda.gov/nalt/915,,asphyxia,,,,,,
-4,asphyxia,1,https://lod.nal.usda.gov/nalt/915,,,,asphyxia,,,,
-2,wild animals,1,https://lod.nal.usda.gov/nalt/9150,,wild animals,,,,,,
-2,zoo animals,1,https://lod.nal.usda.gov/nalt/9151,,zoo animals,,,,,,
-4,bloat,1,https://lod.nal.usda.gov/nalt/916,,,,bloat,,,,
-4,cankers (animals),1,https://lod.nal.usda.gov/nalt/917,,,,cankers (animals),,,,
-2,animal nutrition,1,https://lod.nal.usda.gov/nalt/9178,,animal nutrition,,,,,,
-4,cough,1,https://lod.nal.usda.gov/nalt/918,,,,cough,,,,
-4,feed deprivation,1,https://lod.nal.usda.gov/nalt/9181,,,,feed deprivation,,,,
-4,dyspnea,1,https://lod.nal.usda.gov/nalt/919,,,,dyspnea,,,,
-4,edema,1,https://lod.nal.usda.gov/nalt/920,,,,edema,,,,
-4,flatulence,1,https://lod.nal.usda.gov/nalt/921,,,,flatulence,,,,
-4,hypercapnia,1,https://lod.nal.usda.gov/nalt/922,,,,hypercapnia,,,,
-2,beak trimming,1,https://lod.nal.usda.gov/nalt/9229,,beak trimming,,,,,,
-4,hyperoxia,1,https://lod.nal.usda.gov/nalt/923,,,,hyperoxia,,,,
-2,hoof trimming,1,https://lod.nal.usda.gov/nalt/9231,,hoof trimming,,,,,,
-4,animal well-being,1,https://lod.nal.usda.gov/nalt/9237,,,,animal well-being,,,,
-4,hypoxia,1,https://lod.nal.usda.gov/nalt/924,,,,hypoxia,,,,
-3,animal space requirements,1,https://lod.nal.usda.gov/nalt/9246,,,animal space requirements,,,,,
-4,indigestion,1,https://lod.nal.usda.gov/nalt/925,,,,indigestion,,,,
-3,group housing,1,https://lod.nal.usda.gov/nalt/9250,,,group housing,,,,,
-3,litter (bedding),1,https://lod.nal.usda.gov/nalt/9251,,,litter (bedding),,,,,
-3,nest boxes,1,https://lod.nal.usda.gov/nalt/9253,,,nest boxes,,,,,
-3,animal pens,1,https://lod.nal.usda.gov/nalt/9254,,,animal pens,,,,,
-4,jaundice,1,https://lod.nal.usda.gov/nalt/926,,,,jaundice,,,,
-3,human-animal relations,1,https://lod.nal.usda.gov/nalt/9260,,,human-animal relations,,,,,
-3,stocking rate,1,https://lod.nal.usda.gov/nalt/9267,,,stocking rate,,,,,
-2,training (animals),1,https://lod.nal.usda.gov/nalt/9268,,training (animals),,,,,,
-4,lameness,1,https://lod.nal.usda.gov/nalt/927,,,,lameness,,,,
-3,animal branding,1,https://lod.nal.usda.gov/nalt/9272,,,animal branding,,,,,
-3,tattooing,1,https://lod.nal.usda.gov/nalt/9273,,,tattooing,,,,,
-3,radio frequency identification,1,https://lod.nal.usda.gov/nalt/9274,,,radio frequency identification,,,,,
-4,leg weakness,1,https://lod.nal.usda.gov/nalt/928,,,,leg weakness,,,,
-3,animal law,1,https://lod.nal.usda.gov/nalt/9288,,,animal law,,,,,
-4,lesions (animal),1,https://lod.nal.usda.gov/nalt/929,,,,lesions (animal),,,,
-4,veterinary law,1,https://lod.nal.usda.gov/nalt/9296,,,,veterinary law,,,,
-4,nausea,1,https://lod.nal.usda.gov/nalt/930,,,,nausea,,,,
-4,pain,1,https://lod.nal.usda.gov/nalt/931,,,,pain,,,,
-3,maternal milk,1,https://lod.nal.usda.gov/nalt/9316,,,maternal milk,,,,,
-4,paralysis,1,https://lod.nal.usda.gov/nalt/932,,,,paralysis,,,,
-3,feed intake,1,https://lod.nal.usda.gov/nalt/9326,,,feed intake,,,,,
-4,paresis,1,https://lod.nal.usda.gov/nalt/933,,,,paresis,,,,
-4,pruritis,1,https://lod.nal.usda.gov/nalt/934,,,,pruritis,,,,
-4,seizures,1,https://lod.nal.usda.gov/nalt/935,,,,seizures,,,,
-2,invertebrates,1,https://lod.nal.usda.gov/nalt/9359,,invertebrates,,,,,,
-3,invertebrates,1,https://lod.nal.usda.gov/nalt/9359,,,invertebrates,,,,,
-4,steatorrhea,1,https://lod.nal.usda.gov/nalt/936,,,,steatorrhea,,,,
-4,swelling (physiological),1,https://lod.nal.usda.gov/nalt/937,,,,swelling (physiological),,,,
-4,unconsciousness,1,https://lod.nal.usda.gov/nalt/938,,,,unconsciousness,,,,
-4,vomiting,1,https://lod.nal.usda.gov/nalt/939,,,,vomiting,,,,
-3,thyroid function tests,1,https://lod.nal.usda.gov/nalt/94693,,,thyroid function tests,,,,,
-6,litters (young animals),1,https://lod.nal.usda.gov/nalt/9495,,,,,,litters (young animals),,
-3,animal rescue shelters,1,https://lod.nal.usda.gov/nalt/9496,,,animal rescue shelters,,,,,
-3,distress,1,https://lod.nal.usda.gov/nalt/9516,,,distress,,,,,
-3,technicians,1,https://lod.nal.usda.gov/nalt/9520,,,technicians,,,,,
-3,animal use reduction,1,https://lod.nal.usda.gov/nalt/9551,,,animal use reduction,,,,,
-3,animal use replacement,1,https://lod.nal.usda.gov/nalt/9552,,,animal use replacement,,,,,
-3,bioethics,1,https://lod.nal.usda.gov/nalt/9553,,,bioethics,,,,,
-2,experimental design,1,https://lod.nal.usda.gov/nalt/9555,,experimental design,,,,,,
-2,humane endpoints,1,https://lod.nal.usda.gov/nalt/9557,,humane endpoints,,,,,,
-3,nonanimal tests,1,https://lod.nal.usda.gov/nalt/9559,,,nonanimal tests,,,,,
-4,tissue culture,1,https://lod.nal.usda.gov/nalt/9560,,,,tissue culture,,,,
-2,euthanasia,1,https://lod.nal.usda.gov/nalt/9565,,euthanasia,,,,,,
-3,euthanasia,1,https://lod.nal.usda.gov/nalt/9565,,,euthanasia,,,,,
-2,domestic animals,1,https://lod.nal.usda.gov/nalt/9579,,domestic animals,,,,,,
-2,downer animals,1,https://lod.nal.usda.gov/nalt/9580,,downer animals,,,,,,
-2,food animals,1,https://lod.nal.usda.gov/nalt/9581,,food animals,,,,,,
-2,fur-bearing animals,1,https://lod.nal.usda.gov/nalt/9582,,fur-bearing animals,,,,,,
-2,game animals,1,https://lod.nal.usda.gov/nalt/9583,,game animals,,,,,,
-2,germ-free animals,1,https://lod.nal.usda.gov/nalt/9584,,germ-free animals,,,,,,
-2,germ-free animals,1,https://lod.nal.usda.gov/nalt/9584,,germ-free animals,,,,,,
-2,racing animals,1,https://lod.nal.usda.gov/nalt/9585,,racing animals,,,,,,
-2,stray animals,1,https://lod.nal.usda.gov/nalt/9586,,stray animals,,,,,,
-2,transgenic animals,1,https://lod.nal.usda.gov/nalt/9587,,transgenic animals,,,,,,
-5,ruminants,1,https://lod.nal.usda.gov/nalt/9888,,,,,ruminants,,,
-5,anther culture,1,https://lod.nal.usda.gov/nalt/9953,,,,,anther culture,,,
-2,gumnivores,0.823529412,,,gumnivores,,,,,,
-4,nonhuman primates,0.636363636,,,,,nonhuman primates,,,,
-7,Callicebus cupreus,0.72,,,,,,,,Callicebus cupreus,
-7,Cercocebus atys,0.761904762,,,,,,,,Cercocebus atys,
-8,Cercocebus atys lunulatus,0.571428571,,,,,,,,,Cercocebus atys lunulatus
-2,animal exercise wheel,0.555555556,,,animal exercise wheel,,,,,,
-2,Boomer balls,0.6,,,Boomer balls,,,,,,
-3,food puzzles,0.631578947,,,,food puzzles,,,,,
-3,forage boxes,0.636363636,,,,forage boxes,,,,,
-3,gum feeding,0.7,,,,gum feeding,,,,,
-2,manipulanda,0.666666667,,,manipulanda,,,,,,
-2,mirrors,0.625,,,mirrors,,,,,,
-3,looky lous,0.7,,,,looky lous,,,,,
-2,music enrichment,0.692307692,,,music enrichment,,,,,,
-2,occupational enrichment,0.682926829,,,occupational enrichment,,,,,,
-2,physical enrichment,0.709677419,,,physical enrichment,,,,,,
-2,sensory enrichment,0.666666667,,,sensory enrichment,,,,,,
-2,activity budget,0.551724138,,,activity budget,,,,,,
-3,gumivory,0.666666667,,,,gumivory,,,,,
-3,herbaceous browse,0.625,,,,herbaceous browse,,,,,
-2,nesting behavior,0.866666667,,,nesting behavior,,,,,,
-3,positive reinforcement training,0.590909091,,,,positive reinforcement training,,,,,
-2,medical and veterinary education,0.791666667,,,medical and veterinary education,,,,,,
-3,live tissue training,0.620689655,,,,live tissue training,,,,,
-3,pulsatile fresh frozen human cadaver circulation model (PHCM),0.554216867,,,,pulsatile fresh frozen human cadaver circulation model (PHCM),,,,,
-3,manikins,0.727272727,,,,manikins,,,,,
-4,high fidelity simulation training,0.545454545,,,,,high fidelity simulation training,,,,
-3,plastination,0.666666667,,,,plastination,,,,,
-3,simulation training,0.685714286,,,,simulation training,,,,,
-3,Simulation-based trauma education (SBTE),0.48,,,,Simulation-based trauma education (SBTE),,,,,
-2,cup handling,0.695652174,,,cup handling,,,,,,
-2,rat tickling,0.666666667,,,rat tickling,,,,,,
-3,laboratory animal jackets,0.769230769,,,,laboratory animal jackets,,,,,
-3,laboratory animal undershirts,0.697674419,,,,laboratory animal undershirts,,,,,
-3,pole and collar technique,0.577777778,,,,pole and collar technique,,,,,
-3,primate chairs,0.615384615,,,,primate chairs,,,,,
-2,tunnel handling,0.666666667,,,tunnel handling,,,,,,
-4,enriched cages,0.666666667,,,,,enriched cages,,,,
-4,individually ventilated cages (IVC),0.458333333,,,,,individually ventilated cages (IVC),,,,
-4,standard cages,0.666666667,,,,,standard cages,,,,
-4,single-sex housing,0.628571429,,,,,single-sex housing,,,,
-5,bachelor groups,0.75,,,,,,bachelor groups,,,
-1,laboratory animal procedures,0.844444444,,laboratory animal procedures,,,,,,,
-3,ear notching,0.588235294,,,,ear notching,,,,,
-3,toe clipping,0.588235294,,,,toe clipping,,,,,
-2,minimally-invasive methods,0.523809524,,,minimally-invasive methods,,,,,,
-2,noninvasive procedures,0.590909091,,,noninvasive procedures,,,,,,
-3,facial vein puncture,0.551724138,,,,facial vein puncture,,,,,
-3,femoral vein puncture,0.628571429,,,,femoral vein puncture,,,,,
-3,gingival vein puncture,0.484848485,,,,gingival vein puncture,,,,,
-3,saphenous vein puncture,0.742857143,,,,saphenous vein puncture,,,,,
-3,sublingual vein puncture,0.444444444,,,,sublingual vein puncture,,,,,
-3,submandibular vein puncture,0.512820513,,,,submandibular vein puncture,,,,,
-3,tail vein puncture,0.64,,,,tail vein puncture,,,,,
-2,buccal swabs,0.545454545,,,buccal swabs,,,,,,
-2,cerebrospinal fluid collection,0.765957447,,,cerebrospinal fluid collection,,,,,,
-2,fecal collection,0.8,,,fecal collection,,,,,,
-2,substance administration,0.75,,,substance administration,,,,,,
-3,oral gavage,0.533333333,,,,oral gavage,,,,,
-3,syringe feeding,0.727272727,,,,syringe feeding,,,,,
-2,urine collection,0.75862069,,,urine collection,,,,,,
-3,intracranial injection,0.736842105,,,,intracranial injection,,,,,
-3,intrathecal injection,0.756756757,,,,intrathecal injection,,,,,
-3,intraventricular injection,0.829268293,,,,intraventricular injection,,,,,
-4,hydration gels,0.695652174,,,,,hydration gels,,,,
-4,intravenous fluid therapy,0.685714286,,,,,intravenous fluid therapy,,,,
-3,insulin tolerance tests,0.974358974,,,,insulin tolerance tests,,,,,
-5,nutritional gels,0.787878788,,,,,,nutritional gels,,,
-3,perioperative care,0.866666667,,,,perioperative care,,,,,
-2,euthanasia injection,0.642857143,,,euthanasia injection,,,,,,
-5,gavage needles,0.695652174,,,,,,gavage needles,,,
-5,metabolic cages,0.666666667,,,,,,metabolic cages,,,
-2,replacement methods,0.631578947,,,replacement methods,,,,,,
-4,human tissue use,0.571428571,,,,,human tissue use,,,,
-7,brain spheres,0.608695652,,,,,,,,brain spheres,
-3,animal-friendly affinity reagents,0.488888889,,,,animal-friendly affinity reagents,,,,,
-3,New Approach methodologies,0.666666667,,,,New Approach methodologies,,,,,
-3,nanotoxicology,0.833333333,,,,nanotoxicology,,,,,
-3,systems toxicology,0.709677419,,,,systems toxicology,,,,,
-3,computational toxicology,0.829268293,,,,computational toxicology,,,,,
-4,read-across method,0.5625,,,,,read-across method,,,,
-4,up-and-down procedure (UDP),0.511627907,,,,,up-and-down procedure (UDP),,,,
-3,in chemico tests,0.583333333,,,,in chemico tests,,,,,
-4,bovine corneal opacity and permeability (eye irritation test),0.513274336,,,,,bovine corneal opacity and permeability (eye irritation test),,,,
-4,cytosensor microphysiometer assay,0.481481481,,,,,cytosensor microphysiometer assay,,,,
-4,direct peptide reactivity assay,0.558139535,,,,,direct peptide reactivity assay,,,,
-4,epiocular assay,0.518518519,,,,,epiocular assay,,,,
-4,fish embryo test,0.538461538,,,,,fish embryo test,,,,
-4,genomic allergen rapid detection,0.577777778,,,,,genomic allergen rapid detection,,,,
-5,yeast mutagenicity assay,0.666666667,,,,,,yeast mutagenicity assay,,,
-4,human cell line activation test (h-CLAT),0.588235294,,,,,human cell line activation test (h-CLAT),,,,
-4,In Vitro 3T3 NRU Phototoxicity Test,0.565217391,,,,,In Vitro 3T3 NRU Phototoxicity Test,,,,
-4,KeratinoSens,0.705882353,,,,,KeratinoSens,,,,
-4,neutral red uptake assay (NRU),0.458333333,,,,,neutral red uptake assay (NRU),,,,
-4,receptor binding assay,0.538461538,,,,,receptor binding assay,,,,
-4,RTgill-W1 cell line assay,0.5,,,,,RTgill-W1 cell line assay,,,,
-4,short time exposure (STE) in vitro test method,0.507936508,,,,,short time exposure (STE) in vitro test method,,,,
-4,toxin-binding inhibition test (ToBI),0.555555556,,,,,toxin-binding inhibition test (ToBI),,,,
-4,Transcutaneous Electrical Resistance Test (TER),0.677966102,,,,,Transcutaneous Electrical Resistance Test (TER),,,,
-4,Vitrigel-Eye Irritancy Test (EIT),0.723404255,,,,,Vitrigel-Eye Irritancy Test (EIT),,,,
-3,biocompatibility testing,0.8,,,,biocompatibility testing,,,,,
-4,Hen Egg Test–Chorionallantoic Membrane (HET-CAM),0.626865672,,,,,Hen Egg Test–Chorionallantoic Membrane (HET-CAM),,,,
-5,fungal viability assay,0.777777778,,,,,,fungal viability assay,,,
-4,Integrated Approaches to Testing and Assessment,0.571428571,,,,,Integrated Approaches to Testing and Assessment,,,,
-4,physiology based pharmacodynamic models (PBPD),0.482758621,,,,,physiology based pharmacodynamic models (PBPD),,,,
-4,physiologically based pharmacokinetic models (PBPK),0.486486486,,,,,physiologically based pharmacokinetic models (PBPK),,,,
-4,QIVIVE (quantitative in vitro to in vivo extrapolation),0.878787879,,,,,QIVIVE (quantitative in vitro to in vivo extrapolation),,,,
-3,ARRIVE guidelines,0.72,,,,ARRIVE guidelines,,,,,
-3,PREPARE guidelines,0.72,,,,PREPARE guidelines,,,,,
-3,pilot studies,0.761904762,,,,pilot studies,,,,,
-4,diseases and disorders (animal and human),0.915254237,,,,,diseases and disorders (animal and human),,,,
-3,adoption programs,0.727272727,,,,adoption programs,,,,,
-3,preclinical animal models,0.727272727,,,,preclinical animal models,,,,,
-3,translational value,0.689655172,,,,translational value,,,,,
-2,pain management,0.782608696,,,pain management,,,,,,
-3,nest scoring (welfare),0.529411765,,,,nest scoring (welfare),,,,,
-3,Time to Incorporate to Nest Test (TINT),0.541666667,,,,Time to Incorporate to Nest Test (TINT),,,,,
-4,amantadine,0.666666667,,,,,amantadine,,,,
-4,gabapentin,0.555555556,,,,,gabapentin,,,,
-4,hydromorphone,0.666666667,,,,,hydromorphone,,,,
-4,maropitant,0.666666667,,,,,maropitant,,,,
-4,robenacoxib,0.555555556,,,,,robenacoxib,,,,
-4,tramadol,0.571428571,,,,,tramadol,,,,
-4,propofol,0.714285714,,,,,propofol,,,,
-5,carprofen,0.625,,,,,,carprofen,,,
-5,deracoxib,0.615384615,,,,,,deracoxib,,,
-5,etodolac,0.625,,,,,,etodolac,,,
-5,firocoxib,0.615384615,,,,,,firocoxib,,,
-5,grapiprant,0.615384615,,,,,,grapiprant,,,
-5,Mavacoxib,0.615384615,,,,,,Mavacoxib,,,
-5,meclofenamic acid,0.666666667,,,,,,meclofenamic acid,,,
-5,metamizole,0.636363636,,,,,,metamizole,,,
-5,Naproxen,0.625,,,,,,Naproxen,,,
-5,Robenacoxib,0.555555556,,,,,,Robenacoxib,,,
-5,Tepoxalin,0.615384615,,,,,,Tepoxalin,,,
-5,tolfenamic acid,0.72,,,,,,tolfenamic acid,,,
-5,vedaprofen,0.588235294,,,,,,vedaprofen,,,
-3,reversal agents,0.666666667,,,,reversal agents,,,,,
-4,midazolam,0.75,,,,,midazolam,,,,
-4,zolazepam,0.666666667,,,,,zolazepam,,,,
-3,   absolute replacement,0.615384615,,,,   absolute replacement,,,,,
-3,   relative replacement,0.666666667,,,,   relative replacement,,,,,
-2,animal welfare laws and regulations,0.734693878,,,animal welfare laws and regulations,,,,,,
-4,Animal Welfare Act,0.866666667,,,,,Animal Welfare Act,,,,
-4,Horse Protection Act,0.684210526,,,,,Horse Protection Act,,,,
-4,Humane Methods of Slaughter Act,0.488888889,,,,,Humane Methods of Slaughter Act,,,,
-4,Twenty-Eight Hour Law,0.516129032,,,,,Twenty-Eight Hour Law,,,,
-2,animal welfare professionals,0.666666667,,,animal welfare professionals,,,,,,
-3,animal control officers,0.761904762,,,,animal control officers,,,,,
-3,animal dealers,0.740740741,,,,animal dealers,,,,,
-3,inspectors (laboratory animal facilities),0.566037736,,,,inspectors (laboratory animal facilities),,,,,
-3,regulators (animal welfare),0.684210526,,,,regulators (animal welfare),,,,,
-2,animal welfare stakeholders,0.666666667,,,animal welfare stakeholders,,,,,,
-4,Fund for the Replacement of Animals in Medical Experiments,0.702702703,,,,,Fund for the Replacement of Animals in Medical Experiments,,,,
-4,Institute for Laboratory Animal Research,0.597938144,,,,,Institute for Laboratory Animal Research,,,,
-4,National Center for the Replacement Refinement and Reduction of Animals in Research,0.983050847,,,,,National Center for the Replacement Refinement and Reduction of Animals in Research,,,,
-4,Norecopa,0.571428571,,,,,Norecopa,,,,
-4,North American 3Rs Collaborative,0.653846154,,,,,North American 3Rs Collaborative,,,,
-4,Universities Federation for Animal Welfare,0.557377049,,,,,Universities Federation for Animal Welfare,,,,
-6,Office of Laboratory Animal Welfare,0.625,,,,,,,Office of Laboratory Animal Welfare,,
+Label,NALT_URI
+abnormal behavior,https://lod.nal.usda.gov/nalt/1750
+acepromazine,https://lod.nal.usda.gov/nalt/2185
+acetaminophen,https://lod.nal.usda.gov/nalt/2311
+acetaminophen,https://lod.nal.usda.gov/nalt/2311
+acute dermal toxicity,https://lod.nal.usda.gov/nalt/68509
+acute inhalation toxicity,https://lod.nal.usda.gov/nalt/68510
+acute oral toxicity,https://lod.nal.usda.gov/nalt/68511
+acute toxic class method,https://lod.nal.usda.gov/nalt/68515
+acute toxic class method,https://lod.nal.usda.gov/nalt/68515
+acute toxicity,https://lod.nal.usda.gov/nalt/3966
+adverse outcome pathways,https://lod.nal.usda.gov/nalt/313203
+advisory committees,https://lod.nal.usda.gov/nalt/299427
+Agricultural Research Service,https://lod.nal.usda.gov/nalt/5460
+agricultural sciences,https://lod.nal.usda.gov/nalt/300503
+alfaxalone,https://lod.nal.usda.gov/nalt/323328
+algae,https://lod.nal.usda.gov/nalt/35
+Alouatta,https://lod.nal.usda.gov/nalt/6851
+alpacas,https://lod.nal.usda.gov/nalt/6857
+ambient temperature,https://lod.nal.usda.gov/nalt/7424
+Ambystoma mexicanum,https://lod.nal.usda.gov/nalt/255147
+Ames test,https://lod.nal.usda.gov/nalt/68516
+Ames test,https://lod.nal.usda.gov/nalt/68516
+amniotic fluid,https://lod.nal.usda.gov/nalt/8003
+amphibians,https://lod.nal.usda.gov/nalt/40
+analgesia,https://lod.nal.usda.gov/nalt/8442
+analgesic effect,https://lod.nal.usda.gov/nalt/8443
+analgesics,https://lod.nal.usda.gov/nalt/2318
+analytical methods,https://lod.nal.usda.gov/nalt/8468
+anatomy and morphology,https://lod.nal.usda.gov/nalt/8586
+anesthesia,https://lod.nal.usda.gov/nalt/8444
+anesthesia reversal,https://lod.nal.usda.gov/nalt/8798
+anesthetics,https://lod.nal.usda.gov/nalt/8422
+animal anatomy,https://lod.nal.usda.gov/nalt/47
+Animal and Plant Health Inspection Service,https://lod.nal.usda.gov/nalt/8978
+animal behavior,https://lod.nal.usda.gov/nalt/5156
+animal branding,https://lod.nal.usda.gov/nalt/9272
+animal breeders,https://lod.nal.usda.gov/nalt/68610
+animal breeding,https://lod.nal.usda.gov/nalt/9021
+animal care,https://lod.nal.usda.gov/nalt/9052
+animal cell lines,https://lod.nal.usda.gov/nalt/308521
+animal comfort,https://lod.nal.usda.gov/nalt/9082
+animal control services,https://lod.nal.usda.gov/nalt/127349
+animal disease models,https://lod.nal.usda.gov/nalt/9117
+animal experimentation,https://lod.nal.usda.gov/nalt/9019
+animal feeding,https://lod.nal.usda.gov/nalt/4048
+animal handling,https://lod.nal.usda.gov/nalt/9055
+animal housing,https://lod.nal.usda.gov/nalt/5482
+animal husbandry,https://lod.nal.usda.gov/nalt/9054
+animal identification,https://lod.nal.usda.gov/nalt/9056
+animal law,https://lod.nal.usda.gov/nalt/9288
+animal models,https://lod.nal.usda.gov/nalt/9120
+animal nutrition,https://lod.nal.usda.gov/nalt/9178
+animal pens,https://lod.nal.usda.gov/nalt/9254
+animal physiology,https://lod.nal.usda.gov/nalt/9107
+animal preferences,https://lod.nal.usda.gov/nalt/8987
+animal reproduction,https://lod.nal.usda.gov/nalt/3138
+animal rescue shelters,https://lod.nal.usda.gov/nalt/9496
+animal research,https://lod.nal.usda.gov/nalt/199785
+animal rooms,https://lod.nal.usda.gov/nalt/68517
+animal science,https://lod.nal.usda.gov/nalt/332
+animal space requirements,https://lod.nal.usda.gov/nalt/9246
+animal stress,https://lod.nal.usda.gov/nalt/732
+animal technicians,https://lod.nal.usda.gov/nalt/9076
+animal tests,https://lod.nal.usda.gov/nalt/68527
+animal tissues,https://lod.nal.usda.gov/nalt/8967
+animal use alternatives,https://lod.nal.usda.gov/nalt/7182
+animal use reduction,https://lod.nal.usda.gov/nalt/9551
+animal use refinement,https://lod.nal.usda.gov/nalt/8445
+animal use replacement,https://lod.nal.usda.gov/nalt/9552
+animal welfare,https://lod.nal.usda.gov/nalt/9084
+Animal Welfare Institute,https://lod.nal.usda.gov/nalt/329840
+animal well-being,https://lod.nal.usda.gov/nalt/9237
+animals,https://lod.nal.usda.gov/nalt/65
+anther culture,https://lod.nal.usda.gov/nalt/9953
+anthropology,https://lod.nal.usda.gov/nalt/10088
+anti-inflammatory agents,https://lod.nal.usda.gov/nalt/10149
+antibodies,https://lod.nal.usda.gov/nalt/10218
+antibody formation,https://lod.nal.usda.gov/nalt/10230
+antibody production,https://lod.nal.usda.gov/nalt/10230
+Aotus (Cebidae),https://lod.nal.usda.gov/nalt/10604
+Aotus nancymaae,https://lod.nal.usda.gov/nalt/343758
+apnea,https://lod.nal.usda.gov/nalt/914
+aquatic organisms,https://lod.nal.usda.gov/nalt/11423
+arthropods,https://lod.nal.usda.gov/nalt/79
+artificial habitats,https://lod.nal.usda.gov/nalt/342117
+artificial neural networks,https://lod.nal.usda.gov/nalt/12606
+artificial skin,https://lod.nal.usda.gov/nalt/312748
+ascites,https://lod.nal.usda.gov/nalt/733
+asphyxia,https://lod.nal.usda.gov/nalt/915
+asphyxia,https://lod.nal.usda.gov/nalt/915
+aspirin,https://lod.nal.usda.gov/nalt/2534
+aspirin,https://lod.nal.usda.gov/nalt/2534
+assays,https://lod.nal.usda.gov/nalt/13160
+Association for Assessment and Accreditation of Laboratory Animal Care International,https://lod.nal.usda.gov/nalt/329563
+Ateles,https://lod.nal.usda.gov/nalt/13564
+Ateles geoffroyi,https://lod.nal.usda.gov/nalt/221179
+Atelidae,https://lod.nal.usda.gov/nalt/221169
+Atelinae,https://lod.nal.usda.gov/nalt/221170
+audiovisuals,https://lod.nal.usda.gov/nalt/13817
+avoidance conditioning,https://lod.nal.usda.gov/nalt/14242
+axenic culture,https://lod.nal.usda.gov/nalt/14256
+azaperone,https://lod.nal.usda.gov/nalt/14300
+bandages,https://lod.nal.usda.gov/nalt/15724
+Bayesian theory,https://lod.nal.usda.gov/nalt/16108
+beak trimming,https://lod.nal.usda.gov/nalt/9229
+beef cattle,https://lod.nal.usda.gov/nalt/16293
+behavioral despair tests,https://lod.nal.usda.gov/nalt/291314
+betamethasone,https://lod.nal.usda.gov/nalt/10152
+bile,https://lod.nal.usda.gov/nalt/17153
+bioassays,https://lod.nal.usda.gov/nalt/13161
+biochemical compounds,https://lod.nal.usda.gov/nalt/7812
+bioethics,https://lod.nal.usda.gov/nalt/9553
+biological models,https://lod.nal.usda.gov/nalt/261145
+biological properties and phenomena,https://lod.nal.usda.gov/nalt/107
+bioluminescence assay,https://lod.nal.usda.gov/nalt/309744
+biomarkers,https://lod.nal.usda.gov/nalt/17262
+biomedical imaging,https://lod.nal.usda.gov/nalt/332148
+biostatistics,https://lod.nal.usda.gov/nalt/307601
+biotelemetry,https://lod.nal.usda.gov/nalt/192887
+bird banding,https://lod.nal.usda.gov/nalt/282746
+birds,https://lod.nal.usda.gov/nalt/106
+bloat,https://lod.nal.usda.gov/nalt/916
+blood,https://lod.nal.usda.gov/nalt/18059
+blood cells,https://lod.nal.usda.gov/nalt/18061
+blood plasma,https://lod.nal.usda.gov/nalt/18062
+blood sampling,https://lod.nal.usda.gov/nalt/18122
+blood transfusion,https://lod.nal.usda.gov/nalt/18064
+bodily secretions and exudates,https://lod.nal.usda.gov/nalt/48
+body fluids,https://lod.nal.usda.gov/nalt/49
+body temperature,https://lod.nal.usda.gov/nalt/118
+body temperature changes,https://lod.nal.usda.gov/nalt/155
+body water,https://lod.nal.usda.gov/nalt/18332
+bone marrow cells,https://lod.nal.usda.gov/nalt/18522
+breath tests,https://lod.nal.usda.gov/nalt/203771
+Breeding and Genetic Improvement,https://lod.nal.usda.gov/nalt/127296
+browsing,https://lod.nal.usda.gov/nalt/20122
+bullfrogs,https://lod.nal.usda.gov/nalt/337027
+bullocks,https://lod.nal.usda.gov/nalt/67757
+bulls,https://lod.nal.usda.gov/nalt/16297
+buprenorphine,https://lod.nal.usda.gov/nalt/8452
+butorphanol,https://lod.nal.usda.gov/nalt/149099
+cadaver,https://lod.nal.usda.gov/nalt/332018
+caecilians,https://lod.nal.usda.gov/nalt/68520
+cage design,https://lod.nal.usda.gov/nalt/21006
+cage size,https://lod.nal.usda.gov/nalt/21010
+cages,https://lod.nal.usda.gov/nalt/9070
+California mastitis test,https://lod.nal.usda.gov/nalt/243947
+Callicebus,https://lod.nal.usda.gov/nalt/342191
+Callimico,https://lod.nal.usda.gov/nalt/269778
+Callimico goeldii,https://lod.nal.usda.gov/nalt/269779
+Callithrix,https://lod.nal.usda.gov/nalt/21306
+Callithrix aurita,https://lod.nal.usda.gov/nalt/269783
+Callithrix flaviceps,https://lod.nal.usda.gov/nalt/269787
+Callithrix geoffroyi,https://lod.nal.usda.gov/nalt/255237
+Callithrix jacchus,https://lod.nal.usda.gov/nalt/21307
+Callithrix penicillata,https://lod.nal.usda.gov/nalt/243184
+Callitrichidae,https://lod.nal.usda.gov/nalt/21305
+callus culture,https://lod.nal.usda.gov/nalt/21345
+calves,https://lod.nal.usda.gov/nalt/21177
+cankers (animals),https://lod.nal.usda.gov/nalt/917
+cannulas,https://lod.nal.usda.gov/nalt/21916
+captive animals,https://lod.nal.usda.gov/nalt/105920
+capture of animals,https://lod.nal.usda.gov/nalt/9051
+carcinogenicity,https://lod.nal.usda.gov/nalt/22361
+casts (medical),https://lod.nal.usda.gov/nalt/18518
+catheters,https://lod.nal.usda.gov/nalt/23043
+cats,https://lod.nal.usda.gov/nalt/22915
+cattle,https://lod.nal.usda.gov/nalt/16304
+Cebidae,https://lod.nal.usda.gov/nalt/6854
+Cebus,https://lod.nal.usda.gov/nalt/22092
+Cebus apella,https://lod.nal.usda.gov/nalt/296495
+Cebus capucinus,https://lod.nal.usda.gov/nalt/314522
+cell culture,https://lod.nal.usda.gov/nalt/23373
+cell lines,https://lod.nal.usda.gov/nalt/23379
+cell lines,https://lod.nal.usda.gov/nalt/23379
+cell suspension culture,https://lod.nal.usda.gov/nalt/23377
+cell transformation assay,https://lod.nal.usda.gov/nalt/68521
+Center for Alternatives to Animal Testing,https://lod.nal.usda.gov/nalt/332042
+Center for Food Safety and Applied Nutrition,https://lod.nal.usda.gov/nalt/23638
+Centers for Disease Control and Prevention,https://lod.nal.usda.gov/nalt/23204
+central venous catheters,https://lod.nal.usda.gov/nalt/332048
+Cephalopoda,https://lod.nal.usda.gov/nalt/637
+Cercocebus,https://lod.nal.usda.gov/nalt/23975
+Cercocebus galeritus,https://lod.nal.usda.gov/nalt/269804
+Cercopithecidae,https://lod.nal.usda.gov/nalt/23977
+Cercopithecus,https://lod.nal.usda.gov/nalt/23985
+Cercopithecus aethiops,https://lod.nal.usda.gov/nalt/4863
+cerebrospinal fluid,https://lod.nal.usda.gov/nalt/18339
+cervical dislocation,https://lod.nal.usda.gov/nalt/24103
+chemical substances,https://lod.nal.usda.gov/nalt/183
+chickens,https://lod.nal.usda.gov/nalt/19929
+Chinchilla lanigera,https://lod.nal.usda.gov/nalt/75690
+Chlorocebus,https://lod.nal.usda.gov/nalt/314431
+Chlorocebus pygerythrus,https://lod.nal.usda.gov/nalt/314432
+chloroform,https://lod.nal.usda.gov/nalt/25338
+cholinergic agents,https://lod.nal.usda.gov/nalt/25588
+chronic toxicity,https://lod.nal.usda.gov/nalt/25889
+Cichlidae,https://lod.nal.usda.gov/nalt/26238
+clinical examination,https://lod.nal.usda.gov/nalt/26913
+cloning (cells),https://lod.nal.usda.gov/nalt/23367
+coculture,https://lod.nal.usda.gov/nalt/68522
+code of practice,https://lod.nal.usda.gov/nalt/27600
+cold stress,https://lod.nal.usda.gov/nalt/1730
+colostrum,https://lod.nal.usda.gov/nalt/18315
+comet assay,https://lod.nal.usda.gov/nalt/291475
+committees,https://lod.nal.usda.gov/nalt/68524
+computed tomography,https://lod.nal.usda.gov/nalt/28416
+computer simulation,https://lod.nal.usda.gov/nalt/203662
+contraceptives,https://lod.nal.usda.gov/nalt/28771
+cosmetics,https://lod.nal.usda.gov/nalt/16241
+cosmetics testing,https://lod.nal.usda.gov/nalt/68525
+cough,https://lod.nal.usda.gov/nalt/918
+cows,https://lod.nal.usda.gov/nalt/16309
+cryopreservation,https://lod.nal.usda.gov/nalt/30341
+culture filtrates,https://lod.nal.usda.gov/nalt/30700
+Cynomys,https://lod.nal.usda.gov/nalt/31203
+cytotoxicity,https://lod.nal.usda.gov/nalt/31518
+dairy cattle,https://lod.nal.usda.gov/nalt/23071
+Danio rerio,https://lod.nal.usda.gov/nalt/69971
+dead animals,https://lod.nal.usda.gov/nalt/45
+debridement,https://lod.nal.usda.gov/nalt/31873
+decapitation,https://lod.nal.usda.gov/nalt/31883
+deer,https://lod.nal.usda.gov/nalt/7153
+defensive secretions,https://lod.nal.usda.gov/nalt/18316
+dehydration (animal physiology),https://lod.nal.usda.gov/nalt/32026
+delta-endotoxins,https://lod.nal.usda.gov/nalt/32187
+dental equipment,https://lod.nal.usda.gov/nalt/32372
+Department of Health and Human Services,https://lod.nal.usda.gov/nalt/23650
+depth of anesthesia,https://lod.nal.usda.gov/nalt/8799
+descriptive statistics,https://lod.nal.usda.gov/nalt/302051
+desflurane,https://lod.nal.usda.gov/nalt/317741
+detomidine,https://lod.nal.usda.gov/nalt/32801
+developmental toxicity,https://lod.nal.usda.gov/nalt/17446
+dexamethasone,https://lod.nal.usda.gov/nalt/10153
+dexmedetomidine,https://lod.nal.usda.gov/nalt/188008
+dexmedetomidine,https://lod.nal.usda.gov/nalt/188008
+diagnostic equipment,https://lod.nal.usda.gov/nalt/185708
+diagnostic techniques,https://lod.nal.usda.gov/nalt/8499
+diazepam,https://lod.nal.usda.gov/nalt/8804
+diazepam,https://lod.nal.usda.gov/nalt/8804
+digesta,https://lod.nal.usda.gov/nalt/18340
+displacement activities,https://lod.nal.usda.gov/nalt/8992
+distress,https://lod.nal.usda.gov/nalt/9516
+dogs,https://lod.nal.usda.gov/nalt/21847
+domestic animals,https://lod.nal.usda.gov/nalt/9579
+downer animals,https://lod.nal.usda.gov/nalt/9580
+droperidol,https://lod.nal.usda.gov/nalt/8805
+drug development,https://lod.nal.usda.gov/nalt/330369
+drug injection,https://lod.nal.usda.gov/nalt/34637
+drug toxicity,https://lod.nal.usda.gov/nalt/34664
+Dutch Belted (rabbit breed),https://lod.nal.usda.gov/nalt/34944
+dysoxia,https://lod.nal.usda.gov/nalt/277632
+dyspnea,https://lod.nal.usda.gov/nalt/919
+ear tags,https://lod.nal.usda.gov/nalt/9065
+earthworms,https://lod.nal.usda.gov/nalt/35126
+ecotoxicology,https://lod.nal.usda.gov/nalt/35713
+edema,https://lod.nal.usda.gov/nalt/920
+electronarcosis,https://lod.nal.usda.gov/nalt/302202
+elevated plus-maze test,https://lod.nal.usda.gov/nalt/291318
+embryo culture,https://lod.nal.usda.gov/nalt/36815
+embryonic stem cells,https://lod.nal.usda.gov/nalt/36807
+embryotoxicity,https://lod.nal.usda.gov/nalt/32918
+embryotoxicity,https://lod.nal.usda.gov/nalt/32918
+endoscopes,https://lod.nal.usda.gov/nalt/185709
+endoscopy,https://lod.nal.usda.gov/nalt/37074
+endotoxins,https://lod.nal.usda.gov/nalt/32188
+enrichment culture,https://lod.nal.usda.gov/nalt/30705
+environmental control systems,https://lod.nal.usda.gov/nalt/375
+environmental enrichment,https://lod.nal.usda.gov/nalt/9057
+enzyme immunoassays,https://lod.nal.usda.gov/nalt/37485
+enzyme-linked immunosorbent assay,https://lod.nal.usda.gov/nalt/36291
+enzymes,https://lod.nal.usda.gov/nalt/6744
+equipment,https://lod.nal.usda.gov/nalt/365
+estimation,https://lod.nal.usda.gov/nalt/28752
+ethics,https://lod.nal.usda.gov/nalt/17341
+ethyl ether,https://lod.nal.usda.gov/nalt/38244
+etorphine,https://lod.nal.usda.gov/nalt/8453
+etorphine,https://lod.nal.usda.gov/nalt/8453
+Eulemur,https://lod.nal.usda.gov/nalt/281204
+Eulemur fulvus,https://lod.nal.usda.gov/nalt/300464
+euthanasia,https://lod.nal.usda.gov/nalt/9565
+euthanasia,https://lod.nal.usda.gov/nalt/9565
+excreta,https://lod.nal.usda.gov/nalt/50
+exercise test,https://lod.nal.usda.gov/nalt/12222
+experimental design,https://lod.nal.usda.gov/nalt/9555
+explants,https://lod.nal.usda.gov/nalt/30702
+extracellular fluids,https://lod.nal.usda.gov/nalt/18341
+eye irritation,https://lod.nal.usda.gov/nalt/3968
+eye irritation tests,https://lod.nal.usda.gov/nalt/68528
+facilities management,https://lod.nal.usda.gov/nalt/332181
+farmed animal species,https://lod.nal.usda.gov/nalt/7150
+fecal examination,https://lod.nal.usda.gov/nalt/302235
+feces,https://lod.nal.usda.gov/nalt/34880
+feed deprivation,https://lod.nal.usda.gov/nalt/9181
+feed intake,https://lod.nal.usda.gov/nalt/9326
+feeding behavior,https://lod.nal.usda.gov/nalt/8996
+feeding enrichment,https://lod.nal.usda.gov/nalt/313312
+feeding methods,https://lod.nal.usda.gov/nalt/4047
+feeding methods,https://lod.nal.usda.gov/nalt/4047
+fentanyl,https://lod.nal.usda.gov/nalt/8806
+ferrets,https://lod.nal.usda.gov/nalt/39893
+fever,https://lod.nal.usda.gov/nalt/157
+fish,https://lod.nal.usda.gov/nalt/845
+fistulated animals,https://lod.nal.usda.gov/nalt/339492
+fixed dose procedure,https://lod.nal.usda.gov/nalt/68538
+flatulence,https://lod.nal.usda.gov/nalt/921
+fluid therapy,https://lod.nal.usda.gov/nalt/40688
+flunixin,https://lod.nal.usda.gov/nalt/8454
+flunixin,https://lod.nal.usda.gov/nalt/8454
+fluorescent lamps,https://lod.nal.usda.gov/nalt/289671
+fluorescent lighting,https://lod.nal.usda.gov/nalt/40710
+follicular fluid,https://lod.nal.usda.gov/nalt/18342
+Food and Drug Administration,https://lod.nal.usda.gov/nalt/23640
+food animals,https://lod.nal.usda.gov/nalt/9581
+Food Safety and Inspection Service,https://lod.nal.usda.gov/nalt/41016
+foraging,https://lod.nal.usda.gov/nalt/39711
+forced swimming test,https://lod.nal.usda.gov/nalt/291315
+formalin test,https://lod.nal.usda.gov/nalt/287220
+frequency distribution,https://lod.nal.usda.gov/nalt/301411
+frog embryo teratogenesis assay-Xenopus,https://lod.nal.usda.gov/nalt/68539
+frogs,https://lod.nal.usda.gov/nalt/7156
+fur-bearing animals,https://lod.nal.usda.gov/nalt/9582
+Galagidae,https://lod.nal.usda.gov/nalt/295181
+Galago,https://lod.nal.usda.gov/nalt/42162
+Galago granti,https://lod.nal.usda.gov/nalt/295180
+game animals,https://lod.nal.usda.gov/nalt/9583
+gastric juice,https://lod.nal.usda.gov/nalt/18317
+general anesthetics,https://lod.nal.usda.gov/nalt/8807
+genetic lines,https://lod.nal.usda.gov/nalt/19698
+genetic techniques and protocols,https://lod.nal.usda.gov/nalt/17409
+genotoxicity,https://lod.nal.usda.gov/nalt/34182
+genotoxicity tests,https://lod.nal.usda.gov/nalt/291471
+genotyping,https://lod.nal.usda.gov/nalt/199091
+gerbils,https://lod.nal.usda.gov/nalt/42829
+germ-free animals,https://lod.nal.usda.gov/nalt/9584
+germ-free animals,https://lod.nal.usda.gov/nalt/9584
+glucose tolerance tests,https://lod.nal.usda.gov/nalt/229208
+goats,https://lod.nal.usda.gov/nalt/22030
+Gorilla,https://lod.nal.usda.gov/nalt/43523
+Gorilla beringei,https://lod.nal.usda.gov/nalt/196313
+Gorilla gorilla,https://lod.nal.usda.gov/nalt/43524
+government agencies,https://lod.nal.usda.gov/nalt/28156
+government and administration,https://lod.nal.usda.gov/nalt/4261
+graduate students,https://lod.nal.usda.gov/nalt/310506
+grimace scale,https://lod.nal.usda.gov/nalt/313200
+group housing,https://lod.nal.usda.gov/nalt/9250
+guinea pigs,https://lod.nal.usda.gov/nalt/23179
+halitosis,https://lod.nal.usda.gov/nalt/205686
+halothane,https://lod.nal.usda.gov/nalt/8808
+hamsters,https://lod.nal.usda.gov/nalt/25091
+health care workers,https://lod.nal.usda.gov/nalt/6592
+hearing tests,https://lod.nal.usda.gov/nalt/333208
+heat stress,https://lod.nal.usda.gov/nalt/1731
+heifers,https://lod.nal.usda.gov/nalt/23072
+hematologic tests,https://lod.nal.usda.gov/nalt/18068
+hepatocytes,https://lod.nal.usda.gov/nalt/23469
+hepatotoxicity,https://lod.nal.usda.gov/nalt/45149
+Hominidae,https://lod.nal.usda.gov/nalt/45760
+hoof trimming,https://lod.nal.usda.gov/nalt/9231
+horses,https://lod.nal.usda.gov/nalt/37683
+hot plate test,https://lod.nal.usda.gov/nalt/287250
+household products,https://lod.nal.usda.gov/nalt/68541
+human cell lines,https://lod.nal.usda.gov/nalt/68542
+human-animal relations,https://lod.nal.usda.gov/nalt/9260
+human-wildlife relations,https://lod.nal.usda.gov/nalt/9141
+humane endpoints,https://lod.nal.usda.gov/nalt/9557
+humidifiers,https://lod.nal.usda.gov/nalt/37437
+hybridomas,https://lod.nal.usda.gov/nalt/23404
+Hydra,https://lod.nal.usda.gov/nalt/46250
+Hylobates,https://lod.nal.usda.gov/nalt/46460
+Hylobates lar,https://lod.nal.usda.gov/nalt/255141
+Hylobatidae,https://lod.nal.usda.gov/nalt/42944
+hypercapnia,https://lod.nal.usda.gov/nalt/922
+hyperoxia,https://lod.nal.usda.gov/nalt/923
+hypothermia,https://lod.nal.usda.gov/nalt/158
+hypoxia,https://lod.nal.usda.gov/nalt/924
+ibuprofen,https://lod.nal.usda.gov/nalt/126092
+immunoassays,https://lod.nal.usda.gov/nalt/13162
+in vitro culture,https://lod.nal.usda.gov/nalt/14257
+incandescent lamps,https://lod.nal.usda.gov/nalt/189805
+incandescent lighting,https://lod.nal.usda.gov/nalt/47083
+indicator species,https://lod.nal.usda.gov/nalt/17401
+indigestion,https://lod.nal.usda.gov/nalt/925
+inhalation anesthetics,https://lod.nal.usda.gov/nalt/317739
+inhibitory concentration 50,https://lod.nal.usda.gov/nalt/68543
+insects,https://lod.nal.usda.gov/nalt/4395
+Institutional Animal Care and Use Committee,https://lod.nal.usda.gov/nalt/9060
+Interagency Coordinating Committee on the Validation of Alternative Methods,https://lod.nal.usda.gov/nalt/311683
+Interagency Coordinating Committee on the Validation of Alternative Methods,https://lod.nal.usda.gov/nalt/311683
+intestinal secretions,https://lod.nal.usda.gov/nalt/211311
+intracellular fluids,https://lod.nal.usda.gov/nalt/238185
+intramuscular injection,https://lod.nal.usda.gov/nalt/34650
+intraocular injection,https://lod.nal.usda.gov/nalt/254566
+intraperitoneal injection,https://lod.nal.usda.gov/nalt/34651
+intravenous injection,https://lod.nal.usda.gov/nalt/34652
+intravitreal injection,https://lod.nal.usda.gov/nalt/254567
+invertebrates,https://lod.nal.usda.gov/nalt/9359
+invertebrates,https://lod.nal.usda.gov/nalt/9359
+irritant properties,https://lod.nal.usda.gov/nalt/47786
+isoflurane,https://lod.nal.usda.gov/nalt/8809
+issues and policy,https://lod.nal.usda.gov/nalt/5436
+jaundice,https://lod.nal.usda.gov/nalt/926
+keratinocytes,https://lod.nal.usda.gov/nalt/23470
+ketamine,https://lod.nal.usda.gov/nalt/31057
+ketoprofen,https://lod.nal.usda.gov/nalt/126093
+kidney cells,https://lod.nal.usda.gov/nalt/23471
+kidney function tests,https://lod.nal.usda.gov/nalt/84007
+knockout mutants,https://lod.nal.usda.gov/nalt/48530
+lab-on-a-chip technology,https://lod.nal.usda.gov/nalt/322816
+laboratory animals,https://lod.nal.usda.gov/nalt/9147
+laboratory equipment,https://lod.nal.usda.gov/nalt/381
+laboratory experimentation,https://lod.nal.usda.gov/nalt/210165
+lameness,https://lod.nal.usda.gov/nalt/927
+lamps,https://lod.nal.usda.gov/nalt/49108
+laws and regulations,https://lod.nal.usda.gov/nalt/5387
+leg weakness,https://lod.nal.usda.gov/nalt/928
+Lemur,https://lod.nal.usda.gov/nalt/49615
+Lemur catta,https://lod.nal.usda.gov/nalt/243135
+Lemuridae,https://lod.nal.usda.gov/nalt/49616
+Leontopithecus,https://lod.nal.usda.gov/nalt/21315
+Leontopithecus caissara,https://lod.nal.usda.gov/nalt/190167
+Leontopithecus chrysomelas,https://lod.nal.usda.gov/nalt/43398
+Leontopithecus chrysopygus,https://lod.nal.usda.gov/nalt/17775
+Leontopithecus rosalia,https://lod.nal.usda.gov/nalt/43392
+Lepilemur,https://lod.nal.usda.gov/nalt/281198
+Lepilemur edwardsi,https://lod.nal.usda.gov/nalt/281199
+Lepilemuridae,https://lod.nal.usda.gov/nalt/269864
+lesions (animal),https://lod.nal.usda.gov/nalt/929
+lethal concentration 50,https://lod.nal.usda.gov/nalt/68545
+lethal concentration 50,https://lod.nal.usda.gov/nalt/68545
+lethal dose,https://lod.nal.usda.gov/nalt/34021
+lethal dose 50,https://lod.nal.usda.gov/nalt/49401
+librarians,https://lod.nal.usda.gov/nalt/335071
+lidocaine,https://lod.nal.usda.gov/nalt/8954
+lighting,https://lod.nal.usda.gov/nalt/12598
+Limulus amebocyte lysate assay,https://lod.nal.usda.gov/nalt/312827
+line differences,https://lod.nal.usda.gov/nalt/50224
+litter (bedding),https://lod.nal.usda.gov/nalt/9251
+litters (young animals),https://lod.nal.usda.gov/nalt/9495
+liver function tests,https://lod.nal.usda.gov/nalt/84877
+llamas,https://lod.nal.usda.gov/nalt/7157
+local anesthetics,https://lod.nal.usda.gov/nalt/8810
+local lymph node assay,https://lod.nal.usda.gov/nalt/68546
+local lymph node assay,https://lod.nal.usda.gov/nalt/68546
+Lorisidae,https://lod.nal.usda.gov/nalt/20565
+luminescent assay,https://lod.nal.usda.gov/nalt/336017
+lymph,https://lod.nal.usda.gov/nalt/18343
+Macaca,https://lod.nal.usda.gov/nalt/23988
+Macaca arctoides,https://lod.nal.usda.gov/nalt/16225
+Macaca fascicularis,https://lod.nal.usda.gov/nalt/31202
+Macaca fuscata,https://lod.nal.usda.gov/nalt/48042
+Macaca mulatta,https://lod.nal.usda.gov/nalt/50975
+Macaca nemestrina,https://lod.nal.usda.gov/nalt/50976
+Macaca radiata,https://lod.nal.usda.gov/nalt/18568
+Macaca silenus,https://lod.nal.usda.gov/nalt/269810
+macroinvertebrates,https://lod.nal.usda.gov/nalt/47594
+magnetic resonance imaging,https://lod.nal.usda.gov/nalt/8489
+mammals,https://lod.nal.usda.gov/nalt/558
+manmade structures,https://lod.nal.usda.gov/nalt/5481
+Marmota monax,https://lod.nal.usda.gov/nalt/43927
+maternal behavior,https://lod.nal.usda.gov/nalt/16452
+maternal milk,https://lod.nal.usda.gov/nalt/9316
+mathematical models,https://lod.nal.usda.gov/nalt/50226
+mathematical models,https://lod.nal.usda.gov/nalt/50226
+mathematics and statistics,https://lod.nal.usda.gov/nalt/6369
+maximum tolerated concentration,https://lod.nal.usda.gov/nalt/313598
+maximum tolerated dose,https://lod.nal.usda.gov/nalt/313439
+medetomidine,https://lod.nal.usda.gov/nalt/8455
+medical and veterinary equipment,https://lod.nal.usda.gov/nalt/384
+medical equipment,https://lod.nal.usda.gov/nalt/32927
+medical history,https://lod.nal.usda.gov/nalt/33026
+medical sciences,https://lod.nal.usda.gov/nalt/45052
+medical treatment,https://lod.nal.usda.gov/nalt/51847
+medicinal properties,https://lod.nal.usda.gov/nalt/8450
+meloxicam,https://lod.nal.usda.gov/nalt/10157
+meloxicam,https://lod.nal.usda.gov/nalt/10157
+Merostomata,https://lod.nal.usda.gov/nalt/24577
+metabolic diseases,https://lod.nal.usda.gov/nalt/2862
+methadone,https://lod.nal.usda.gov/nalt/8456
+methoxyflurane,https://lod.nal.usda.gov/nalt/38245
+methylprednisolone,https://lod.nal.usda.gov/nalt/289977
+mice,https://lod.nal.usda.gov/nalt/48531
+micro-computed tomography,https://lod.nal.usda.gov/nalt/204242
+microbial toxins,https://lod.nal.usda.gov/nalt/323561
+microfluidic technology,https://lod.nal.usda.gov/nalt/322814
+micronucleus tests,https://lod.nal.usda.gov/nalt/309754
+miniature swine,https://lod.nal.usda.gov/nalt/53095
+mixed culture,https://lod.nal.usda.gov/nalt/47055
+mole rats,https://lod.nal.usda.gov/nalt/190028
+monoxenic culture,https://lod.nal.usda.gov/nalt/47056
+morbidity,https://lod.nal.usda.gov/nalt/34035
+morphine,https://lod.nal.usda.gov/nalt/8457
+mortality,https://lod.nal.usda.gov/nalt/31862
+mucus,https://lod.nal.usda.gov/nalt/18319
+mutagenicity,https://lod.nal.usda.gov/nalt/53830
+mutants,https://lod.nal.usda.gov/nalt/14079
+narcotics,https://lod.nal.usda.gov/nalt/34676
+National Aeronautics and Space Administration,https://lod.nal.usda.gov/nalt/237643
+National Animal Health Monitoring System,https://lod.nal.usda.gov/nalt/210476
+National Center for Biotechnology Information,https://lod.nal.usda.gov/nalt/205083
+National Center for Health Statistics,https://lod.nal.usda.gov/nalt/232245
+National Institute of Environmental Health Sciences,https://lod.nal.usda.gov/nalt/335939
+National Institutes of Health,https://lod.nal.usda.gov/nalt/204110
+National Library of Medicine,https://lod.nal.usda.gov/nalt/204113
+National Science Foundation,https://lod.nal.usda.gov/nalt/307906
+nausea,https://lod.nal.usda.gov/nalt/930
+necropsy,https://lod.nal.usda.gov/nalt/104870
+nephrotoxicity,https://lod.nal.usda.gov/nalt/48383
+nest boxes,https://lod.nal.usda.gov/nalt/9253
+nestlets,https://lod.nal.usda.gov/nalt/310450
+neurotoxicity,https://lod.nal.usda.gov/nalt/54749
+New Zealand White rabbit,https://lod.nal.usda.gov/nalt/54783
+no observed adverse effect level,https://lod.nal.usda.gov/nalt/54939
+no observed adverse effect level,https://lod.nal.usda.gov/nalt/54939
+nonanimal tests,https://lod.nal.usda.gov/nalt/9559
+nonfood products,https://lod.nal.usda.gov/nalt/5448
+noninfectious diseases,https://lod.nal.usda.gov/nalt/330
+nonlinear models,https://lod.nal.usda.gov/nalt/51656
+nonsteroidal anti-inflammatory agents,https://lod.nal.usda.gov/nalt/10158
+normal values,https://lod.nal.usda.gov/nalt/15979
+nutritional support,https://lod.nal.usda.gov/nalt/12584
+Nycticebus,https://lod.nal.usda.gov/nalt/269867
+Octopoda,https://lod.nal.usda.gov/nalt/285121
+Octopodidae,https://lod.nal.usda.gov/nalt/23765
+Octopus (Octopodidae),https://lod.nal.usda.gov/nalt/55627
+Oncorhynchus mykiss,https://lod.nal.usda.gov/nalt/55842
+operant conditioning,https://lod.nal.usda.gov/nalt/28487
+oral rehydration,https://lod.nal.usda.gov/nalt/40690
+organ culture,https://lod.nal.usda.gov/nalt/56061
+organ-on-a-chip,https://lod.nal.usda.gov/nalt/312711
+organizations,https://lod.nal.usda.gov/nalt/13189
+organoids,https://lod.nal.usda.gov/nalt/336476
+oviductal fluids,https://lod.nal.usda.gov/nalt/18344
+ovule culture,https://lod.nal.usda.gov/nalt/56420
+oxen,https://lod.nal.usda.gov/nalt/23073
+pain,https://lod.nal.usda.gov/nalt/931
+pain tests,https://lod.nal.usda.gov/nalt/287225
+pair housing,https://lod.nal.usda.gov/nalt/68548
+Pan (Pongidae),https://lod.nal.usda.gov/nalt/56624
+Pan paniscus,https://lod.nal.usda.gov/nalt/18570
+Pan troglodytes,https://lod.nal.usda.gov/nalt/24997
+pancreatic juice,https://lod.nal.usda.gov/nalt/18320
+Papio,https://lod.nal.usda.gov/nalt/14452
+Papio anubis,https://lod.nal.usda.gov/nalt/56769
+Papio cynocephalus,https://lod.nal.usda.gov/nalt/123449
+Papio hamadryas,https://lod.nal.usda.gov/nalt/123448
+Papio papio,https://lod.nal.usda.gov/nalt/123451
+Papio ursinus,https://lod.nal.usda.gov/nalt/123450
+paralysis,https://lod.nal.usda.gov/nalt/932
+parenteral feeding,https://lod.nal.usda.gov/nalt/39720
+paresis,https://lod.nal.usda.gov/nalt/933
+patch test,https://lod.nal.usda.gov/nalt/68549
+pentobarbital,https://lod.nal.usda.gov/nalt/15823
+perches (animal housing),https://lod.nal.usda.gov/nalt/70047
+Peromyscus,https://lod.nal.usda.gov/nalt/57495
+personal care products,https://lod.nal.usda.gov/nalt/68555
+pesticides,https://lod.nal.usda.gov/nalt/287
+pharmacodynamics,https://lod.nal.usda.gov/nalt/88549
+pharmacokinetics,https://lod.nal.usda.gov/nalt/34640
+pharmacology,https://lod.nal.usda.gov/nalt/24572
+phenylbutazone,https://lod.nal.usda.gov/nalt/57755
+phototoxicity,https://lod.nal.usda.gov/nalt/50029
+physicians,https://lod.nal.usda.gov/nalt/34271
+Pitheciidae,https://lod.nal.usda.gov/nalt/269868
+plants (botany),https://lod.nal.usda.gov/nalt/874
+plethysmography,https://lod.nal.usda.gov/nalt/338617
+polymerase chain reaction,https://lod.nal.usda.gov/nalt/8124
+Pongidae,https://lod.nal.usda.gov/nalt/10646
+Pongo,https://lod.nal.usda.gov/nalt/59210
+Pongo abelii,https://lod.nal.usda.gov/nalt/210122
+Pongo pygmaeus,https://lod.nal.usda.gov/nalt/56008
+positron-emission tomography,https://lod.nal.usda.gov/nalt/146566
+postoperative care,https://lod.nal.usda.gov/nalt/59368
+preanesthetic medication,https://lod.nal.usda.gov/nalt/8800
+prediction,https://lod.nal.usda.gov/nalt/35747
+prednisolone,https://lod.nal.usda.gov/nalt/59555
+prednisone,https://lod.nal.usda.gov/nalt/59556
+preoperative care,https://lod.nal.usda.gov/nalt/59573
+principal investigators,https://lod.nal.usda.gov/nalt/68551
+probability,https://lod.nal.usda.gov/nalt/137027
+product quality,https://lod.nal.usda.gov/nalt/4405
+product testing,https://lod.nal.usda.gov/nalt/28682
+products and commodities,https://lod.nal.usda.gov/nalt/4403
+Prolemur,https://lod.nal.usda.gov/nalt/285944
+Prolemur simus,https://lod.nal.usda.gov/nalt/285945
+prostheses,https://lod.nal.usda.gov/nalt/12575
+protocols,https://lod.nal.usda.gov/nalt/315825
+protoplast fusion,https://lod.nal.usda.gov/nalt/23378
+pruritis,https://lod.nal.usda.gov/nalt/934
+psychological tests,https://lod.nal.usda.gov/nalt/327779
+psychotropic agents,https://lod.nal.usda.gov/nalt/234584
+quantitative structure-activity relationships,https://lod.nal.usda.gov/nalt/60701
+rabbits,https://lod.nal.usda.gov/nalt/49693
+racing animals,https://lod.nal.usda.gov/nalt/9585
+radio frequency identification,https://lod.nal.usda.gov/nalt/9274
+rats,https://lod.nal.usda.gov/nalt/53727
+reptiles,https://lod.nal.usda.gov/nalt/906
+research institutions,https://lod.nal.usda.gov/nalt/47452
+researchers,https://lod.nal.usda.gov/nalt/55543
+restraint of animals,https://lod.nal.usda.gov/nalt/9072
+risk analysis,https://lod.nal.usda.gov/nalt/136472
+risk analysis,https://lod.nal.usda.gov/nalt/136472
+risk assessment,https://lod.nal.usda.gov/nalt/37432
+risk assessment,https://lod.nal.usda.gov/nalt/37432
+rodents,https://lod.nal.usda.gov/nalt/25072
+romifidine,https://lod.nal.usda.gov/nalt/317986
+ruminants,https://lod.nal.usda.gov/nalt/9888
+safety testing,https://lod.nal.usda.gov/nalt/28683
+Saguinus,https://lod.nal.usda.gov/nalt/21316
+Saguinus bicolor,https://lod.nal.usda.gov/nalt/269791
+Saguinus geoffroyi,https://lod.nal.usda.gov/nalt/269797
+Saguinus leucopus,https://lod.nal.usda.gov/nalt/269801
+Saguinus oedipus,https://lod.nal.usda.gov/nalt/29646
+Saimiri,https://lod.nal.usda.gov/nalt/23237
+Saimiri oerstedii,https://lod.nal.usda.gov/nalt/269795
+Saimiri sciureus,https://lod.nal.usda.gov/nalt/28235
+salamanders and newts,https://lod.nal.usda.gov/nalt/8080
+saliva,https://lod.nal.usda.gov/nalt/18322
+sample size,https://lod.nal.usda.gov/nalt/336235
+Sapajus xanthosternos,https://lod.nal.usda.gov/nalt/326191
+scalpels,https://lod.nal.usda.gov/nalt/62501
+scientists,https://lod.nal.usda.gov/nalt/17471
+sebum,https://lod.nal.usda.gov/nalt/18323
+sedation,https://lod.nal.usda.gov/nalt/62736
+sedatives,https://lod.nal.usda.gov/nalt/2187
+seizures,https://lod.nal.usda.gov/nalt/935
+semen,https://lod.nal.usda.gov/nalt/18324
+semi-domestic animals,https://lod.nal.usda.gov/nalt/261033
+sensometrics,https://lod.nal.usda.gov/nalt/308348
+sentinel animals,https://lod.nal.usda.gov/nalt/46008
+Sepiida,https://lod.nal.usda.gov/nalt/285118
+Sepiidae,https://lod.nal.usda.gov/nalt/23767
+sevoflurane,https://lod.nal.usda.gov/nalt/317737
+shade,https://lod.nal.usda.gov/nalt/37449
+sheep,https://lod.nal.usda.gov/nalt/38846
+signs and symptoms (animals and humans),https://lod.nal.usda.gov/nalt/156
+skin (animal),https://lod.nal.usda.gov/nalt/32499
+skin irritation,https://lod.nal.usda.gov/nalt/3969
+skin prick tests,https://lod.nal.usda.gov/nalt/311643
+skin tests,https://lod.nal.usda.gov/nalt/32456
+small ruminants,https://lod.nal.usda.gov/nalt/6859
+social behavior,https://lod.nal.usda.gov/nalt/16457
+social dominance,https://lod.nal.usda.gov/nalt/9013
+social enrichment,https://lod.nal.usda.gov/nalt/68552
+social facilitation,https://lod.nal.usda.gov/nalt/63282
+soil invertebrates,https://lod.nal.usda.gov/nalt/35133
+solid state culture,https://lod.nal.usda.gov/nalt/253555
+specific pathogen-free animals,https://lod.nal.usda.gov/nalt/42856
+splints (medical),https://lod.nal.usda.gov/nalt/135881
+standard operating procedures,https://lod.nal.usda.gov/nalt/4281
+standards and grades,https://lod.nal.usda.gov/nalt/49384
+statistical analysis,https://lod.nal.usda.gov/nalt/8465
+statistical methods,https://lod.nal.usda.gov/nalt/8465
+steatorrhea,https://lod.nal.usda.gov/nalt/936
+steers,https://lod.nal.usda.gov/nalt/23074
+stem cells,https://lod.nal.usda.gov/nalt/23484
+stereotyped behavior,https://lod.nal.usda.gov/nalt/1755
+stochastic processes,https://lod.nal.usda.gov/nalt/48588
+stocking rate,https://lod.nal.usda.gov/nalt/9267
+strain differences,https://lod.nal.usda.gov/nalt/64245
+strains,https://lod.nal.usda.gov/nalt/39571
+stray animals,https://lod.nal.usda.gov/nalt/9586
+students,https://lod.nal.usda.gov/nalt/784
+subacute toxicity,https://lod.nal.usda.gov/nalt/65102
+subchronic toxicity,https://lod.nal.usda.gov/nalt/65105
+subcutaneous injection,https://lod.nal.usda.gov/nalt/34653
+sublethal effects,https://lod.nal.usda.gov/nalt/65110
+supplementary lighting,https://lod.nal.usda.gov/nalt/50044
+surgeons,https://lod.nal.usda.gov/nalt/58065
+surgery,https://lod.nal.usda.gov/nalt/8137
+surgical equipment,https://lod.nal.usda.gov/nalt/37753
+sutures,https://lod.nal.usda.gov/nalt/65254
+sweat,https://lod.nal.usda.gov/nalt/18325
+swelling (physiological),https://lod.nal.usda.gov/nalt/937
+swine,https://lod.nal.usda.gov/nalt/15907
+synovial fluid,https://lod.nal.usda.gov/nalt/18345
+syringes,https://lod.nal.usda.gov/nalt/51840
+Taeniopygia guttata,https://lod.nal.usda.gov/nalt/190060
+tail flick test,https://lod.nal.usda.gov/nalt/287202
+tail suspension test,https://lod.nal.usda.gov/nalt/287245
+Tarsiidae,https://lod.nal.usda.gov/nalt/59619
+tattooing,https://lod.nal.usda.gov/nalt/9273
+tears,https://lod.nal.usda.gov/nalt/18326
+technicians,https://lod.nal.usda.gov/nalt/9520
+telemetry,https://lod.nal.usda.gov/nalt/61067
+teratogenicity,https://lod.nal.usda.gov/nalt/32920
+teratogenicity,https://lod.nal.usda.gov/nalt/32920
+thermal stress,https://lod.nal.usda.gov/nalt/198222
+thyroid function tests,https://lod.nal.usda.gov/nalt/94693
+tiletamine,https://lod.nal.usda.gov/nalt/8811
+tissue culture,https://lod.nal.usda.gov/nalt/9560
+tomography,https://lod.nal.usda.gov/nalt/8496
+tourniquets,https://lod.nal.usda.gov/nalt/51841
+toxic substances,https://lod.nal.usda.gov/nalt/1780
+toxicity,https://lod.nal.usda.gov/nalt/3967
+toxicity testing,https://lod.nal.usda.gov/nalt/65620
+toxicology,https://lod.nal.usda.gov/nalt/35791
+toxins,https://lod.nal.usda.gov/nalt/10551
+toys,https://lod.nal.usda.gov/nalt/390
+Trachemys scripta scripta,https://lod.nal.usda.gov/nalt/240383
+training (animals),https://lod.nal.usda.gov/nalt/9268
+tranquilizers,https://lod.nal.usda.gov/nalt/34680
+transgenic animals,https://lod.nal.usda.gov/nalt/9587
+translational medical research,https://lod.nal.usda.gov/nalt/310018
+triamcinolone,https://lod.nal.usda.gov/nalt/10159
+trichloroethane,https://lod.nal.usda.gov/nalt/317742
+turtles,https://lod.nal.usda.gov/nalt/7161
+U.S. Department of the Interior,https://lod.nal.usda.gov/nalt/237645
+U.S. Fish and Wildlife Service,https://lod.nal.usda.gov/nalt/189930
+unconsciousness,https://lod.nal.usda.gov/nalt/938
+ungulates,https://lod.nal.usda.gov/nalt/12636
+United States Agency for International Development,https://lod.nal.usda.gov/nalt/287329
+United States Environmental Protection Agency,https://lod.nal.usda.gov/nalt/37461
+urethane,https://lod.nal.usda.gov/nalt/8812
+urinalysis,https://lod.nal.usda.gov/nalt/153592
+urine,https://lod.nal.usda.gov/nalt/38868
+USDA,https://lod.nal.usda.gov/nalt/5464
+USDA Forest Service,https://lod.nal.usda.gov/nalt/41198
+USDA National Agricultural Library,https://lod.nal.usda.gov/nalt/143005
+validation of alternative methods,https://lod.nal.usda.gov/nalt/313305
+Varecia,https://lod.nal.usda.gov/nalt/277733
+variance,https://lod.nal.usda.gov/nalt/64124
+venoms,https://lod.nal.usda.gov/nalt/10560
+ventilation systems,https://lod.nal.usda.gov/nalt/5827
+vertebrates,https://lod.nal.usda.gov/nalt/8079
+veterinarians,https://lod.nal.usda.gov/nalt/44744
+veterinary equipment,https://lod.nal.usda.gov/nalt/9073
+veterinary law,https://lod.nal.usda.gov/nalt/9296
+viability assays,https://lod.nal.usda.gov/nalt/309738
+vicunas,https://lod.nal.usda.gov/nalt/49017
+visual aids,https://lod.nal.usda.gov/nalt/146549
+vivisection,https://lod.nal.usda.gov/nalt/235151
+vomiting,https://lod.nal.usda.gov/nalt/939
+water deprivation,https://lod.nal.usda.gov/nalt/33355
+water stress,https://lod.nal.usda.gov/nalt/1733
+welfare assessment,https://lod.nal.usda.gov/nalt/313307
+whistleblowing,https://lod.nal.usda.gov/nalt/68554
+wild animals,https://lod.nal.usda.gov/nalt/9150
+wool producing animals,https://lod.nal.usda.gov/nalt/305677
+working animals,https://lod.nal.usda.gov/nalt/9074
+wound treatment,https://lod.nal.usda.gov/nalt/31874
+xenodiagnosis,https://lod.nal.usda.gov/nalt/33027
+Xenopus laevis,https://lod.nal.usda.gov/nalt/63629
+xylazine,https://lod.nal.usda.gov/nalt/8459
+xylazine,https://lod.nal.usda.gov/nalt/8459
+young animals,https://lod.nal.usda.gov/nalt/8964
+zoo animals,https://lod.nal.usda.gov/nalt/9151
+zoology,https://lod.nal.usda.gov/nalt/1144
