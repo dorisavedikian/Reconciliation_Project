@@ -14,7 +14,8 @@ After splitting it into two files...
 
 I aggregated the outputs and there are [744 nalt terms in the beta prepared csv]() - which is 3 less than what was expected per the beta prepared reconciliation I have as a [reference](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_4_reference.csv).
 
-The following beta prepared labels are in the NALT and in the nalt_altlabel_only_withsuffix.tsv that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
+The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/nalt_labels_DATA/nalt_preflabels_only.tsv) that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
+
 - Breeding and Genetic Improvement
 - New Zealand White rabbit
 - Limulus amebocyte lysate assay
