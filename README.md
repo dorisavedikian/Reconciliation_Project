@@ -25,3 +25,6 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels_o
 ![Screen Shot 2023-02-03 at 3 33 56 PM](https://user-images.githubusercontent.com/109038399/216730044-c0269078-bb88-450a-b9ba-60b795dd1584.png)
 ![Screen Shot 2023-02-03 at 3 33 36 PM](https://user-images.githubusercontent.com/109038399/216730053-2bb478f4-9f81-4d3a-8fcc-66b8225d9dcb.png)
 ![Screen Shot 2023-02-03 at 3 35 40 PM](https://user-images.githubusercontent.com/109038399/216730175-f6add698-a535-4e1e-befd-c66cb52c149f.png)
+
+
+The way to work around this is too export the reconciliation seperately than filter the Score column to see if there are still any perfect scores.....ie, first exclued unmatched data and create a Nalt_URI and Score column for the matched datas and tan exclude matched data a create a Nalt_URI2 and Score2 column and export these seperately....
