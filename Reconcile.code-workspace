@@ -1,7 +1,12 @@
 {
 	"folders": [
 		{
+			"name": "Reconciliation_Project",
 			"path": "."
+		},
+		{
+			"name": "Notes_csv-reconcile",
+			"path": "../../../.Trashes/501/Notes_csv-reconcile"
 		}
 	]
 }
