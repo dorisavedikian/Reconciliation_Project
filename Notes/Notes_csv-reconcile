@@ -14,7 +14,7 @@ csv-reconcile init data/nalt_labels_nodups.tsv NALT_URI Label
 # Now, what I'll do is create a nalt_preflabel.tsv and a nalt_altlabel.tsv and use both seperately....        
 csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
 csv-reconcile serve 
-csv-reconcile init nalt_labels_data/nalt_altlabels.tsv NALT_URI Label
+csv-reconcile init nalt_labels_data/nalt_altlabels_1stsplit.tsv NALT_URI Label
 csv-reconcile serve
 # Service: http://127.0.0.1:5000/reconcile                                     
 deactivate   
