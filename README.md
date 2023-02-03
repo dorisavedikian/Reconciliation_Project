@@ -16,5 +16,7 @@ After removing the mathcing rows I reconciled the other 31,718 rows / alt labels
 Currently trying to figure out how to reconcile the beta prepared demo data to *all* of the nalt_altlabels.tsv - this file still has a lot of duplicate URI's...there are many concepts with > 10 alt labels...
 
 ![Screen Shot 2023-02-02 at 6 26 31 PM](https://user-images.githubusercontent.com/109038399/216520217-41cb1682-0fc8-44a4-a2b3-f9f1eb47a341.png)
-![image](https://user-images.githubusercontent.com/109038399/216522496-5210904d-bf16-4468-88cd-0e8ba9de580a.png)
+
+
+Ok, so I added a suffix to the URI's for all of the alt_labels so that I can run the service - it worked!!!!! 
 
