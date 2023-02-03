@@ -15,3 +15,4 @@ After removing the mathcing rows I reconciled the other 31,718 rows / alt labels
 
 Currently trying to figure out how to reconcile the beta prepared demo data to all of the nalt_altlabels.tsv - this file still has a lot of duplicate URI's...there are many concepts with > 1 alt label....Some concepts have 20 alt labels...
 
+![Screen Shot 2023-02-02 at 6 26 31 PM](https://user-images.githubusercontent.com/109038399/216520217-41cb1682-0fc8-44a4-a2b3-f9f1eb47a341.png)
