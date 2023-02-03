@@ -13,8 +13,7 @@ However, the beta prepared demo data has been reconciled before and the expectat
 I tried reconciling the beta prepared labels to the nalt_altlabels.tsv after removing the duplicates in openRefine and was able to reconcile 3 more of the beta prepared proposed labels to the nalt...but this method still leaves me with still needing to reconcile the beta prepared labels to 31,718 alt labels....
 
 
-Original nalt_label.tsv file has 145,755 rows
-
+Original nalt_label.tsv file has 145,755 rows /n
 After splitting it into two files; nalt_preflabel.tsv and nalt_altlabel.tsv each file had the following # of rows...
 
 nalt_preflabel.tsv had 76,932 rows
