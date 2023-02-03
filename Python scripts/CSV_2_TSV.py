@@ -6,4 +6,4 @@
 import csv
 
 
-csv.writer(open("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/nalt_labels_DATA/nalt_altlabels_1stsplit.tsv", 'w+'), delimiter='\t').writerows(csv.reader(open("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/nalt_labels_DATA/nalt_altlabels_1.csv")))
+csv.writer(open("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/nalt_labels_DATA/nalt_altlabels_numbered.tsv", 'w+'), delimiter='\t').writerows(csv.reader(open("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/nalt_labels_DATA/nalt_altlabels_numbered.csv")))
