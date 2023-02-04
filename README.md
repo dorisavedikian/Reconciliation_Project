@@ -15,8 +15,7 @@ After splitting it into two files...
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Post reconciliation process in openRefine:
 - Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it wont get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
-
-I combined the final outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
+- I combined the final outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
 
 
