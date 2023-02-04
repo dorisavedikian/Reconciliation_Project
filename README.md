@@ -13,9 +13,9 @@ After splitting it into two files...
 *These counts include the mistakenly "unmatched" terms during reconciliation.
 
 Post reconciliation process in openRefine:
-- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....also, the Nalt_URI will of course not be there in the excel file for the unmatched so I had to look those up manually. Additionaly, sometimes these differences is what differentiaties between the alt label and pref label.......for example, (alt label = lethal concentration-50 and pref label = lethal concentration 50) - SO, it may be concisdered "unmatched" when reconciled to the alt labels / pref labels spererately but, it was actually already matched to a pref label or a alt label....
+- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....check to see if these were already matched as a pref label or a alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
 
-I combined the outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
+I combined the final outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
 
 
@@ -25,7 +25,7 @@ I combined the outputs using this script [here]() into one csv [Y nalt terms in 
 
 Notes:
 
-The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below...hmmmm....
+The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below......
 
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - New Zealand White rabbit (rabbit is lowercase in the NALT but uppercase in the beta prepared data - also, 100% matching score in openRefine)
@@ -43,9 +43,9 @@ This process actually revealed one more match to the NALT that wasnt in the beta
 
 ![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
 
-I double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]()....
+I also double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]()....
 
 ![Screen Shot 2023-02-03 at 9 27 18 PM](https://user-images.githubusercontent.com/109038399/216750459-10875ad8-7819-46e9-b256-c5ee493f2ba8.png)
 
-This did not add any more matching terms to the reconciliation....
+This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but score 100% were already reconciled to nalt pref labels...
 
