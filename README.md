@@ -41,3 +41,10 @@ The way to work around this is too export the reconciliation seperately (unmatch
 This process actually revealed one more match to the NALT that wasnt in the beta prepared reconcile reference I have.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....
 
 ![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
+
+I double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]() once again and found more "unmatched" terms that are in fact in the nalt as a alt label albeit, a minor difference....see below....
+
+-
+-
+-
+
