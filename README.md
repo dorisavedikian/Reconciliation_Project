@@ -10,7 +10,8 @@ After splitting it into two files...
 
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() 
 
-### *These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
+*These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Post reconciliation process in openRefine:
 - Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it wont get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
@@ -22,7 +23,7 @@ I combined the final outputs using this script [here]() into one csv [Y nalt ter
 
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Notes:
 
 The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below......
@@ -51,7 +52,7 @@ I also double checked the unmatched terms in openRefine after doing the reconcil
 
 This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but scored 100% were already reconciled to nalt pref labels...
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Still need to do the following:
 - Create a script for the following:
     - adds suffix “_rand(5)” to all the values in a column and creates a new column with this new value (currently this process is being done in excel)
