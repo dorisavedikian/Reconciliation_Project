@@ -13,6 +13,9 @@ After splitting it into two files...
 *These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Pre Reconciliation Process:
+- Remove duplicates from the SME prepared labels list 
+
 Post reconciliation process:
 - In openRefine: Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it wont get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
 - I combined all the matching labels using this script [here]() into one csv. There are [Y nalt terms in the beta prepared csv]() that exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
