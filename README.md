@@ -14,7 +14,7 @@ After splitting it into two files...
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Pre Reconciliation Process:
-- Remove duplicates from the SME prepared labels list 
+- Remove duplicates from the SME prepared labels list using openRefine
 - Create tsv of original SME labels list for post reconciliation process
 
 Post reconciliation process:
@@ -46,7 +46,8 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels.t
 
 The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column of the unmatched excel output to see if there are still any perfect scores.....
 
-This process actually revealed one more match to the NALT that wasnt in the beta prepared reconcile reference I have.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....so, its already a nalt term with a minor difference. 
+This process actually revealed one more match to the NALT that wasnt in the beta prepared reconcile reference I have.....
+....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....
 
 ![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
 
@@ -61,7 +62,6 @@ Still need to do the following:
 - Create a script for the following:
     - create and add a new column to the nalt_altlabel.csv everytime the NALT gets updated so it can be utilized during this reconciliation process. A new column Nalt_URI_withsuffix needs to be created based off the NALT_URI column values + the suffix “_rand(5)” 
     - combine outputs of matched terms into one data frame and save as a csv? than can reconcile that to the original proposed list using openRefine - the unmatched list are the terms not in the NALT
-    - remove duplicates from a list of proposed SME labels (actually this can be done using openRefine) - this needs to be part of the pre reconciliation process
 - Add links to this read me
 - Put comments / everything specific to the beta prepared labels reconciliation in a seperate folder labeled "example"
 
