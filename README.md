@@ -59,3 +59,4 @@ Still need to do the following:
     - remove duplicates from a list of proposed SME labels
 - Add links to this read me
 - Go through everything and make it so anyone can run anything from there computer
+- Remove uneccesary comments
