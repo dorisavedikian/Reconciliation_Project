@@ -1,6 +1,4 @@
-# Reconciliation_Project
-
-# UNDER CONSTRUCTION 
+# Reconciliation_Project - UNDER CONSTRUCTION 
 
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
