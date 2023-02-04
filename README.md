@@ -37,4 +37,5 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels.t
 The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column to see if there are still any perfect scores.....ie, first exclude unmatched data and create a Nalt_URI and Score column for the matched datas and than exclude matched data and create a Nalt_URI2 and Score2 column... 
 
 This process actually revealed one more match to the NALT.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....
-(rerun rec against nalt pref labels and get a snip of this one)
+
+![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
