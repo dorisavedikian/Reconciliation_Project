@@ -20,7 +20,7 @@ Pre Reconciliation Process:
 Post reconciliation process:
 - In openRefine: Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it might not get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
 - I combined all the matching labels using this script [here]() into one csv. There are [Y nalt terms in the beta prepared csv]() that exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
-- Combine outputs of matched terms into one data frame and save as a csv and tsv. Reconcile the list of matched labels to the original list of proposed labels using openRefine - the unmatched list are the terms not in the NALT
+- Reconcile the original list of proposed labels to the list of matched labels using openRefine - the unmatched list are the terms not in the NALT
 
 
 
