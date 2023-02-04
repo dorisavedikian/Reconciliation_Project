@@ -11,9 +11,9 @@ After splitting it into two files...
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X beta prepared labels were reconciled to [X alt labels in the nalt.]()
 
 Post reconciliation process in openRefine:
-- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% despite it not being "picked up" by the openRefine application
+- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....also, the Nalt_URI will not be there in the excel file for the unmatched so I had to look those up.
 
-I combined the outputs using this script [here]() into one csv [749 nalt terms in the beta prepared csv]() exist - which is 1 more than what was expected per the beta prepared reconciliation I have as a [reference]().
+I combined the outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
 
 
