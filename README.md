@@ -27,6 +27,7 @@ Notes:
 
 The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below......
 
+- Ames test* (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - New Zealand White rabbit (rabbit is lowercase in the NALT but uppercase in the beta prepared data - also, 100% matching score in openRefine)
 - Limulus amebocyte lysate assay (Limulus is uppercase in the NALT but lowercase in the beta prepared data - also 100% matching score in openRefine)
@@ -36,6 +37,7 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels.t
 ![Screen Shot 2023-02-03 at 3 33 36 PM](https://user-images.githubusercontent.com/109038399/216730053-2bb478f4-9f81-4d3a-8fcc-66b8225d9dcb.png)
 ![Screen Shot 2023-02-03 at 3 35 40 PM](https://user-images.githubusercontent.com/109038399/216730175-f6add698-a535-4e1e-befd-c66cb52c149f.png)
 
+*The beta prepared data also had 'Ames test' - which did get reconciled to the nalt_preflabel.tsv, the one in the above snip did not get reconciled to the nalt pref label because it is all lowercase
 
 The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column of the unmatched excel output to see if there are still any perfect scores.....
 
