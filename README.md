@@ -6,7 +6,7 @@ Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labe
 
 After splitting it into two files...
 
-- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [744 reconciled nalt terms]()
+- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [X reconciled nalt terms]()
 
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X beta prepared labels were reconciled to [X alt labels in the nalt.]()
 
