@@ -1,4 +1,4 @@
-# Reconciliation_Project - UNDER CONSTRUCTION 
+# Reconciliation_Project - UNDER CONSTRUCTION...the process works but would like to tidy up this repo still...
 
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
