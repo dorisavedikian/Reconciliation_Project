@@ -8,7 +8,7 @@ After splitting it into two files...
 
 - [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in X* beta prepared labels reconciled to [X pref labels in the nalt]()
 
-- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() Keeping the original column in addition to this new column with the unique id's makes it easy to attach the originals to the unique ones we have to create in order to do the reconciliation. 
+- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() Keeping the original column in addition to this new column with the unique id's makes it easy to keep attached the originals to the unique ones we have to create in order to do the reconciliation. 
 
 *These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
 
