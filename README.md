@@ -57,7 +57,7 @@ This did not add any more matching terms to the reconciliation....Most of the la
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Still need to do the following:
 - Create a script for the following:
-    - adds suffix “_rand(5)” to all the values in a column and creates a new column with this new value (currently this process is being done in excel)
+    - create and add a new column to the nalt_altlabel.csv everytime the NALT gets updated so it can be utilized during this reconciliation process. A new column Nalt_URI_withsuffix needs to be created based off the NALT_URI column values + the suffix “_rand(5)” (currently being done in excel but should be done using pandas) 
     - combine outputs of matched terms into one data frame and save as a csv? than can reconcile that to the original proposed list using openRefine - the unmatched list are the terms not in the NALT
     - remove duplicates from a list of proposed SME labels (actually this can be done using openRefine) - this needs to be part of the pre reconciliation process
 - Create a pre procesing and post processing folder and put anything I need in there
