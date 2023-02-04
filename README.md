@@ -61,3 +61,4 @@ Still need to do the following:
 - Go through everything and make it so anyone can run anything from there computer
 - Remove uneccesary comments
 - Put comments / everything specific to the beta prepared labels reconciliation in a seperate folder labeled "example"
+- The fact that labels will score 100% but still be unmatched due to very minor things such as case sensitivity is kind of weird....maybe flawed...I dk....I cant see a reason why this would be good...is this unique to the "csv-reconcile" repo? 
