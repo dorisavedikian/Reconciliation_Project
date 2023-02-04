@@ -10,7 +10,7 @@ After splitting it into two files...
 
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() 
 
-*These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
+### *These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Post reconciliation process in openRefine:
 - Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it wont get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
