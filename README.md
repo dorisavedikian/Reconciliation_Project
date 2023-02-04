@@ -13,7 +13,7 @@ After splitting it into two files...
 *These counts include the mistakenly "unmatched" terms during reconciliation.
 
 Post reconciliation process in openRefine:
-- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....also, the Nalt_URI will not be there in the excel file for the unmatched so I had to look those up. Additionaly, sometimes these differences is what differentiaties between the alt label and pref label...kinda interesting....for example, (alt label = lethal concentration-50 and pref label = lethal concentration 50) 
+- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....also, the Nalt_URI will of course not be there in the excel file for the unmatched so I had to look those up manually. Additionaly, sometimes these differences is what differentiaties between the alt label and pref label.......for example, (alt label = lethal concentration-50 and pref label = lethal concentration 50) - SO, it may be concisdered "unmatched" when reconciled to the alt labels / pref labels spererately but, it was actually already matched to a pref label or a alt label....
 
 I combined the outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
@@ -43,8 +43,8 @@ This process actually revealed one more match to the NALT that wasnt in the beta
 
 ![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
 
-I double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]() once again and found more "unmatched" terms that are in fact in the nalt as a alt label albeit, a minor difference....see below....
+I double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]()....
+![Screen Shot 2023-02-03 at 8 53 31 PM](https://user-images.githubusercontent.com/109038399/216750367-fa9a3e91-47f1-49de-8f33-0e30ccc65a25.png)
 
-![Screen Shot 2023-02-03 at 8 53 31 PM](https://user-images.githubusercontent.com/109038399/216749408-69d61a03-82ef-4ef1-92f8-c17b65d20f56.png)
+This did not add any more matching terms to the reconciliation....
 
-This added 12 more closely matching terms to the reconciliation....
