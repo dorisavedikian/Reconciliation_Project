@@ -41,13 +41,13 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels.t
 
 The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column of the unmatched excel output to see if there are still any perfect scores.....
 
-This process actually revealed one more match to the NALT that wasnt in the beta prepared reconcile reference I have.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....so, its already a nalt term.
+This process actually revealed one more match to the NALT that wasnt in the beta prepared reconcile reference I have.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....so, its already a nalt term with a minor difference. 
 
 ![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
 
-I also double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]()....
+I also double checked the unmatched terms in openRefine after doing the reconciliation against the [nalt_altlabels_withsuffix.tsv]()....
 
 ![Screen Shot 2023-02-03 at 9 27 18 PM](https://user-images.githubusercontent.com/109038399/216750459-10875ad8-7819-46e9-b256-c5ee493f2ba8.png)
 
-This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but score 100% were already reconciled to nalt pref labels...
+This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but scored 100% were already reconciled to nalt pref labels...
 
