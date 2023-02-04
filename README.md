@@ -56,9 +56,10 @@ Still need to do the following:
 - Create a script for the following:
     - adds suffix “_rand(5)” to all the values in a column and creates a new column with this new value (currently this process is being done in excel)
     - combine outputs of matched terms into one data frame and save as a csv?
-    - remove duplicates from a list of proposed SME labels
+    - remove duplicates from a list of proposed SME labels (actually this can be done using openRefine) - this needs to be part of the pre reconciliation process
+- Create a pre procesing and post processing folder and put anything I need in there
 - Add links to this read me
 - Go through everything and make it so anyone can run anything from there computer
-- Remove uneccesary comments
 - Put comments / everything specific to the beta prepared labels reconciliation in a seperate folder labeled "example"
 - The fact that labels will score 100% but still be unmatched due to very minor things such as case sensitivity is kind of weird....maybe flawed...I dk....I cant see a reason why this would be good...is this unique to the "csv-reconcile" repo? 
+- Remove uneccesary comments
