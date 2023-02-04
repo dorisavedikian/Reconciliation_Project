@@ -51,3 +51,11 @@ I also double checked the unmatched terms in openRefine after doing the reconcil
 
 This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but scored 100% were already reconciled to nalt pref labels...
 
+
+Still need to do the following:
+- Create a script for the following:
+    - adds suffix “_rand(5)” to all the values in a column and creates a new column with this new value (currently this process is being done in excel)
+    - combine outputs of matches terms into one data frame
+    - remove duplicates from a list of proposed SME labels
+- Add links to this read me
+- Go through everything and make it so anyone can run anything from there computer
