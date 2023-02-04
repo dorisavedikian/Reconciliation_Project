@@ -12,7 +12,10 @@ After splitting it into two files...
 
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked. X beta prepared labels were reconciled to [X pref labels in the nalt.](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_2alt_labels_withsuffix_only.xlsx)
 
-I aggregated the outputs and there are [744 nalt terms in the beta prepared csv]() - which is 4 less than what was expected per the beta prepared reconciliation I have as a [reference](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_4_reference.csv).
+Post reconciliation in openRefine checks:
+- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason did not get matched, it will score 100% despite it not being "picked up" by the openRefine application
+
+I combined these outputs into one csv [744 nalt terms in the beta prepared csv]() - which is 4 less than what was expected per the beta prepared reconciliation I have as a [reference](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_4_reference.csv).
 
 The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv]() that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
 
