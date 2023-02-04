@@ -1,23 +1,33 @@
-# Reconciliation_Project
-
-# UNDER CONSTRUCTION - WILL BE COMPLETE 2/4
+# Reconciliation_Project - UNDER CONSTRUCTION 
 
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
-Original [nalt_label.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/nalt_labels_DATA/nalt_labels.tsv) file has 145,755 rows
+Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service will not work. So, I used a derivative of @tombakers [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook to keep the nalt pref labels and nalt alt labels seperate so that I could try and run the reconciliation on each file seperately.
 
 After splitting it into two files...
 
-- nalt_preflabel_only.tsv had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [739 reconciled nalt terms]()
+- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in X* beta prepared labels reconciled to [X pref labels in the nalt]()
 
-- nalt_altlabel_only_withsuffix.tsv had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked. 5 beta prepared labels were reconciled to [5 pref labels in the nalt.](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_2alt_labels_withsuffix_only.xlsx)
+- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() 
+
+*These counts include the mistakenly "unmatched" terms during reconciliation.
+
+Post reconciliation process in openRefine:
+- Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....check to see if these were already matched as a pref label or a alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
+
+I combined the final outputs using this script [here]() into one csv [Y nalt terms in the beta prepared csv]() exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
 
-I aggregated the outputs and there are [744 nalt terms in the beta prepared csv]() - which is 4 less than what was expected per the beta prepared reconciliation I have as a [reference](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_4_reference.csv).
 
-The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/nalt_labels_DATA/nalt_preflabels_only.tsv) that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
 
-- Ames test (Ames is uppercase in the NALT but lower case in the beta prepared data - 100% matching score in openRefine)
+
+
+
+Notes:
+
+The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below......
+
+- Ames test* (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - New Zealand White rabbit (rabbit is lowercase in the NALT but uppercase in the beta prepared data - also, 100% matching score in openRefine)
 - Limulus amebocyte lysate assay (Limulus is uppercase in the NALT but lowercase in the beta prepared data - also 100% matching score in openRefine)
@@ -27,8 +37,17 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels_o
 ![Screen Shot 2023-02-03 at 3 33 36 PM](https://user-images.githubusercontent.com/109038399/216730053-2bb478f4-9f81-4d3a-8fcc-66b8225d9dcb.png)
 ![Screen Shot 2023-02-03 at 3 35 40 PM](https://user-images.githubusercontent.com/109038399/216730175-f6add698-a535-4e1e-befd-c66cb52c149f.png)
 
+*The beta prepared data also had 'Ames test' - which did get reconciled to the nalt_preflabel.tsv, the one in the above snip did not get reconciled to the nalt pref label because it is all lowercase
 
-The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column to see if there are still any perfect scores.....ie, first exclude unmatched data and create a Nalt_URI and Score column for the matched datas and than exclude matched data and create a Nalt_URI2 and Score2 column... 
+The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column of the unmatched excel output to see if there are still any perfect scores.....
 
-This process actually revealed one more match to the NALT.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma....
-(rerun rec against nalt pref labels and get a snip of this one)
+This process actually revealed one more match to the NALT that wasnt in the beta prepared reconcile reference I have.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....
+
+![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
+
+I also double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]()....
+
+![Screen Shot 2023-02-03 at 9 27 18 PM](https://user-images.githubusercontent.com/109038399/216750459-10875ad8-7819-46e9-b256-c5ee493f2ba8.png)
+
+This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but score 100% were already reconciled to nalt pref labels...
+
