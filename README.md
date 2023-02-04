@@ -52,7 +52,7 @@ I also double checked the unmatched terms in openRefine after doing the reconcil
 
 ![Screen Shot 2023-02-03 at 9 27 18 PM](https://user-images.githubusercontent.com/109038399/216750459-10875ad8-7819-46e9-b256-c5ee493f2ba8.png)
 
-This did not add any more matching terms to the reconciliation....Most of the labels that were "unamtched" but scored 100% were already reconciled to nalt pref labels...
+This did not add any more matching terms to the reconciliation....Most of the labels that were "unmatched" but scored 100% were already reconciled to nalt pref labels...however, this process revealed duplicates which could happen and should be removed prior to reconciling....
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Still need to do the following:
