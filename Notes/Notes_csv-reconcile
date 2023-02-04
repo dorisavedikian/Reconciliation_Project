@@ -17,25 +17,15 @@ csv-reconcile serve
 # cell.recon.match.id
 # cell.recon.best.score                                   
 deactivate   
-# So, nalt_preflabels_only.tsv worked because by nature of the SKOS model it has no duplicates...
-# but, nalt_altlabels.tsv still has duplicate URI's
+# So, nalt_preflabels_only.tsv worked because it has no duplicates but, nalt_altlabels_only.tsv still has duplicate URI's
 
-# So, I added a suffix to the duplicate URI's so I could do the reconciliation and it worked, I was able to reconcile the 
-# beta prepared labels to all of the pref labels albeit, with some extra work pre and post reconciliation.....
-# all together there are 5 pref labels in the Nalt that matched to 5 proposed labels in the beta prepared demo data
+# So, I added a suffix to the duplicate URI's in the nalt_altlabels_only.tsv so I could do the reconciliation and it worked, 
+# I was able to reconcile the beta prepared labels to all of the pref labels albeit, with some extra work pre and post 
+# reconciliation....
 
-# Reconciling the nalt_preflabels_only.tsv to the beta prepared.tsv resulted in 739 labels that were reconciled to the NALT
-
-# Based on the reconciliation reference I have for the beta prepared labels,...the expectation is that 748 terms would reconcile to the nalt
-# The 4 terms that should be reconciling to the preflabels.tsv but arent are; 
-# Breeding and Genetic Improvement
-# New Zealand White rabbit 
-# Limulus amebocyte lysate assay
-# ames test
-
-
-
-
+# There is also so post reconciliation work to be done in openRefine as well when the reconiliation is done against the
+# nalt_preflabels_only.tsv....apparently openRefine will score matches as 100% perfect matches but due to minor punctuation / case 
+# differences it will not be properly matched when we use the cell.recon.match.id syntax?
 
 
 
