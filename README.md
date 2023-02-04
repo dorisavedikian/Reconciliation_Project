@@ -6,9 +6,11 @@ Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labe
 
 After splitting it into two files...
 
-- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [X reconciled nalt terms]()
+- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in X* beta prepared labels reconciled to [X pref labels in the nalt]()
 
-- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X beta prepared labels were reconciled to [X alt labels in the nalt.]()
+- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() 
+
+*These counts include the mistakenly "unmatched" terms during reconciliation.
 
 Post reconciliation process in openRefine:
 - Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% but it wont get "matched"....also, the Nalt_URI will not be there in the excel file for the unmatched so I had to look those up. Additionaly, sometimes these differences is what differentiaties between the alt label and pref label...kinda interesting....for example, (alt label = lethal concentration-50 and pref label = lethal concentration 50) 
