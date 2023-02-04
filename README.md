@@ -17,7 +17,11 @@ Post reconciliation process in openRefine:
 
 I combined the outputs using this script [here]() into one csv [749 nalt terms in the beta prepared csv]() - which is 1 more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
-The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv]() that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
+
+
+Notes:
+
+The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below...hmmmm....
 
 - Ames test (Ames is uppercase in the NALT but lower case in the beta prepared data - 100% matching score in openRefine)
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
@@ -32,5 +36,5 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels_o
 
 The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column to see if there are still any perfect scores.....ie, first exclude unmatched data and create a Nalt_URI and Score column for the matched datas and than exclude matched data and create a Nalt_URI2 and Score2 column... 
 
-This process actually revealed one more match to the NALT.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma....
+This process actually revealed one more match to the NALT.....the term: National Center for the Replacement, Refinement and Reduction of Animals in Research...the beta prepared demo data had this in there but no comma after replacement....
 (rerun rec against nalt pref labels and get a snip of this one)
