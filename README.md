@@ -4,18 +4,17 @@
 
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
-Original [nalt_label.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/nalt_labels_DATA/nalt_labels.tsv) file has 145,755 rows
+Original [nalt_label_ALL.tsv]() file has 145,755 rows
 
 After splitting it into two files...
 
-- nalt_preflabel_only.tsv had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [739 reconciled nalt terms]()
+- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in [744 reconciled nalt terms]()
 
-- nalt_altlabel_only_withsuffix.tsv had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked. 5 beta prepared labels were reconciled to [5 pref labels in the nalt.](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_2alt_labels_withsuffix_only.xlsx)
-
+- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI so they would be considered unique and I ran the service and it worked. X beta prepared labels were reconciled to [X pref labels in the nalt.](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_2alt_labels_withsuffix_only.xlsx)
 
 I aggregated the outputs and there are [744 nalt terms in the beta prepared csv]() - which is 4 less than what was expected per the beta prepared reconciliation I have as a [reference](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/Reconciled/beta%20prepared_reconciled_4_reference.csv).
 
-The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/nalt_labels_DATA/nalt_preflabels_only.tsv) that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
+The following beta prepared labels are in the NALT and in the [nalt_preflabels_only.tsv]() that I used to do the reconciliation...But, they are not being reconciled...hmmmm...
 
 - Ames test (Ames is uppercase in the NALT but lower case in the beta prepared data - 100% matching score in openRefine)
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
