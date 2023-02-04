@@ -62,9 +62,9 @@ Still need to do the following:
     - create and add a new column to the nalt_altlabel.csv everytime the NALT gets updated so it can be utilized during this reconciliation process. A new column Nalt_URI_withsuffix needs to be created based off the NALT_URI column values + the suffix “_rand(5)” (currently being done in excel but should be done using pandas) 
     - combine outputs of matched terms into one data frame and save as a csv? than can reconcile that to the original proposed list using openRefine - the unmatched list are the terms not in the NALT
     - remove duplicates from a list of proposed SME labels (actually this can be done using openRefine) - this needs to be part of the pre reconciliation process
-- Create a pre procesing and post processing folder and put anything I need in there
-- Add links to this read me
+- Create pre procesing and post processing folders and put anything one would need for each process inside?
 - Go through everything and make it so anyone can run anything from there computer
+- Add links to this read me
 - Put comments / everything specific to the beta prepared labels reconciliation in a seperate folder labeled "example"
 - The fact that labels will score 100% but still be unmatched due to very minor things such as case sensitivity is kind of weird....maybe flawed.....I dk....I cant see a reason why this would be good...is this unique to the "csv-reconcile" repo?
 - Remove uneccesary comments
