@@ -30,4 +30,5 @@ The following beta prepared labels are in the NALT and in the [nalt_preflabels_o
 
 The way to work around this is too export the reconciliation seperately (unmatched & matched) than filter the Score column to see if there are still any perfect scores.....ie, first exclude unmatched data and create a Nalt_URI and Score column for the matched datas and than exclude matched data and create a Nalt_URI2 and Score2 column... 
 
-This process actually revealed one more match to the NALT.....the term: National Center for the Replacement Refinement and Reduction of Animals in Research
+This process actually revealed one more match to the NALT.....the term: National Center for the Replacement Refinement and Reduction of Animals in Research...
+(rerun rec and get a snip of this)
