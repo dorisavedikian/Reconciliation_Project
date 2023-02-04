@@ -44,7 +44,8 @@ This process actually revealed one more match to the NALT that wasnt in the beta
 ![Screen Shot 2023-02-03 at 7 52 28 PM](https://user-images.githubusercontent.com/109038399/216746575-cb9aeb70-1662-459f-a7cc-9d1139050a8a.png)
 
 I double checked the unmatched terms in openRefine after doing the reconciliation to the [nalt_altlabels_withsuffix.tsv]()....
-![Screen Shot 2023-02-03 at 8 53 31 PM](https://user-images.githubusercontent.com/109038399/216750367-fa9a3e91-47f1-49de-8f33-0e30ccc65a25.png)
+
+![Screen Shot 2023-02-03 at 9 27 18 PM](https://user-images.githubusercontent.com/109038399/216750459-10875ad8-7819-46e9-b256-c5ee493f2ba8.png)
 
 This did not add any more matching terms to the reconciliation....
 
