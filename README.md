@@ -10,10 +10,10 @@ After splitting it into two files...
 
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X beta prepared labels were reconciled to [X pref labels in the nalt.]()
 
-###Post reconciliation process in openRefine:
+Post reconciliation process in openRefine:
 - Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma or case difference) did not get matched, it will score 100% despite it not being "picked up" by the openRefine application
 
-I combined the outputs using this script [here]() into one csv [749 nalt terms in the beta prepared csv]() - which is 1 more than what was expected per the beta prepared reconciliation I have as a [reference]().
+I combined the outputs using this script [here]() into one csv [749 nalt terms in the beta prepared csv]() exist - which is 1 more than what was expected per the beta prepared reconciliation I have as a [reference]().
 
 
 
@@ -25,7 +25,7 @@ Notes:
 
 The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below...hmmmm....
 
-- Ames test (Ames is uppercase in the NALT but lower case in the beta prepared data - 100% matching score in openRefine)
+- Ames test (Ames is uppercase in the NALT but there is a upper and lower case version in the beta prepared data - 100% matching score in openRefine)
 - Breeding and Genetic Improvement (<- as seen in the NALT, however, beta prepared data has it all lowercase - 100% matching score in openRefine)
 - New Zealand White rabbit (rabbit is lowercase in the NALT but uppercase in the beta prepared data - also, 100% matching score in openRefine)
 - Limulus amebocyte lysate assay (Limulus is uppercase in the NALT but lowercase in the beta prepared data - also 100% matching score in openRefine)
