@@ -64,4 +64,5 @@ Still need to do the following:
     - combine outputs of matched terms into one data frame and save as a csv? than can reconcile that to the original proposed list using openRefine - the unmatched list are the terms not in the NALT
 - Add links to this read me
 - Put comments / everything specific to the beta prepared labels reconciliation in a seperate folder labeled "example"
+- Do another example list
 
