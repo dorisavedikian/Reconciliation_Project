@@ -63,6 +63,6 @@ Still need to do the following:
     - create and add a new column to the nalt_altlabel.csv everytime the NALT gets updated so it can be utilized during this reconciliation process. A new column Nalt_URI_withsuffix needs to be created based off the NALT_URI column values + the suffix “_rand(5)” 
     - combine outputs of matched terms into one data frame and save as a csv? than can reconcile that to the original proposed list using openRefine - the unmatched list are the terms not in the NALT
 - Add links to this read me
-- Put comments / everything specific to the beta prepared labels reconciliation in a seperate folder labeled "example"
+- Put comments / everything specific to the beta prepared labels reconciliation process + a txt file to explain everything in a seperate folder labeled "example" 
 - Do another example list
 
