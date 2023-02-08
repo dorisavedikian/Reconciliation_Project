@@ -7,7 +7,7 @@ Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labe
 So, everytime the NALT gets updated the following two files should be created using a derivative of Tom Baker's [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook so that the pref labels and alt labels are seperated - otherwise CSV-Reconcile reconciliation service will not work.  
 After splitting it into two files...
 
-- [nalt_preflabel.tsv]() currently has 76,932 rows -----> Should always equal the # of concepts unless there is a concept that isnt in english
+- [nalt_preflabel.tsv]() currently has 76,932 rows -----> Should always equal the # of concepts unless there is a concept that doesnt have an english preflabel
 
 - [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> Must add a suffix to each URI using this script [here]() so the duplicate URI's will be considered unique 
 
