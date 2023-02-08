@@ -12,7 +12,7 @@ source .venv/bin/activate
 csv-reconcile init examples/AWIC/nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
 csv-reconcile serve 
 
-csv-reconcile init examples/AWIC/nalt_labels_data/nalt_altlabels_withsuffix.tsv NALT_URI_Numbered Label
+csv-reconcile init examples/AWIC/nalt_labels_data/nalt_altlabels_withhsuffix.tsv NALT_URI_suffix Label
 csv-reconcile serve
 # Service: http://127.0.0.1:5000/reconcile  
 # Start reconciling. Select "Reconcile against no particular type"
