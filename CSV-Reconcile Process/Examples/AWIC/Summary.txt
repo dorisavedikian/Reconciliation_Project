@@ -1,6 +1,4 @@
-# UNDER CONSTRUCTION...the process works but still couple more things to do...see bottom for list...
-
-## This  file  is  to  document  the  reconciliation  process for the AWIC proposed labels. 
+This  file  is  to  document  the  reconciliation  process for the AWIC proposed labels. 
 
 Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service will not work. So, I used a derivative of Tom Baker's [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook to keep the nalt pref labels and nalt alt labels seperate so that I could try and run the reconciliation on each file seperately.
 
@@ -12,7 +10,6 @@ After splitting it into two files...
 
 *These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
 Notes:
 
 The following beta prepared labels are in the NALT and in the [nalt_preflabels.tsv]() that I used to do the reconciliation...But, they are not being reconciled due to minor differences....see examples below......
