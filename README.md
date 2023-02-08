@@ -1,5 +1,3 @@
-# UNDER CONSTRUCTION...the process works but still couple more things to do...see bottom for list...
-
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
 Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service will not work. 
