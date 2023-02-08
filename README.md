@@ -1,8 +1,9 @@
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
-Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service will not work. 
+Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service (CSV-Reconcile) will not work. 
 
-So, everytime the NALT gets updated the following two files should be created using a derivative of Tom Baker's [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook so that the pref labels and alt labels are seperated - otherwise CSV-Reconcile reconciliation service will not work.  
+So, everytime the NALT gets updated the following two files should be created using a derivative of Tom Baker's [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook so that the pref labels and alt labels are seperated 
+
 After splitting it into two files...
 
 - [nalt_preflabel.tsv]() currently has 76,932 rows -----> Should always equal the # of concepts unless there is a concept that doesnt have an english preflabel
