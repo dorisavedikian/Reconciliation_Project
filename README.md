@@ -2,15 +2,15 @@
 
 ## This  Repo  is  to  document  the  reconciliation  process. 
 
-Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service will not work. So, I used a derivative of Tom Baker's [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook to keep the nalt pref labels and nalt alt labels seperate so that I could try and run the reconciliation on each file seperately.
+Original [nalt_label_ALL.tsv]() file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service will not work. 
 
+So, everytime the NALT gets updated the following two files should be created using a derivative of Tom Baker's [nalt_label.ipynb](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels.ipynb) jupiter notebook so that the pref labels and alt labels are seperated - otherwise CSV-Reconcile reconciliation service will not work.  
 After splitting it into two files...
 
-- [nalt_preflabel.tsv]() had 76,932 rows ---> reconciled to beta prepared.tsv resulted in X* beta prepared labels reconciled to [X pref labels in the nalt]()
+- [nalt_preflabel.tsv]() currently has 76,932 rows -----> Should always equal the # of concepts unless there is a concept that isnt in english
 
-- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> I added a suffix to each URI using this script [here]() so they would be considered unique and I ran the service and it worked. X* beta prepared labels were reconciled to [X alt labels in the nalt.]() 
+- [nalt_altlabel_withsuffix.tsv]() had 68,823 rows ----> Must add a suffix to each URI using this script [here]() so the duplicate URI's will be considered unique 
 
-*These counts include the "unmatched" terms that actualy scored 100% during reconciliation but are "unmatched" because of minor differences such as punctation / case sensitivity.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Pre Reconciliation Process:
@@ -19,7 +19,7 @@ Pre Reconciliation Process:
 
 Post reconciliation process:
 - In openRefine: Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it might not get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
-- I combined all the matching labels using this script [here]() into one csv. There are [Y nalt terms in the beta prepared csv]() that exist - which is Z more than what was expected per the beta prepared reconciliation I have as a [reference]().
+- Combine all the matching labels using this script [here]() into one csv. Also create a tsv of this so that it can be compared to the original list using openRefine. 
 - Reconcile the original list of proposed labels to the list of matched labels using openRefine - the unmatched list are the terms not in the NALT
 
 
