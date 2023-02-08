@@ -3,26 +3,21 @@
 # Note: files need to be *.tsv files  
 
 # Installation directions:
-
-# 1. Clone the repository, cd into repo and do everything from the repo directory
-
+# 1. Clone the repository, cd into CSV-Reconcile Process and do everything from there
 # 2. Create virtual environment, install csv-reconcile and initialize database
-
 python3 -m venv .venv                                         
 .venv/bin/pip install csv-reconcile                            
 source .venv/bin/activate                                            
 
-csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
+csv-reconcile init examples/AWIC/nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
 csv-reconcile serve 
 
-csv-reconcile init nalt_labels_data/nalt_altlabels_withsuffix.tsv NALT_URI_Numbered Label
+csv-reconcile init examples/AWIC/nalt_labels_data/nalt_altlabels_withsuffix.tsv NALT_URI_Numbered Label
 csv-reconcile serve
-
 # Service: http://127.0.0.1:5000/reconcile  
-# Start reconciling * Select "Reconcile against no particular type"
+# Start reconciling. Select "Reconcile against no particular type"
 # cell.recon.match.id
 # cell.recon.best.score                                   
-
 deactivate   
 
 # So, nalt_preflabels_only.tsv worked because it has no duplicates but, nalt_altlabels.tsv still has duplicate URI's
