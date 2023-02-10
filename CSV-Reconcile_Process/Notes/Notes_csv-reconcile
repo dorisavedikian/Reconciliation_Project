@@ -39,3 +39,23 @@ source venv/bin/activate
 
 
 
+
+schema space
+http://www.w3.org/2004/02/skos/core#altLabel
+
+????
+MANIFEST = {
+  "identifierSpace": "https://lod.nal.usda.gov/nalt/",
+  "schemaSpace": "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "view": {"url":"https://lod.nal.usda.gov/nalt/{{id}}"},
+  "name": "My reconciliation service"
+}
+
+
+# can add to manifest in _init_.py to preview URI 
+"preview": {
+   "url": "http://localhost:5000/preview/{{id}}",
+   "width": 400,
+   "height": 300
+}
+# tried this but got an error 
