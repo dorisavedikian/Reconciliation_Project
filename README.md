@@ -21,10 +21,3 @@ Post reconciliation process:
 - Combine all the matching labels using this script [here](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/Python_scripts/combine_matchedlabels.py) into one database and save as a tsv and csv. 
 - Reconcile the original list of proposed labels to the list of matched labels using openRefine - the unmatched list are the terms not in the NALT
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
-Still need to do the following:
-- Create a script for the following: 
-    - combine outputs of matched terms into one data frame and save as a tsv
-- Add links to this read me
-- Update summary.ipynb explaining everything re the AWIC labels
-
