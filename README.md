@@ -13,7 +13,7 @@ After splitting it into two files...
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Pre Reconciliation Process:
-- Remove duplicates from the SME prepared labels list using openRefine
+- [Remove duplicates from the SME prepared labels list using openRefine](https://guides.library.illinois.edu/openrefine/duplicates)
 - Create tsv of original SME labels list for post reconciliation process
 
 Post reconciliation process:
