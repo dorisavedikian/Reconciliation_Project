@@ -2,10 +2,13 @@
 '''
  - I used Tom Bakers nalt_label.ipynb to create this script
  - This collects all the altlabel values and URI's only and saves it as a tsv file
- - Also, adds a column "NALT_URI_suffix" to the nalt_altlabel.tsv - this new column is the column 'Nalt_URI' with a suffix added 
+ - Also, adds the following two columns;
+    - A column "NALT_URI_suffix" to the nalt_altlabel.tsv - this new column is the column 'Nalt_URI' with a suffix added 
+    - A column "alt_label" with the constant value of 'skos:altLabel'
 '''
 
 import csv
+import string
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -35,6 +38,7 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
 # Add column "Nalt_URI_suffix" to data frame so URI's are unique
 # df = pd.read_table("..../Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels.tsv")
 df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels.tsv")
+df['alt_label'] = str('skos:altLabel')
 df['randomint'] = np.random.randint(1000, 5000, size=len(df))
 for Nalt_URI in df:
     df['Nalt_URI_suffix'] = df.loc[:,'NALT_URI'].astype(str) + '_' + df.loc[:,'randomint'].astype(str)
