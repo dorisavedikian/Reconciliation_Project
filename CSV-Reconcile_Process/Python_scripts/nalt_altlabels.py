@@ -37,9 +37,11 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
     
 # Add column "Nalt_URI_suffix" to data frame
 df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/nalt_labels_DATA/nalt_altlabels.tsv")
-df['randomint'] = np.random.randint(1, 10000, size=len(df))
+df['randomint'] = np.random.randint(1000, 5000, size=len(df))
 for Nalt_URI in df:
     df['Nalt_URI_suffix'] = df.loc[:,'NALT_URI'].astype(str) + '_' + df.loc[:,'randomint'].astype(str)
 df1 = df.drop(["randomint"], axis=1)
 df1.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t")
 
+# Removes last 5 characters of the 'Nalt_URI_suffix' column - do this after reconciliation
+# df['Nalt_URI_suffix'] = df['Nalt_URI_suffix'].str[:-5]
