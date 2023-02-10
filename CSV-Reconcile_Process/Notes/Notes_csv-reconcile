@@ -3,16 +3,16 @@
 # Note: files need to be *.tsv files  
 
 # Installation directions:
-# 1. Clone the repository, cd into CSV-Reconcile Process and do everything from there
+# 1. Clone the repository, cd into CSV-Reconcile_Process folder and do everything from there
 # 2. Create virtual environment, install csv-reconcile and initialize database
 python3 -m venv .venv                                         
 .venv/bin/pip install csv-reconcile                            
 source .venv/bin/activate                                            
 
-csv-reconcile init examples/AWIC/nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
+csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label
 csv-reconcile serve 
 
-csv-reconcile init examples/AWIC/nalt_labels_data/nalt_altlabels_suffix.tsv NALT_URI_suffix Label
+csv-reconcile init nalt_labels_data/nalt_altlabels_suffix.tsv NALT_URI_suffix Label
 csv-reconcile serve
 # Service: http://127.0.0.1:5000/reconcile  
 # Start reconciling. Select "Reconcile against no particular type"

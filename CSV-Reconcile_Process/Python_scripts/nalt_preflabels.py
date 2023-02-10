@@ -1,15 +1,14 @@
 
 '''
  - I used Tom Bakers nalt_label.ipynb to create this 
- - This collects all the preflabel values and URI's instead of the altlabels and the preflabels values and URI's
-'''
+ - This collects all the preflabel values and URI's 
+ '''
 
 import csv
 from pathlib import Path
 from rdflib import Graph, SKOS
 
-#labels_directory = "CSV-Reconcile_Process/Examples/AWIC/nalt_labels_DATA"
-labels_directory = "CSV-Reconcile_Process/Examples/AWIC/nalt_labels_DATA"
+labels_directory = "CSV-Reconcile_Process/nalt_labels_DATA"
 Path(labels_directory).mkdir(exist_ok=True)
 labels_csvfile = Path(labels_directory) / "nalt_preflabels.tsv"
 
