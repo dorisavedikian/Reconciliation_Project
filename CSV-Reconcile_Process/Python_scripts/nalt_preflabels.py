@@ -34,7 +34,7 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
         labelwriter.writerow(line)
 
 df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_preflabels.tsv")
-df['pref_label'] = str('skos:prefLabel')
+df['Type'] = str('skos:prefLabel')
 df.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_preflabels.tsv", sep="\t")
 # df.to_csv(".../Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t")
 
