@@ -6,9 +6,9 @@ So, everytime the NALT gets updated the following two files should be created us
 
 After splitting it into two files...
 
-- [nalt_preflabel.tsv]() currently has 76,932 rows -----> Should always equal the # of concepts unless there is a concept that doesnt have an english preflabel
+- [nalt_preflabel.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/nalt_labels_DATA/nalt_preflabels.tsv) currently has 76,932 rows -----> Should always equal the # of concepts unless there is a concept that doesnt have an english preflabel
 
-- [nalt_altlabel_suffix.tsv]() had 68,823 rows ----> An additional column "Nalt_URI_suffix" was added so the duplicate URI's will be considered unique 
+- [nalt_altlabel_suffix.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv) had 68,823 rows ----> An additional column "Nalt_URI_suffix" was added so the duplicate URI's will be considered unique 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
