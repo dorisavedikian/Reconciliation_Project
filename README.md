@@ -23,8 +23,7 @@ Post reconciliation process:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Still need to do the following:
-- Create a script for the following:
-    - A new column Nalt_URI_suffix needs to be created based off the NALT_URI column values + the suffix “_rand(5)” 
+- Create a script for the following: 
     - combine outputs of matched terms into one data frame and save as a tsv, than reconcile that to the original proposed list using openRefine - the unmatched list are the terms not in the NALT
 - Add links to this read me
 - Update summary.ipynb explaining everything re the AWIC labels
