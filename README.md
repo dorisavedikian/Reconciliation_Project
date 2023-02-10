@@ -14,7 +14,7 @@ After splitting it into two files...
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Pre Reconciliation Process:
 - [Remove duplicates from the SME prepared labels list using openRefine](https://guides.library.illinois.edu/openrefine/duplicates)
-- Create tsv of original SME labels list for post reconciliation process
+- [Create tsv of original SME labels list for post reconciliation process](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/Python_scripts/CSV_2_TSV.py)
 
 Post reconciliation process:
 - In openRefine: Double check the unmatched labels by seperating the reconciliation into two seperate excel files / outputs ("matched" and "unmatched"), than use excel to filter the Score column in the "unmatched" version....If there are perfect matches that for some minor reason (ie, a comma, dash or case difference) did not get matched, it will score 100% but it might not get "matched"....check to see if these were already matched as a pref label / alt label....sometimes these subtle differences is what differentiaties between the alt label and pref label....
