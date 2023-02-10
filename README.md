@@ -1,4 +1,4 @@
-## This  Repo  is  to  document  the  reconciliation  process. 
+## This  repo  is  to  document  the  reconciliation  process. 
 
 Original [nalt_label.tsv](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels/nalt_labels.tsv) file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service (CSV-Reconcile) will not work. 
 
