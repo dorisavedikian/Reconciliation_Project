@@ -1,0 +1,909 @@
+Level	Label	1	2	3	4	5	6	7	8
+1	animals	animals							
+2	germ-free animals		germ-free animals						
+2	specific pathogen-free animals		specific pathogen-free animals						
+2	gumnivores		gumnivores						
+2	sentinel animals		sentinel animals						
+2	captive animals		captive animals						
+2	dead animals		dead animals						
+2	domestic animals		domestic animals						
+2	downer animals		downer animals						
+2	farmed animal species		farmed animal species						
+2	fistulated animals		fistulated animals						
+2	mutants		mutants						
+3	knockout mutants			knockout mutants					
+2	food animals		food animals						
+2	fur-bearing animals		fur-bearing animals						
+2	game animals		game animals						
+2	germ-free animals		germ-free animals						
+2	invertebrates		invertebrates						
+3	macroinvertebrates			macroinvertebrates					
+3	soil invertebrates			soil invertebrates					
+4	earthworms				earthworms				
+2	laboratory animals		laboratory animals						
+3	amphibians			amphibians					
+4	caecilians				caecilians				
+4	frogs				frogs				
+5	bullfrogs					bullfrogs			
+5	Xenopus laevis					Xenopus laevis			
+4	salamanders and newts				salamanders and newts				
+5	Ambystoma mexicanum					Ambystoma mexicanum			
+3	birds			birds					
+4	chickens				chickens				
+4	Taeniopygia guttata				Taeniopygia guttata				
+3	fish			fish					
+4	Cichlidae				Cichlidae				
+4	Danio rerio				Danio rerio				
+4	Oncorhynchus mykiss				Oncorhynchus mykiss				
+3	invertebrates			invertebrates					
+4	arthropods				arthropods				
+5	Merostomata					Merostomata			
+4	Cephalopoda				Cephalopoda				
+5	Octopoda					Octopoda			
+6	Octopodidae						Octopodidae		
+7	Octopus (Octopodidae)							Octopus (Octopodidae)	
+5	Sepiida					Sepiida			
+6	Sepiidae						Sepiidae		
+4	Hydra				Hydra				
+3	mammals			mammals					
+4	cats				cats				
+4	dogs				dogs				
+4	ferrets				ferrets				
+4	nonhuman primates				nonhuman primates				
+5	Atelidae					Atelidae			
+6	Atelinae						Atelinae		
+7	Ateles							Ateles	
+8	Ateles geoffroyi								Ateles geoffroyi
+6	Alouatta						Alouatta		
+5	Pitheciidae					Pitheciidae			
+6	Callicebus						Callicebus		
+7	Callicebus cupreus							Callicebus cupreus	
+5	Cebidae					Cebidae			
+6	Aotus (Cebidae)						Aotus (Cebidae)		
+7	Aotus nancymaae							Aotus nancymaae	
+6	Callimico						Callimico		
+7	Callimico goeldii							Callimico goeldii	
+6	Callithrix						Callithrix		
+8	Callithrix aurita								Callithrix aurita
+8	Callithrix flaviceps								Callithrix flaviceps
+8	Callithrix geoffroyi								Callithrix geoffroyi
+8	Callithrix jacchus								Callithrix jacchus
+8	Callithrix penicillata								Callithrix penicillata
+6	Callitrichidae						Callitrichidae		
+7	Leontopithecus							Leontopithecus	
+8	Leontopithecus caissara								Leontopithecus caissara
+8	Leontopithecus chrysomelas								Leontopithecus chrysomelas
+8	Leontopithecus chrysopygus								Leontopithecus chrysopygus
+8	Leontopithecus rosalia								Leontopithecus rosalia
+7	Saguinus							Saguinus	
+8	Saguinus bicolor								Saguinus bicolor
+8	Saguinus geoffroyi								Saguinus geoffroyi
+8	Saguinus leucopus								Saguinus leucopus
+8	Saguinus oedipus								Saguinus oedipus
+6	Cebus						Cebus		
+7	Cebus apella							Cebus apella	
+7	Cebus capucinus							Cebus capucinus	
+6	Saimiri						Saimiri		
+7	Saimiri sciureus							Saimiri sciureus	
+7	Saimiri oerstedii							Saimiri oerstedii	
+7	Sapajus xanthosternos							Sapajus xanthosternos	
+5	Cercopithecidae					Cercopithecidae			
+6	Cercocebus						Cercocebus		
+7	Cercocebus atys							Cercocebus atys	
+8	Cercocebus atys lunulatus								Cercocebus atys lunulatus
+7	Cercocebus galeritus							Cercocebus galeritus	
+6	Cercopithecus						Cercopithecus		
+7	Cercopithecus aethiops							Cercopithecus aethiops	
+6	Chlorocebus						Chlorocebus		
+7	Chlorocebus pygerythrus							Chlorocebus pygerythrus	
+6	Macaca						Macaca		
+7	Macaca arctoides							Macaca arctoides	
+7	Macaca fascicularis							Macaca fascicularis	
+7	Macaca fuscata							Macaca fuscata	
+7	Macaca mulatta							Macaca mulatta	
+7	Macaca nemestrina							Macaca nemestrina	
+7	Macaca radiata							Macaca radiata	
+7	Macaca silenus							Macaca silenus	
+6	Papio						Papio		
+7	Papio anubis							Papio anubis	
+7	Papio cynocephalus							Papio cynocephalus	
+7	Papio hamadryas							Papio hamadryas	
+7	Papio papio							Papio papio	
+7	Papio ursinus							Papio ursinus	
+5	Galagidae					Galagidae			
+6	Galago						Galago		
+7	Galago granti							Galago granti	
+5	Hominidae					Hominidae			
+6	Gorilla						Gorilla		
+7	Gorilla beringei							Gorilla beringei	
+7	Gorilla gorilla							Gorilla gorilla	
+5	Hylobatidae					Hylobatidae			
+6	Hylobates						Hylobates		
+7	Hylobates lar							Hylobates lar	
+5	Lemuridae					Lemuridae			
+6	Eulemur						Eulemur		
+7	Eulemur fulvus							Eulemur fulvus	
+6	Lemur						Lemur		
+7	Lemur catta							Lemur catta	
+6	Prolemur						Prolemur		
+7	Prolemur simus							Prolemur simus	
+6	Varecia						Varecia		
+5	Lepilemuridae					Lepilemuridae			
+6	Lepilemur						Lepilemur		
+7	Lepilemur edwardsi							Lepilemur edwardsi	
+5	Lorisidae					Lorisidae			
+6	Nycticebus						Nycticebus		
+5	Pongidae					Pongidae			
+6	Pan (Pongidae)						Pan (Pongidae)		
+7	Pan troglodytes							Pan troglodytes	
+7	Pan paniscus							Pan paniscus	
+6	Pongo						Pongo		
+7	Pongo abelii							Pongo abelii	
+7	Pongo pygmaeus							Pongo pygmaeus	
+5	Tarsiidae					Tarsiidae			
+4	rodents				rodents				
+5	Chinchilla lanigera					Chinchilla lanigera			
+5	Cynomys					Cynomys			
+5	gerbils					gerbils			
+5	guinea pigs					guinea pigs			
+5	hamsters					hamsters			
+5	Marmota monax					Marmota monax			
+5	mice					mice			
+5	mole rats					mole rats			
+5	Peromyscus					Peromyscus			
+5	rats					rats			
+4	rabbits				rabbits				
+5	Dutch Belted (rabbit breed)					Dutch Belted (rabbit breed)			
+5	New Zealand White Rabbit					New Zealand White Rabbit			
+4	ungulates				ungulates				
+5	horses					horses			
+5	ruminants					ruminants			
+6	cattle						cattle		
+7	beef cattle							beef cattle	
+7	bulls							bulls	
+7	bullocks							bullocks	
+7	calves							calves	
+7	cows							cows	
+7	dairy cattle							dairy cattle	
+7	heifers							heifers	
+7	oxen							oxen	
+7	steers							steers	
+6	small ruminants						small ruminants		
+7	alpacas							alpacas	
+7	deer							deer	
+7	goats							goats	
+7	llamas							llamas	
+7	sheep							sheep	
+7	vicunas							vicunas	
+5	swine					swine			
+6	miniature swine						miniature swine		
+3	reptiles			reptiles					
+4	turtles				turtles				
+5	Trachemys scripta scripta					Trachemys scripta scripta			
+2	racing animals		racing animals						
+2	semi-domestic animals		semi-domestic animals						
+2	stray animals		stray animals						
+2	transgenic animals		transgenic animals						
+2	wild animals		wild animals						
+2	wool producing animals		wool producing animals						
+2	working animals		working animals						
+2	vertebrates		vertebrates						
+2	young animals		young animals						
+2	zoo animals		zoo animals						
+2	insects		insects						
+1	animal behavior	animal behavior							
+2	environmental enrichment		environmental enrichment						
+3	manmade structures			manmade structures					
+3	plants (botany)			plants (botany)					
+2	animal exercise wheel		animal exercise wheel						
+2	Boomer balls		Boomer balls						
+2	feeding enrichment		feeding enrichment						
+3	food puzzles			food puzzles					
+3	forage boxes			forage boxes					
+3	gum feeding			gum feeding					
+2	manipulanda		manipulanda						
+2	mirrors		mirrors						
+3	looky lous			looky lous					
+2	nestlets		nestlets						
+2	music enrichment		music enrichment						
+2	occupational enrichment		occupational enrichment						
+2	physical enrichment		physical enrichment						
+2	sensory enrichment		sensory enrichment						
+2	social enrichment		social enrichment						
+2	toys		toys						
+2	abnormal behavior		abnormal behavior						
+3	stereotyped behavior			stereotyped behavior					
+2	activity budget		activity budget						
+2	animal preferences		animal preferences						
+2	displacement activities		displacement activities						
+2	feeding behavior		feeding behavior						
+3	browsing			browsing					
+3	foraging			foraging					
+3	gumivory			gumivory					
+3	herbaceous browse			herbaceous browse					
+2	maternal behavior		maternal behavior						
+2	nesting behavior		nesting behavior						
+2	social behavior		social behavior						
+3	social dominance			social dominance					
+3	social facilitation			social facilitation					
+2	training (animals)		training (animals)						
+3	operant conditioning			operant conditioning					
+3	avoidance conditioning			avoidance conditioning					
+3	positive reinforcement training			positive reinforcement training					
+1	animal science	animal science							
+2	zoology		zoology						
+2	medical sciences		medical sciences						
+3	pharmacology			pharmacology					
+4	drug development				drug development				
+4	medicinal properties				medicinal properties				
+2	anthropology		anthropology						
+3	human-animal relations			human-animal relations					
+4	human-wildlife relations				human-wildlife relations				
+2	agricultural sciences		agricultural sciences						
+2	anatomy and morphology		anatomy and morphology						
+2	medical and veterinary education		medical and veterinary education						
+3	live tissue training			live tissue training					
+3	cadaver			cadaver					
+3	pulsatile fresh frozen human cadaver circulation model (PHCM)			pulsatile fresh frozen human cadaver circulation model (PHCM)					
+3	manikins			manikins					
+4	high fidelity simulation training				high fidelity simulation training				
+3	plastination			plastination					
+3	simulation training			simulation training					
+3	Simulation-based trauma education (SBTE)			Simulation-based trauma education (SBTE)					
+3	visual aids			visual aids					
+4	audiovisuals				audiovisuals				
+1	animal husbandry	animal husbandry							
+2	facilities management		facilities management						
+2	standard operating procedures		standard operating procedures						
+2	animal handling		animal handling						
+3	capture of animals			capture of animals					
+2	cup handling		cup handling						
+2	rat tickling		rat tickling						
+2	restraint of animals		restraint of animals						
+3	laboratory animal jackets			laboratory animal jackets					
+3	laboratory animal undershirts			laboratory animal undershirts					
+3	pole and collar technique			pole and collar technique					
+3	primate chairs			primate chairs					
+2	tunnel handling		tunnel handling						
+2	animal housing		animal housing						
+3	shade			shade					
+3	environmental control systems			environmental control systems					
+4	humidifiers				humidifiers				
+4	lighting				lighting				
+5	incandescent lighting					incandescent lighting			
+5	fluorescent lighting					fluorescent lighting			
+5	lamps					lamps			
+6	incandescent lamps						incandescent lamps		
+6	fluorescent lamps						fluorescent lamps		
+5	supplementary lighting					supplementary lighting			
+4	ventilation systems				ventilation systems				
+3	animal pens			animal pens					
+3	animal rooms			animal rooms					
+3	animal space requirements			animal space requirements					
+3	cages			cages					
+4	cage design				cage design				
+4	cage size				cage size				
+4	enriched cages				enriched cages				
+4	individually ventilated cages (IVC)				individually ventilated cages (IVC)				
+4	standard cages				standard cages				
+3	group housing			group housing					
+4	pair housing				pair housing				
+4	single-sex housing				single-sex housing				
+5	bachelor groups					bachelor groups			
+3	litter (bedding)			litter (bedding)					
+3	nest boxes			nest boxes					
+3	perches (animal housing)			perches (animal housing)					
+3	stocking rate			stocking rate					
+2	animal nutrition		animal nutrition						
+3	feed intake			feed intake					
+3	feeding methods			feeding methods					
+4	feed deprivation				feed deprivation				
+4	parenteral feeding				parenteral feeding				
+2	animal breeding		animal breeding						
+2	animal feeding		animal feeding						
+3	feeding methods			feeding methods					
+2	animal care		animal care						
+1	laboratory animal procedures	laboratory animal procedures							
+2	cryopreservation		cryopreservation						
+2	animal identification		animal identification						
+3	animal branding			animal branding					
+3	bird banding			bird banding					
+3	ear notching			ear notching					
+3	ear tags			ear tags					
+3	radio frequency identification			radio frequency identification					
+3	tattooing			tattooing					
+3	toe clipping			toe clipping					
+2	blood transfusion		blood transfusion						
+2	minimally-invasive methods		minimally-invasive methods						
+2	noninvasive procedures		noninvasive procedures						
+2	beak trimming		beak trimming						
+2	blood sampling		blood sampling						
+3	facial vein puncture			facial vein puncture					
+3	femoral vein puncture			femoral vein puncture					
+3	gingival vein puncture			gingival vein puncture					
+3	saphenous vein puncture			saphenous vein puncture					
+3	sublingual vein puncture			sublingual vein puncture					
+3	submandibular vein puncture			submandibular vein puncture					
+3	tail vein puncture			tail vein puncture					
+2	buccal swabs		buccal swabs						
+2	cerebrospinal fluid collection		cerebrospinal fluid collection						
+2	fecal collection		fecal collection						
+2	hoof trimming		hoof trimming						
+2	substance administration		substance administration						
+3	oral gavage			oral gavage					
+3	syringe feeding			syringe feeding					
+2	urine collection		urine collection						
+2	animal tissues		animal tissues						
+3	skin (animal)			skin (animal)					
+2	genotyping		genotyping						
+2	drug injection		drug injection						
+3	intracranial injection			intracranial injection					
+3	intramuscular injection			intramuscular injection					
+3	intraocular injection			intraocular injection					
+4	intravitreal injection				intravitreal injection				
+3	intraperitoneal injection			intraperitoneal injection					
+3	intravenous injection			intravenous injection					
+3	intrathecal injection			intrathecal injection					
+3	intraventricular injection			intraventricular injection					
+3	subcutaneous injection			subcutaneous injection					
+3	fluid therapy			fluid therapy					
+4	oral rehydration				oral rehydration				
+4	hydration gels				hydration gels				
+4	intravenous fluid therapy				intravenous fluid therapy				
+2	diagnostic techniques		diagnostic techniques						
+3	breath tests			breath tests					
+3	clinical examination			clinical examination					
+3	endoscopy			endoscopy					
+3	exercise test			exercise test					
+3	fecal examination			fecal examination					
+3	glucose tolerance tests			glucose tolerance tests					
+3	hearing tests			hearing tests					
+3	hematologic tests			hematologic tests					
+3	insulin tolerance tests			insulin tolerance tests					
+3	kidney function tests			kidney function tests					
+3	liver function tests			liver function tests					
+3	medical history			medical history					
+3	necropsy			necropsy					
+3	pain tests			pain tests					
+3	plethysmography			plethysmography					
+3	psychological tests			psychological tests					
+3	thyroid function tests			thyroid function tests					
+3	urinalysis			urinalysis					
+3	xenodiagnosis			xenodiagnosis					
+3	biomedical imaging			biomedical imaging					
+4	magnetic resonance imaging				magnetic resonance imaging				
+4	tomography				tomography				
+5	computed tomography					computed tomography			
+6	micro-computed tomography						micro-computed tomography		
+5	positron-emission tomography					positron-emission tomography			
+3	genetic techniques and protocols			genetic techniques and protocols					
+4	polymerase chain reaction				polymerase chain reaction				
+2	animal tests		animal tests						
+3	acute toxic class method			acute toxic class method					
+3	behavioral despair tests			behavioral despair tests					
+3	forced swimming test			forced swimming test					
+3	tail suspension test			tail suspension test					
+3	California mastitis test			California mastitis test					
+3	elevated plus-maze test			elevated plus-maze test					
+3	eye irritation tests			eye irritation tests					
+3	fixed dose procedure			fixed dose procedure					
+3	formalin test			formalin test					
+3	hot plate test			hot plate test					
+3	lethal concentration 50			lethal concentration 50					
+3	local lymph node assay			local lymph node assay					
+3	tail flick test			tail flick test					
+3	local lymph node assay			local lymph node assay					
+3	skin tests			skin tests					
+4	patch test				patch test				
+4	skin prick tests				skin prick tests				
+2	medical treatment		medical treatment						
+2	surgery		surgery						
+3	postoperative care			postoperative care					
+4	nutritional support				nutritional support				
+5	nutritional gels					nutritional gels			
+3	perioperative care			perioperative care					
+3	preoperative care			preoperative care					
+2	wound treatment		wound treatment						
+3	debridement			debridement					
+2	euthanasia		euthanasia						
+2	asphyxia		asphyxia						
+2	cervical dislocation		cervical dislocation						
+2	decapitation		decapitation						
+2	euthanasia injection		euthanasia injection						
+2	equipment		equipment						
+3	laboratory equipment			laboratory equipment					
+3	medical and veterinary equipment			medical and veterinary equipment					
+4	bandages				bandages				
+4	cannulas				cannulas				
+4	casts (medical)				casts (medical)				
+4	catheters				catheters				
+5	central venous catheters					central venous catheters			
+4	contraceptives				contraceptives				
+4	dental equipment				dental equipment				
+4	diagnostic equipment				diagnostic equipment				
+5	endoscopes					endoscopes			
+4	medical equipment				medical equipment				
+4	prostheses				prostheses				
+4	splints (medical)				splints (medical)				
+4	surgical equipment				surgical equipment				
+5	scalpels					scalpels			
+5	sutures					sutures			
+4	syringes				syringes				
+4	tourniquets				tourniquets				
+4	veterinary equipment				veterinary equipment				
+5	gavage needles					gavage needles			
+5	metabolic cages					metabolic cages			
+2	body fluids		body fluids						
+3	digesta			digesta					
+3	cerebrospinal fluid			cerebrospinal fluid					
+3	intracellular fluids			intracellular fluids					
+3	blood			blood					
+4	blood cells				blood cells				
+4	blood plasma				blood plasma				
+3	lymph			lymph					
+3	amniotic fluid			amniotic fluid					
+3	follicular fluid			follicular fluid					
+3	synovial fluid			synovial fluid					
+3	oviductal fluids			oviductal fluids					
+3	body water			body water					
+3	extracellular fluids			extracellular fluids					
+2	bodily secretions and exudates		bodily secretions and exudates						
+3	bile			bile					
+3	colostrum			colostrum					
+3	defensive secretions			defensive secretions					
+3	excreta			excreta					
+4	feces				feces				
+4	urine				urine				
+3	gastric juice			gastric juice					
+3	intestinal secretions			intestinal secretions					
+3	maternal milk			maternal milk					
+3	mucus			mucus					
+3	pancreatic juice			pancreatic juice					
+3	saliva			saliva					
+3	sebum			sebum					
+3	semen			semen					
+3	sweat			sweat					
+3	tears			tears					
+3	venoms			venoms					
+1	animal research	animal research							
+2	replacement methods		replacement methods						
+3	computer simulation			computer simulation					
+3	artificial skin			artificial skin					
+3	mathematical models			mathematical models					
+4	nonlinear models				nonlinear models				
+3	nonanimal tests			nonanimal tests					
+4	human tissue use				human tissue use				
+4	cell lines				cell lines				
+5	bone marrow cells					bone marrow cells			
+5	keratinocytes					keratinocytes			
+5	kidney cells					kidney cells			
+5	hepatocytes					hepatocytes			
+5	stem cells					stem cells			
+5	embryonic stem cells					embryonic stem cells			
+4	assays				assays				
+5	immunoassays					immunoassays			
+6	enzyme immunoassays						enzyme immunoassays		
+7	enzyme-linked immunosorbent assay							enzyme-linked immunosorbent assay	
+3	microfluidic technology			microfluidic technology					
+4	lab-on-a-chip technology				lab-on-a-chip technology				
+3	in vitro culture			in vitro culture					
+4	axenic culture				axenic culture				
+4	explants				explants				
+4	solid state culture				solid state culture				
+4	organ-on-a-chip				organ-on-a-chip				
+4	mixed culture				mixed culture				
+4	cell culture				cell culture				
+5	cell suspension culture					cell suspension culture			
+5	cloning (cells)					cloning (cells)			
+5	coculture					coculture			
+5	protoplast fusion					protoplast fusion			
+4	monoxenic culture				monoxenic culture				
+4	embryo culture				embryo culture				
+4	culture filtrates				culture filtrates				
+4	tissue culture				tissue culture				
+5	anther culture					anther culture			
+5	ovule culture					ovule culture			
+5	organ culture					organ culture			
+6	organoids						organoids		
+7	brain spheres							brain spheres	
+4	enrichment culture				enrichment culture				
+4	callus culture				callus culture				
+2	antibodies		antibodies						
+3	antibody production			antibody production					
+4	hybridomas				hybridomas				
+4	ascites				ascites				
+3	antibody formation			antibody formation					
+3	animal-friendly affinity reagents			animal-friendly affinity reagents					
+2	toxicology		toxicology						
+3	New Approach methodologies			New Approach methodologies					
+3	risk analysis			risk analysis					
+3	risk assessment			risk assessment					
+3	aquatic organisms			aquatic organisms					
+4	algae				algae				
+3	nanotoxicology			nanotoxicology					
+3	systems toxicology			systems toxicology					
+3	pharmacodynamics			pharmacodynamics					
+3	pharmacokinetics			pharmacokinetics					
+3	computational toxicology			computational toxicology					
+4	quantitative structure-activity relationships				quantitative structure-activity relationships				
+4	read-across method				read-across method				
+4	up-and-down procedure (UDP)				up-and-down procedure (UDP)				
+3	in chemico tests			in chemico tests					
+3	ecotoxicology			ecotoxicology					
+4	indicator species				indicator species				
+3	toxic substances			toxic substances					
+4	pesticides				pesticides				
+4	toxins				toxins				
+5	microbial toxins					microbial toxins			
+6	endotoxins						endotoxins		
+7	delta-endotoxins							delta-endotoxins	
+3	toxicity			toxicity					
+4	acute toxicity				acute toxicity				
+5	acute dermal toxicity					acute dermal toxicity			
+5	acute inhalation toxicity					acute inhalation toxicity			
+5	acute oral toxicity					acute oral toxicity			
+5	eye irritation					eye irritation			
+5	skin irritation					skin irritation			
+4	carcinogenicity				carcinogenicity				
+4	chronic toxicity				chronic toxicity				
+4	cytotoxicity				cytotoxicity				
+4	developmental toxicity				developmental toxicity				
+5	embryotoxicity					embryotoxicity			
+5	teratogenicity					teratogenicity			
+4	drug toxicity				drug toxicity				
+4	embryotoxicity				embryotoxicity				
+4	genotoxicity				genotoxicity				
+4	hepatotoxicity				hepatotoxicity				
+4	irritant properties				irritant properties				
+4	lethal dose				lethal dose				
+5	lethal dose 50					lethal dose 50			
+4	mutagenicity				mutagenicity				
+4	nephrotoxicity				nephrotoxicity				
+4	neurotoxicity				neurotoxicity				
+4	no observed adverse effect level				no observed adverse effect level				
+4	phototoxicity				phototoxicity				
+4	subacute toxicity				subacute toxicity				
+4	subchronic toxicity				subchronic toxicity				
+4	sublethal effects				sublethal effects				
+4	teratogenicity				teratogenicity				
+3	toxicity testing			toxicity testing					
+4	acute toxic class method				acute toxic class method				
+4	bovine corneal opacity and permeability (eye irritation test)				bovine corneal opacity and permeability (eye irritation test)				
+4	cytosensor microphysiometer assay				cytosensor microphysiometer assay				
+4	direct peptide reactivity assay				direct peptide reactivity assay				
+4	epiocular assay				epiocular assay				
+4	fish embryo test				fish embryo test				
+4	genomic allergen rapid detection				genomic allergen rapid detection				
+4	genotoxicity tests				genotoxicity tests				
+5	ames test					ames test			
+5	comet assay					comet assay			
+5	micronucleus tests					micronucleus tests			
+5	yeast mutagenicity assay					yeast mutagenicity assay			
+4	human cell line activation test (h-CLAT)				human cell line activation test (h-CLAT)				
+4	inhibitory concentration 50				inhibitory concentration 50				
+4	In Vitro 3T3 NRU Phototoxicity Test				In Vitro 3T3 NRU Phototoxicity Test				
+4	KeratinoSens				KeratinoSens				
+4	lethal concentration 50				lethal concentration 50				
+4	maximum tolerated concentration				maximum tolerated concentration				
+4	maximum tolerated dose				maximum tolerated dose				
+4	neutral red uptake assay (NRU)				neutral red uptake assay (NRU)				
+4	no observed adverse effect level				no observed adverse effect level				
+4	receptor binding assay				receptor binding assay				
+4	RTgill-W1 cell line assay				RTgill-W1 cell line assay				
+4	short time exposure (STE) in vitro test method				short time exposure (STE) in vitro test method				
+4	toxin-binding inhibition test (ToBI)				toxin-binding inhibition test (ToBI)				
+4	Transcutaneous Electrical Resistance Test (TER)				Transcutaneous Electrical Resistance Test (TER)				
+4	Vitrigel-Eye Irritancy Test (EIT)				Vitrigel-Eye Irritancy Test (EIT)				
+3	risk analysis			risk analysis					
+4	risk assessment				risk assessment				
+3	products and commodities			products and commodities					
+4	household products				household products				
+4	nonfood products				nonfood products				
+5	cosmetics					cosmetics			
+5	personal care products					personal care products			
+4	product quality				product quality				
+5	product testing					product testing			
+6	cosmetics testing						cosmetics testing		
+6	safety testing						safety testing		
+3	biocompatibility testing			biocompatibility testing					
+4	Hen Egg Test–Chorionallantoic Membrane (HET-CAM)				Hen Egg Test–Chorionallantoic Membrane (HET-CAM)				
+3	bioassays			bioassays					
+4	Ames test				Ames test				
+4	luminescent assay				luminescent assay				
+5	bioluminescence assay					bioluminescence assay			
+4	cell transformation assay				cell transformation assay				
+4	frog embryo teratogenesis assay-Xenopus				frog embryo teratogenesis assay-Xenopus				
+4	limulus amebocyte lysate assay				limulus amebocyte lysate assay				
+4	viability assays				viability assays				
+5	fungal viability assay					fungal viability assay			
+3	biological models			biological models					
+4	adverse outcome pathways				adverse outcome pathways				
+4	Integrated Approaches to Testing and Assessment				Integrated Approaches to Testing and Assessment				
+4	physiology based pharmacodynamic models (PBPD)				physiology based pharmacodynamic models (PBPD)				
+4	physiologically based pharmacokinetic models (PBPK)				physiologically based pharmacokinetic models (PBPK)				
+4	QIVIVE (quantitative in vitro to in vivo extrapolation)				QIVIVE (quantitative in vitro to in vivo extrapolation)				
+3	mathematical models			mathematical models					
+4	artificial neural networks				artificial neural networks				
+2	experimental design		experimental design						
+3	sample size			sample size					
+3	ARRIVE guidelines			ARRIVE guidelines					
+3	PREPARE guidelines			PREPARE guidelines					
+3	pilot studies			pilot studies					
+3	mathematics and statistics			mathematics and statistics					
+4	analytical methods				analytical methods				
+4	prediction				prediction				
+4	statistical methods				statistical methods				
+5	Bayesian theory					Bayesian theory			
+5	biostatistics					biostatistics			
+6	sensometrics						sensometrics		
+5	descriptive statistics					descriptive statistics			
+5	estimation					estimation			
+5	frequency distribution					frequency distribution			
+5	normal values					normal values			
+5	probability					probability			
+5	statistical analysis					statistical analysis			
+5	stochastic processes					stochastic processes			
+5	variance					variance			
+4	diseases and disorders (animal and human)				diseases and disorders (animal and human)				
+5	noninfectious diseases					noninfectious diseases			
+6	metabolic diseases						metabolic diseases		
+7	dehydration (animal physiology)							dehydration (animal physiology)	
+4	animal comfort				animal comfort				
+5	artificial habitats					artificial habitats			
+6	ambient temperature						ambient temperature		
+4	animal control services				animal control services				
+4	animal well-being				animal well-being				
+4	animal anatomy				animal anatomy				
+4	animal physiology				animal physiology				
+5	animal reproduction					animal reproduction			
+6	litters (young animals)						litters (young animals)		
+2	biological properties and phenomena		biological properties and phenomena						
+3	body temperature			body temperature					
+4	body temperature changes				body temperature changes				
+5	fever					fever			
+5	hypothermia					hypothermia			
+2	breeding and genetic improvement		breeding and genetic improvement						
+2	chemical substances		chemical substances						
+3	biochemical compounds			biochemical compounds					
+4	biomarkers				biomarkers				
+4	enzymes				enzymes				
+2	genetic lines		genetic lines						
+3	cell lines			cell lines					
+4	animal cell lines				animal cell lines				
+5	human cell lines					human cell lines			
+3	line differences			line differences					
+2	strains		strains						
+3	strain differences			strain differences					
+2	humane endpoints		humane endpoints						
+3	adoption programs			adoption programs					
+3	euthanasia			euthanasia					
+2	animal experimentation		animal experimentation						
+3	vivisection			vivisection					
+2	animal models		animal models						
+3	animal disease models			animal disease models					
+3	preclinical animal models			preclinical animal models					
+2	laboratory experimentation		laboratory experimentation						
+2	protocols		protocols						
+2	validation of alternative methods		validation of alternative methods						
+2	translational medical research		translational medical research						
+3	translational value			translational value					
+2	telemetry		telemetry						
+3	biotelemetry			biotelemetry					
+2	ethics		ethics						
+3	bioethics			bioethics					
+3	whistleblowing			whistleblowing					
+1	animal welfare	animal welfare							
+2	pain management		pain management						
+3	analgesic effect			analgesic effect					
+3	sedation			sedation					
+3	welfare assessment			welfare assessment					
+3	grimace scale			grimace scale					
+3	nest scoring (welfare)			nest scoring (welfare)					
+3	Time to Incorporate to Nest Test (TINT)			Time to Incorporate to Nest Test (TINT)					
+3	animal stress			animal stress					
+3	distress			distress					
+3	anesthesia			anesthesia					
+4	anesthesia reversal				anesthesia reversal				
+4	depth of anesthesia				depth of anesthesia				
+4	electronarcosis				electronarcosis				
+4	preanesthetic medication				preanesthetic medication				
+3	analgesia			analgesia					
+3	signs and symptoms (animals and humans)			signs and symptoms (animals and humans)					
+4	apnea				apnea				
+4	asphyxia				asphyxia				
+4	bloat				bloat				
+4	cankers (animals)				cankers (animals)				
+4	cough				cough				
+4	dysoxia				dysoxia				
+4	dyspnea				dyspnea				
+4	edema				edema				
+4	flatulence				flatulence				
+4	halitosis				halitosis				
+4	hypercapnia				hypercapnia				
+4	hyperoxia				hyperoxia				
+4	hypoxia				hypoxia				
+4	indigestion				indigestion				
+4	jaundice				jaundice				
+4	lameness				lameness				
+4	leg weakness				leg weakness				
+4	lesions (animal)				lesions (animal)				
+4	nausea				nausea				
+4	pain				pain				
+4	paralysis				paralysis				
+4	paresis				paresis				
+4	pruritis				pruritis				
+4	seizures				seizures				
+4	steatorrhea				steatorrhea				
+4	swelling (physiological)				swelling (physiological)				
+4	unconsciousness				unconsciousness				
+4	vomiting				vomiting				
+3	analgesics			analgesics					
+4	acetaminophen				acetaminophen				
+4	aspirin				aspirin				
+4	amantadine				amantadine				
+4	buprenorphine				buprenorphine				
+4	butorphanol				butorphanol				
+4	dexmedetomidine				dexmedetomidine				
+4	etorphine				etorphine				
+4	flunixin				flunixin				
+4	gabapentin				gabapentin				
+4	hydromorphone				hydromorphone				
+4	maropitant				maropitant				
+4	medetomidine				medetomidine				
+4	meloxicam				meloxicam				
+4	methadone				methadone				
+4	morphine				morphine				
+4	robenacoxib				robenacoxib				
+4	romifidine				romifidine				
+4	tramadol				tramadol				
+4	xylazine				xylazine				
+3	anesthetics			anesthetics					
+4	alfaxalone				alfaxalone				
+4	diazepam				diazepam				
+4	droperidol				droperidol				
+4	fentanyl				fentanyl				
+4	general anesthetics				general anesthetics				
+4	inhalation anesthetics				inhalation anesthetics				
+5	chloroform					chloroform			
+5	desflurane					desflurane			
+5	ethyl ether					ethyl ether			
+5	halothane					halothane			
+5	isoflurane					isoflurane			
+5	methoxyflurane					methoxyflurane			
+5	sevoflurane					sevoflurane			
+5	trichloroethane					trichloroethane			
+4	ketamine				ketamine				
+4	local anesthetics				local anesthetics				
+5	lidocaine					lidocaine			
+4	propofol				propofol				
+4	tiletamine				tiletamine				
+4	urethane				urethane				
+3	anti-inflammatory agents			anti-inflammatory agents					
+4	acetaminophen				acetaminophen				
+4	aspirin				aspirin				
+4	betamethasone				betamethasone				
+4	dexamethasone				dexamethasone				
+4	flunixin				flunixin				
+4	meloxicam				meloxicam				
+4	methylprednisolone				methylprednisolone				
+4	nonsteroidal anti-inflammatory agents				nonsteroidal anti-inflammatory agents				
+5	carprofen					carprofen			
+5	deracoxib					deracoxib			
+5	etodolac					etodolac			
+5	firocoxib					firocoxib			
+5	grapiprant					grapiprant			
+5	ibuprofen					ibuprofen			
+5	ketoprofen					ketoprofen			
+5	Mavacoxib					Mavacoxib			
+5	meclofenamic acid					meclofenamic acid			
+5	metamizole					metamizole			
+5	Naproxen					Naproxen			
+5	phenylbutazone					phenylbutazone			
+5	Robenacoxib					Robenacoxib			
+5	Tepoxalin					Tepoxalin			
+5	tolfenamic acid					tolfenamic acid			
+5	vedaprofen					vedaprofen			
+4	prednisolone				prednisolone				
+4	prednisone				prednisone				
+4	triamcinolone				triamcinolone				
+3	cholinergic agents			cholinergic agents					
+3	narcotics			narcotics					
+3	psychotropic agents			psychotropic agents					
+4	tranquilizers				tranquilizers				
+3	reversal agents			reversal agents					
+3	sedatives			sedatives					
+4	acepromazine				acepromazine				
+4	azaperone				azaperone				
+4	diazepam				diazepam				
+4	detomidine				detomidine				
+4	dexmedetomidine				dexmedetomidine				
+4	etorphine				etorphine				
+4	midazolam				midazolam				
+4	pentobarbital				pentobarbital				
+4	xylazine				xylazine				
+4	zolazepam				zolazepam				
+2	thermal stress		thermal stress						
+3	cold stress			cold stress					
+3	heat stress			heat stress					
+2	water stress		water stress						
+2	water deprivation		water deprivation						
+2	morbidity		morbidity						
+3	mortality			mortality					
+2	animal use alternatives		animal use alternatives						
+3	animal use reduction			animal use reduction					
+3	animal use replacement			animal use replacement					
+3	   absolute replacement			   absolute replacement					
+3	   relative replacement			   relative replacement					
+3	animal use refinement			animal use refinement					
+2	animal welfare laws and regulations		animal welfare laws and regulations						
+3	laws and regulations			laws and regulations					
+4	Animal Welfare Act				Animal Welfare Act				
+4	code of practice				code of practice				
+4	Horse Protection Act				Horse Protection Act				
+4	Humane Methods of Slaughter Act				Humane Methods of Slaughter Act				
+4	standards and grades				standards and grades				
+4	Twenty-Eight Hour Law				Twenty-Eight Hour Law				
+3	government and administration			government and administration					
+4	issues and policy				issues and policy				
+3	animal law			animal law					
+4	veterinary law				veterinary law				
+2	animal welfare professionals		animal welfare professionals						
+3	animal control officers			animal control officers					
+3	animal breeders			animal breeders					
+3	animal dealers			animal dealers					
+3	health care workers			health care workers					
+4	physicians				physicians				
+5	surgeons					surgeons			
+4	veterinarians				veterinarians				
+3	inspectors (laboratory animal facilities)			inspectors (laboratory animal facilities)					
+3	librarians			librarians					
+3	scientists			scientists					
+3	regulators (animal welfare)			regulators (animal welfare)					
+3	researchers			researchers					
+4	principal investigators				principal investigators				
+3	students			students					
+4	graduate students				graduate students				
+3	technicians			technicians					
+4	animal technicians				animal technicians				
+2	animal welfare stakeholders		animal welfare stakeholders						
+3	animal rescue shelters			animal rescue shelters					
+3	organizations			organizations					
+4	Animal Welfare Institute				Animal Welfare Institute				
+4	Association for Assessment and Accreditation of Laboratory Animal Care International				Association for Assessment and Accreditation of Laboratory Animal Care International				
+4	Fund for the Replacement of Animals in Medical Experiments				Fund for the Replacement of Animals in Medical Experiments				
+4	Institute for Laboratory Animal Research				Institute for Laboratory Animal Research				
+4	Interagency Coordinating Committee on the Validation of Alternative Methods				Interagency Coordinating Committee on the Validation of Alternative Methods				
+4	National Center for the Replacement Refinement and Reduction of Animals in Research				National Center for the Replacement Refinement and Reduction of Animals in Research				
+4	Norecopa				Norecopa				
+4	North American 3Rs Collaborative				North American 3Rs Collaborative				
+4	Universities Federation for Animal Welfare				Universities Federation for Animal Welfare				
+4	committees				committees				
+5	advisory committees					advisory committees			
+5	Institutional Animal Care and Use Committee					Institutional Animal Care and Use Committee			
+4	research institutions				research institutions				
+5	Center for Alternatives to Animal Testing					Center for Alternatives to Animal Testing			
+3	government agencies			government agencies					
+4	Department of Health and Human Services				Department of Health and Human Services				
+5	National Center for Health Statistics					National Center for Health Statistics			
+5	Food and Drug Administration					Food and Drug Administration			
+6	Center for Food Safety and Applied Nutrition						Center for Food Safety and Applied Nutrition		
+5	Centers for Disease Control and Prevention					Centers for Disease Control and Prevention			
+5	National Institutes of Health					National Institutes of Health			
+6	National Library of Medicine						National Library of Medicine		
+7	National Center for Biotechnology Information							National Center for Biotechnology Information	
+6	National Institute of Environmental Health Sciences						National Institute of Environmental Health Sciences		
+6	Office of Laboratory Animal Welfare						Office of Laboratory Animal Welfare		
+4	Interagency Coordinating Committee on the Validation of Alternative Methods				Interagency Coordinating Committee on the Validation of Alternative Methods				
+4	National Aeronautics and Space Administration				National Aeronautics and Space Administration				
+4	National Science Foundation				National Science Foundation				
+4	United States Agency for International Development				United States Agency for International Development				
+4	USDA				USDA				
+5	U.S. Fish and Wildlife Service					U.S. Fish and Wildlife Service			
+5	Animal and Plant Health Inspection Service					Animal and Plant Health Inspection Service			
+6	National Animal Health Monitoring System						National Animal Health Monitoring System		
+5	Agricultural Research Service					Agricultural Research Service			
+6	USDA National Agricultural Library						USDA National Agricultural Library		
+5	Food Safety and Inspection Service					Food Safety and Inspection Service			
+5	USDA Forest Service					USDA Forest Service			
+4	U.S. Department of the Interior				U.S. Department of the Interior				
+4	United States Environmental Protection Agency				United States Environmental Protection Agency				
