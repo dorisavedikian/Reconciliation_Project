@@ -40,10 +40,9 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
 df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels.tsv")
 df['randomint'] = np.random.randint(1000, 5000, size=len(df))
 for Nalt_URI in df:
-    df['Nalt_URI_suffix'] = df.loc[:,'NALT_URI'].astype(str) + '_' + df.loc[:,'randomint'].astype(str)
+    df['Nalt_URI_suffix'] = df.loc[:,'NALT_URI'].astype(str) + '~' + df.loc[:,'randomint'].astype(str)
 df1 = df.drop(["randomint"], axis=1)
-df1.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t")
-# df1.to_csv(".../Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t")
+df2 = df1.drop(["NALT_URI"], axis=1)
+df2.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t")
+# df2.to_csv(".../Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t")
 
-# Remove last 5 char 
-# df['Nalt_URI_suffix'] = df['Nalt_URI_suffix'].str[:-5]

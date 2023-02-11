@@ -7,7 +7,8 @@
 import pandas as pd
 import csv
 
-cvsDataframe = pd.read_csv('.../nalt_labels.csv')           
-resultExcelFile = pd.ExcelWriter('.../nalt_labels.xlsx')    
+#cvsDataframe = pd.read_csv('.../nalt_labels.csv') 
+cvsDataframe = pd.read_table('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv')          
+resultExcelFile = pd.ExcelWriter('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.xlsx')    
 cvsDataframe.to_excel(resultExcelFile, index=False)     
 resultExcelFile.save()    

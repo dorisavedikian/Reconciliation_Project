@@ -8,10 +8,9 @@
 python3 -m venv .venv                                         
 .venv/bin/pip install csv-reconcile                            
 source .venv/bin/activate                                            
-
+# you cant have more than 2 columns in these tsv files
 csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label    
 csv-reconcile serve 
-
 csv-reconcile init nalt_labels_data/nalt_altlabels_suffix.tsv Nalt_URI_suffix Label
 csv-reconcile serve
 # Service: http://127.0.0.1:5000/reconcile  
