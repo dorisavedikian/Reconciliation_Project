@@ -16,12 +16,11 @@ csv-reconcile serve
 # Service: http://127.0.0.1:5000/reconcile  
 # Start reconciling. Select "Reconcile against no particular type"
 # cell.recon.match.id
-# cell.recon.best.score                                   
+# cell.recon.best.score 
+# export the unmatched and matched results seperately                                  
 deactivate   
-
 # So, nalt_preflabels_only.tsv worked because it has no duplicates but, nalt_altlabels.tsv still has duplicate URI's
-
-# So, I added a suffix to the duplicate URI's in the nalt_altlabels.tsv so I could do the reconciliation and it worked, 
+# So, I added a suffix to the URI's in the nalt_altlabels.tsv so I could do the reconciliation and it worked, 
 # I was able to reconcile the beta prepared labels to all of the nalt labels albeit, with some extra work pre and post 
 # reconciliation....
 

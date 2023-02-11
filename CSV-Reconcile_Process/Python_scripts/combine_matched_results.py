@@ -11,14 +11,13 @@ import numpy as np
 from pathlib import Path
 
 df1 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/Reconciled/pref_label_matched.csv")
-df1['Type'] = str('skos:prefLabel')
-
 df2 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/Reconciled/alt_label_matched.csv")
+df1['Type'] = str('skos:prefLabel')
 df2['Type'] = str('skos:altLabel')
 df2['Nalt_URI'] = df2['Nalt_URI_suffix'].str[:-7]       # Remove last 7 char 
 df2.drop(['NALT_URI_suffix'], axis=1)    
 
-labels_directory = "reconciled_labels"
+labels_directory = "Reconciled"
 Path(labels_directory).mkdir(exist_ok=True)
 labels_csvfile = Path(labels_directory) / "matched_labels.tsv"
 
