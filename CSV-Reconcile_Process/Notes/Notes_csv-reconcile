@@ -8,7 +8,6 @@
 python3 -m venv .venv                                         
 .venv/bin/pip install csv-reconcile                            
 source .venv/bin/activate                                            
-# you cant have more than 2 columns in these tsv files
 csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label    
 csv-reconcile serve 
 csv-reconcile init nalt_labels_data/nalt_altlabels_suffix.tsv Nalt_URI_suffix Label
@@ -17,7 +16,12 @@ csv-reconcile serve
 # Start reconciling. Select "Reconcile against no particular type"
 # cell.recon.match.id
 # cell.recon.best.score 
-# export the unmatched and matched results seperately                                  
+# export the unmatched and matched results from the pref label reconciliation seperately 
+# seperate the unmatched data frame into two dataframes based on the score column
+# labels that scored 100% and labels with a score < 100% will be seperated
+# use the unmatched list of labels that scored < 100% as the new SME list and reconcile that against the nalt_altlabels_suffix.tsv                                 
+# export the results of this reconciliation seperately; matched and unmatched 
+# there is likely no unmatched labels that scored 100% at this point so may not need to export the unmatched
 deactivate   
 # So, nalt_preflabels_only.tsv worked because it has no duplicates but, nalt_altlabels.tsv still has duplicate URI's
 # So, I added a suffix to the URI's in the nalt_altlabels.tsv so I could do the reconciliation and it worked, 
