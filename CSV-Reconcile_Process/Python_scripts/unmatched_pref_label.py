@@ -1,6 +1,6 @@
 '''
 - This seperates the unmatched output of the pref label reconciliation into two data frames; 1) unmatched but 100% & 2) unmatched and < 100% 
-- The data frame that is unmatched and < 100% will be used as the new SME list of labels
+- The data frame that is unmatched and < 100% will be used as the new SME list of labels that will be reconciled to the alt_labels_suffix.tsv
 '''
 import os
 import csv
