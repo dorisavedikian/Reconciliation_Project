@@ -11,12 +11,3 @@ After splitting it into two files...
 - [nalt_altlabel_suffix.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv) had 68,823 rows ----> An additional column "Nalt_URI_suffix" was added so the duplicate URI's will be considered unique 
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
-Pre Reconciliation Process:
-- [Remove duplicates from the SME prepared labels list using openRefine](https://guides.library.illinois.edu/openrefine/duplicates)
-- [Create tsv of original SME labels list for post reconciliation process](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/Python_scripts/CSV_2_TSV.py)
-
-Post reconciliation process:
-- Combine all the matching labels using this script [here](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/Python_scripts/combine_matchedlabels.py) into one database and save as a tsv and csv. 
-- Reconcile the original list of proposed labels to the list of matched labels using openRefine - the unmatched list are the terms not in the NALT
-
