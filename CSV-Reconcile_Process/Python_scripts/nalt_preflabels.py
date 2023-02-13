@@ -1,14 +1,9 @@
 
-'''
- - I used Tom Bakers nalt_label.ipynb to create this 
- - This collects all the preflabel values and URI's
- - Also, a new column "pref_label" with the constant value of 'skos:prefLabel' is added to the database
+''' 
+ - This is Tom Bakers nalt_label.ipynb but only the preflabel concepts and URI's are collected
  '''
 
 import csv
-import string
-import pandas as pd
-import numpy as np
 from pathlib import Path
 from rdflib import Graph, SKOS
 
@@ -18,7 +13,6 @@ labels_csvfile = Path(labels_directory) / "nalt_preflabels.tsv"
 
 n = Graph()
 n.parse('/Volumes/USDA HD/NAL/MyGitFolder/NALT/nalt4ma/nalt/nalt.nt', format='nt11')
-# n.parse('.../nalt4ma/nalt/nalt.nt', format='nt11')
 
 labels_tuples = []
 
@@ -33,3 +27,4 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
     for line in sorted(labels_tuples):
         labelwriter.writerow(line)
 
+# python3 python_scripts/nalt_preflabels.py

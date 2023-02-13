@@ -14,8 +14,6 @@ df4 = df3.drop(['Score'], axis=1)
 
 df2.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/Reconciled/pref_label_unmatched_100.csv", index=False)
 df4.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/SME_labels/beta_prepared_2.tsv", sep="\t", index=False)
-
-os.remove('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/Reconciled/pref_label_unmatched.xlsx')
 os.remove('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/Reconciled/pref_label_unmatched.csv')
 
-# python3 python_scripts/unmatched_pref_label_.py
+# python3 python_scripts/unmatched_pref_label.py

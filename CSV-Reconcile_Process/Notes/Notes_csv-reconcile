@@ -1,44 +1,28 @@
 ###### csv-reconcile
 # https://github.com/gitonthescene/csv-reconcile
-# Note: files need to be *.tsv files  
 
-# Installation directions:
-# 1. Clone the repository, cd into CSV-Reconcile_Process folder and do everything from there
-# 2. Create virtual environment, install csv-reconcile and initialize database
+# 1. Cd into reconciliation_project/CSV-Reconcile_Process folder and do everything from there
+# 2. Create virtual environment, install csv-reconcile and initialize database;
 python3 -m venv .venv                                         
 .venv/bin/pip install csv-reconcile                            
 source .venv/bin/activate                                            
+
 csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label    
 csv-reconcile serve 
+
 csv-reconcile init nalt_labels_data/nalt_altlabels_suffix.tsv Nalt_URI_suffix Label
 csv-reconcile serve
-# Service: http://127.0.0.1:5000/reconcile  
-# Start reconciling. Select "Reconcile against no particular type"
+# Add Standard Service: http://127.0.0.1:5000/reconcile  
+# Select "Reconcile against no particular type" & Start reconciling. 
 # cell.recon.match.id
 # cell.recon.best.score 
-# export the unmatched and matched results from the pref label reconciliation seperately 
-# seperate the unmatched data frame into two dataframes based on the score column
-# labels that scored 100% and labels with a score < 100% will be seperated
-# use the unmatched list of labels that scored < 100% as the new SME list and reconcile that against the nalt_altlabels_suffix.tsv                                 
-# export the results of this reconciliation seperately; matched and unmatched 
-# there is likely no unmatched labels that scored 100% at this point so may not need to export the unmatched
 deactivate   
-# So, nalt_preflabels_only.tsv worked because it has no duplicates but, nalt_altlabels.tsv still has duplicate URI's
-# So, I added a suffix to the URI's in the nalt_altlabels.tsv so I could do the reconciliation and it worked, 
-# I was able to reconcile the beta prepared labels to all of the nalt labels albeit, with some extra work pre and post 
-# reconciliation....
 
 
 
 
 
-# side notes:
-# This worked - read somewhere that the architecture needed to be explicitly called out. 
-python3 -m venv venv
-ARCHFLAGS="-arch x86_64" venv/bin/pip install csv-reconcile
-source venv/bin/activate
-
-
+# Notes:
 schema space
 http://www.w3.org/2004/02/skos/core#altLabel
 
@@ -49,7 +33,6 @@ MANIFEST = {
   "view": {"url":"https://lod.nal.usda.gov/nalt/{{id}}"},
   "name": "My reconciliation service"
 }
-
 
 # can add to manifest in _init_.py to preview URI 
 "preview": {
