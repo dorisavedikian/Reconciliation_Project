@@ -28,3 +28,6 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
     labelwriter.writerow(('NALT_URI', 'Label'))
     for line in sorted(labels_tuples):
         labelwriter.writerow(line)
+
+
+# python3 python_scripts/nalt_preflabels.py

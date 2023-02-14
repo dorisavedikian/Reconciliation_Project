@@ -30,8 +30,8 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
 
 # Add column "Nalt_URI_suffix" to data frame so URI's are unique
 df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels.tsv")
-df['randomint'] = np.random.randint(1, 1000, size=len(df)) 
-df['randomint1'] = np.random.randint(1, 1000, size=len(df)) 
+df['randomint'] = np.random.randint(1, 10000, size=len(df)) 
+df['randomint1'] = np.random.randint(1, 10000, size=len(df)) 
 df['Nalt_URI_suffix'] = df.loc[:,'NALT_URI'].astype(str) + '_' + df.loc[:,'randomint'].astype(str)+ df.loc[:,'randomint1'].astype(str)
 df1=df.drop(['randomint','randomint1', 'NALT_URI'], axis=1)    
 df2=df1[['Nalt_URI_suffix', 'Label']]                           
