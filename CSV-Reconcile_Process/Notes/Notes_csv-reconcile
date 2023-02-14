@@ -16,6 +16,7 @@ csv-reconcile serve
 # Select "Reconcile against no particular type" & Start reconciling. 
 # cell.recon.match.id
 # cell.recon.best.score 
+# cell.recon.best.name
 deactivate   
 
 
