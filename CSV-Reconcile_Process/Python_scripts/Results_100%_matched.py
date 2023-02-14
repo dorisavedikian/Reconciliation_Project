@@ -27,4 +27,5 @@ os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile
 os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/AWIC/Reconciled/pref_label_matched.csv")
 
 # python3 python_scripts/Results_100%_matched.py
-# Open Personal.xlsm and run HyperAdd macros on NALT_URI column
+# Open Personal.xlsm, matched_reconciliation.xlsx and run the HyperAdd macros on 
+# the NALT_URI column
