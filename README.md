@@ -11,3 +11,7 @@ After splitting it into two files...
 - [nalt_altlabel_suffix.tsv](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv) had 68,823 rows ----> An additional column "Nalt_URI_suffix" was added so the duplicate URI's will be considered unique. 
 
 
+
+The overall process:
+
+![Screen Shot 2023-02-13 at 4 41 21 PM](https://user-images.githubusercontent.com/109038399/218608369-2e5922f8-7860-49bf-9aff-b798df206506.png)
