@@ -14,4 +14,4 @@ After splitting it into two files...
 
 The overall process:
 
-![Screen Shot 2023-02-13 at 4 39 25 PM](https://user-images.githubusercontent.com/109038399/218608135-59c8f0ca-a5ed-4430-8b6b-80b83a28705b.png)
+![Screen Shot 2023-02-13 at 4 41 21 PM](https://user-images.githubusercontent.com/109038399/218608369-2e5922f8-7860-49bf-9aff-b798df206506.png)
