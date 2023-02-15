@@ -12,24 +12,27 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-df1 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/pref_label_unmatched.csv")                                          
-df2 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/alt_label_unmatched.csv")   
+df1 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/pref_label_unmatched.csv")                                          
+df2 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/alt_label_unmatched.csv")   
 df1['Best_Match_Type'] = str('skos:prefLabel')
 df2['Best_Match_Type'] = str('skos:altLabel')
-df3 = pd.concat([df1, df2])    
+df2[['Best_Match_NALT_URI', '_randomint']] = df2['Nalt_URI'].str.split('_', expand=True)         
+df4 = df2.drop(['Nalt_URI','_randomint'], axis=1)
+df3 = pd.concat([df1, df4])    
 df5 = df3.loc[df3['Score'] == 100] 
 df6 = df5.drop_duplicates(keep='first')
-df6.to_excel('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/examples/FDH/reconciled/unmatched_but_100.xlsx', sheet_name='Look up Best_Match', index=False) 
+df6.to_excel('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/examples/Biotech/reconciled/unmatched_but_100.xlsx', sheet_name='Look up Best_Match', index=False) 
     
-df8 = df2.loc[df2['Score'] < 100] 
+df8 = df3.loc[df3['Score'] < 100] 
 df9 = df8.drop_duplicates(keep='first')
-df9.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/SME_Label_Not_In_The_NALT.xlsx", sheet_name = 'Not in Nalt', index=False)
+df9.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/SME_Label_Not_In_The_NALT.xlsx", sheet_name = 'Not in Nalt', index=False)
    
-os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/pref_label_unmatched.csv")
-os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/alt_label_unmatched.csv")
+#os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/pref_label_unmatched.csv")
+#os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/alt_label_unmatched.csv")
 
 
 '''
+# update so excel sheets get combined
 filelist = os.listdir("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/")
 excelWriter = pd.ExcelWriter("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/Final_Reconciliation.xlsx", engine='openpyxl')
 for file in filelist:
