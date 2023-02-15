@@ -16,13 +16,11 @@ df1 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-R
 df2 = pd.read_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/alt_label_unmatched.csv")   
 df1['Best_Match_Type'] = str('skos:prefLabel')
 df2['Best_Match_Type'] = str('skos:altLabel')
-df3 = pd.concat([df1, df2])
-#df4 = df3.drop(df3.iloc[:,3:11], axis=1)    
+df3 = pd.concat([df1, df2])    
 df5 = df3.loc[df3['Score'] == 100] 
 df6 = df5.drop_duplicates(keep='first')
 df6.to_excel('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/examples/FDH/reconciled/unmatched_but_100.xlsx', sheet_name='Look up Best_Match', index=False) 
-  
-#df7 = df2.drop(df2.iloc[:,3:11], axis=1)    
+    
 df8 = df2.loc[df2['Score'] < 100] 
 df9 = df8.drop_duplicates(keep='first')
 df9.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/SME_Label_Not_In_The_NALT.xlsx", sheet_name = 'Not in Nalt', index=False)

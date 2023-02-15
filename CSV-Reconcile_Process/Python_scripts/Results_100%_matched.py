@@ -20,7 +20,6 @@ df2[['NALT_URI', '_randomint']] = df2['Nalt_URI'].str.split('_', expand=True)
 df4 = df2.drop(['Nalt_URI','_randomint'], axis=1)    
 
 df5 = pd.concat([df3, df4])
-#df6 = df5.drop(df5.iloc[:,3:11], axis=1)
 df5.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/examples/FDH/reconciled/matched_reconciliation.xlsx", sheet_name='Perfect Matches', index = False)
 
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/alt_label_matched.csv")
