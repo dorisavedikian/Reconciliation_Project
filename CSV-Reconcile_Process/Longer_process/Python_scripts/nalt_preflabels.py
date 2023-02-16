@@ -7,7 +7,7 @@ import csv
 from pathlib import Path
 from rdflib import Graph, SKOS
 
-labels_directory = "nalt_labels_DATA"
+labels_directory = "longer_process/nalt_labels_DATA"
 Path(labels_directory).mkdir(exist_ok=True)
 labels_csvfile = Path(labels_directory) / "nalt_preflabels.tsv"
 

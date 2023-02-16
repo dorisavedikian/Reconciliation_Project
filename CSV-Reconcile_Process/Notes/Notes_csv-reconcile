@@ -12,6 +12,9 @@ csv-reconcile serve
 
 csv-reconcile init nalt_labels_data/nalt_altlabels_suffix.tsv Nalt_URI_suffix Label
 csv-reconcile serve
+
+csv-reconcile init shorter_process/nalt_labels_data/nalt_label.tsv Nalt_URI Label
+csv-reconcile serve
 # Add Standard Service: http://127.0.0.1:5000/reconcile  
 # Select "Reconcile against no particular type" & Start reconciling. 
 # cell.recon.best.id      # adds a nalt_uri for even the scores < 100%

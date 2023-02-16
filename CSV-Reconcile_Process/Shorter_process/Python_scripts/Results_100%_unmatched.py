@@ -32,19 +32,4 @@ df8.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconc
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/pref_label_unmatched.csv")
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/alt_label_unmatched.csv")
 
-
-'''
-# update so excel sheets get combined
-filelist = os.listdir("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/")
-excelWriter = pd.ExcelWriter("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/Final_Reconciliation.xlsx", engine='openpyxl')
-for file in filelist:
-    df = pd.read_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/" +file)
-    df.to_excel(excelWriter, sheet_name = file, index=False)
-excelWriter.save()
-
-os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/SME_Label_Not_In_The_NALT.csv")
-os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/unmatched_but_100.csv")
-os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/FDH/Reconciled/matched_reconciliation.xlsx")
-'''
-
 # python3 python_scripts/Results_100%_unmatched.py
