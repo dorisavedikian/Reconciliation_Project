@@ -22,12 +22,12 @@ df2[['NALT_URI_Best_Match', '_randomint']] = df2['Nalt_URI_Best_Match'].str.spli
 df4 = df2.drop(['Nalt_URI_Best_Match','_randomint'], axis=1)
 df3 = pd.concat([df7, df4])    
 df5 = df3.loc[df3['Score'] == 100] 
-df6 = df5.drop_duplicates(keep='first')
-df6.to_excel('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/examples/Cotton/reconciled/unmatched_but_100.xlsx', sheet_name='Look up Best_Match', index=False) 
+#df6 = df5.drop_duplicates(keep='first')
+df5.to_excel('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/examples/Cotton/reconciled/unmatched_but_100.xlsx', sheet_name='Look up Best_Match', index=False) 
     
 df8 = df3.loc[df3['Score'] < 100] 
-df9 = df8.drop_duplicates(keep='first')
-df9.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Cotton/Reconciled/SME_Label_Not_In_The_NALT.xlsx", sheet_name = 'Not in Nalt', index=False)
+#df9 = df8.drop_duplicates(keep='first')
+df8.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Cotton/Reconciled/SME_Label_Not_In_The_NALT.xlsx", sheet_name = 'Not in Nalt', index=False)
    
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/pref_label_unmatched.csv")
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/Examples/Biotech/Reconciled/alt_label_unmatched.csv")
