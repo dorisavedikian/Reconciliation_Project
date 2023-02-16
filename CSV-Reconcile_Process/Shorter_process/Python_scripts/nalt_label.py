@@ -2,8 +2,8 @@
 '''
  - I used Tom Bakers nalt_label.ipynb to create this script
  - This collects all the altlabel values and URI's in the NALT and saves it as a tsv file
- - Also, adds a column "NALT_URI_suffix" to the nalt_altlabel.tsv - this new column is the column 'Nalt_URI' with a random suffix added 
-'''
+ - Also, adds a column "NALT_URI_suffix" 
+ '''
 import os
 import csv
 import string
@@ -12,13 +12,13 @@ import numpy as np
 from pathlib import Path
 from rdflib import Graph, SKOS
 
-labels_directory = "nalt_labels_DATA"
+labels_directory = "shorter_process/nalt_labels_DATA"
 Path(labels_directory).mkdir(exist_ok=True)
-labels_csvfile = Path(labels_directory) / "nalt_altlabels.tsv"
+labels_csvfile = Path(labels_directory) / "nalt_labels.tsv"
 n = Graph()
 n.parse('/Volumes/USDA HD/NAL/MyGitFolder/NALT/nalt4ma/nalt/nalt.nt', format='nt11')
 labels_tuples = []
-for predicate in [SKOS.altLabel]:
+for predicate in [SKOS.altLabel, SKOS.prefLabel]:
     for (concept, label) in n.subject_objects(predicate):
         if label.language == "en":
             labels_tuples.append((str(concept), label.value))
