@@ -25,6 +25,6 @@ df5.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconc
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/shorter_process/Examples/ADC/Reconciled/alt_label_matched.csv")
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/shorter_process/Examples/ADC/Reconciled/pref_label_matched.csv")
 
-# python3 python_scripts/Results_100%_matched.py
+# python3 shorter_process/python_scripts/Results_100%_matched.py
 # Open Personal.xlsm, matched_reconciliation.xlsx and run the HyperAdd macros on 
 # the NALT_URI column

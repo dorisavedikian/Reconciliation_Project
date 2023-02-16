@@ -14,7 +14,7 @@ from rdflib import Graph, SKOS
 
 labels_directory = "shorter_process/nalt_labels_DATA"
 Path(labels_directory).mkdir(exist_ok=True)
-labels_csvfile = Path(labels_directory) / "nalt_labels.tsv"
+labels_csvfile = Path(labels_directory) / "nalt_label.tsv"
 n = Graph()
 n.parse('/Volumes/USDA HD/NAL/MyGitFolder/NALT/nalt4ma/nalt/nalt.nt', format='nt11')
 labels_tuples = []
@@ -28,14 +28,14 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
     for line in sorted(labels_tuples):
         labelwriter.writerow(line)
 
-# Add column "Nalt_URI_suffix" to data frame so URI's are unique
-df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels.tsv")
+# Add column "Nalt_URI_suffix" to data frame so URI's are unique - find a better way to do this
+df = pd.read_table("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_label.tsv")
 df['randomint'] = np.random.randint(1, 10000, size=len(df)) 
 df['randomint1'] = np.random.randint(1, 10000, size=len(df)) 
 df['Nalt_URI_suffix'] = df.loc[:,'NALT_URI'].astype(str) + '_' + df.loc[:,'randomint'].astype(str)+ df.loc[:,'randomint1'].astype(str)
 df1=df.drop(['randomint','randomint1', 'NALT_URI'], axis=1)    
 df2=df1[['Nalt_URI_suffix', 'Label']]                           
-df2.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t", index=False)
-os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_altlabels.tsv")
+df2.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_label_suffix.tsv", sep="\t", index=False)
+os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/nalt_labels_DATA/nalt_label.tsv")
 
-# python3 python_scripts/nalt_label.py
+# python3 shorter_process/python_scripts/nalt_label.py

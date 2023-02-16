@@ -38,4 +38,4 @@ df2=df1[['Nalt_URI_suffix', 'Label']]
 df2.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/longer_process/nalt_labels_DATA/nalt_altlabels_suffix.tsv", sep="\t", index=False)
 os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/longer_process/nalt_labels_DATA/nalt_altlabels.tsv")
 
-# python3 python_scripts/nalt_altlabels.py
+# python3 longer_process/python_scripts/nalt_altlabels.py

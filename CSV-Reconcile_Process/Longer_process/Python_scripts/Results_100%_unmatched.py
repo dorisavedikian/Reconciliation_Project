@@ -33,4 +33,4 @@ df8.to_excel("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconc
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/longer_process/Examples/Biotech/Reconciled/alt_label_unmatched.csv")
 
 
-# python3 python_scripts/Results_100%_unmatched.py
+# python3 longer_process/python_scripts/Results_100%_unmatched.py

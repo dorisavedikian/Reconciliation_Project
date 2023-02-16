@@ -19,4 +19,4 @@ df4.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcil
 
 #os.remove('/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/longer_process/Examples/Biotech/Reconciled/unmatched_pref_label.csv')
 
-# python3 python_scripts/unmatched_pref_label.py
+# python3 longer_process/python_scripts/unmatched_pref_label.py

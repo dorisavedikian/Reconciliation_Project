@@ -13,4 +13,4 @@ df.to_csv("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile
 os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/longer_processExamples/ADC/SME_labels/ADC_Labels.csv")
 #os.remove("/Volumes/USDA HD/NAL/MyGitFolder/Reconciliation_Project/CSV-Reconcile_Process/longer_process/Examples/Biotech/SME_labels/Biotech_Labels.csv")
 
-# python3 python_scripts/csv_2_tsv.py
+# python3 longer_process/python_scripts/csv_2_tsv.py

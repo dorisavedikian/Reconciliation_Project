@@ -27,4 +27,4 @@ with open(labels_csvfile, 'w', newline='') as csvfile:
     for line in sorted(labels_tuples):
         labelwriter.writerow(line)
 
-# python3 python_scripts/nalt_preflabels.py
+# python3 longer_process/python_scripts/nalt_preflabels.py
