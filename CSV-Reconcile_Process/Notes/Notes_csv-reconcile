@@ -1,47 +1,20 @@
 ###### csv-reconcile
 # https://github.com/gitonthescene/csv-reconcile
 
+
+
 # 1. Cd into reconciliation_project/CSV-Reconcile_Process folder and do everything from there
 # 2. Create virtual environment, install csv-reconcile and initialize database;
 python3 -m venv .venv                                         
 .venv/bin/pip install csv-reconcile                            
 source .venv/bin/activate                                            
 
-csv-reconcile init nalt_labels_data/nalt_preflabels.tsv NALT_URI Label    
-csv-reconcile serve 
-
-csv-reconcile init nalt_labels_data/nalt_altlabels_suffix.tsv Nalt_URI_suffix Label
-csv-reconcile serve
-
-csv-reconcile init shorter_process/nalt_labels_data/nalt_label_suffix.tsv Nalt_URI Label
+csv-reconcile init shorter_process/nalt_labels_data/nalt_label_suffix.tsv NALT_URI_Suffix Label
 csv-reconcile serve
 # Add Standard Service: http://127.0.0.1:5000/reconcile  
 # Select "Reconcile against no particular type" & Start reconciling. 
-# cell.recon.best.id      # adds a nalt_uri for even the scores < 100%
-# cell.recon.best.score 
-# cell.recon.best.name
+# cell.recon.best.id        "NALT_URI"       # adds the nalt_uri for the term with the highest score - so even the scores < 100% 
+# cell.recon.best.score     "Score"    
+# cell.recon.best.name      "Best_Match"
 deactivate   
 
-
-
-
-
-# Notes:
-schema space
-http://www.w3.org/2004/02/skos/core#altLabel
-
-???? maybe
-MANIFEST = {
-  "identifierSpace": "https://lod.nal.usda.gov/nalt/",
-  "schemaSpace": "http://www.w3.org/2004/02/skos/core#prefLabel",
-  "view": {"url":"https://lod.nal.usda.gov/nalt/{{id}}"},
-  "name": "My reconciliation service"
-}
-
-# can add to manifest in _init_.py to preview URI 
-"preview": {
-   "url": "http://localhost:5000/preview/{{id}}",
-   "width": 400,
-   "height": 300
-}
-# tried this but it didnt do anything....

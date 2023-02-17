@@ -1,6 +1,5 @@
 
 '''
- - I used Tom Bakers nalt_label.ipynb to create this script
  - This collects all the alt and pref label values and URI's in the NALT and saves it as a tsv file
  - Than adds a column "NALT_URI_suffix" to the data frame where each URI has a random suffix
  '''
