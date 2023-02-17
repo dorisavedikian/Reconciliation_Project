@@ -1,7 +1,7 @@
 
 '''
  - This collects all the alt and pref label values and URI's in the NALT and saves it as a tsv file
- - Than adds a column "NALT_URI_suffix" to the data frame where each URI has a random suffix
+ - A column "NALT_URI_suffix" is created which has the URI's + a random suffix
  '''
 import csv
 import string
@@ -18,10 +18,10 @@ labels_tuples = []
 for predicate in [SKOS.altLabel, SKOS.prefLabel]:
     for (concept, label) in n.subject_objects(predicate):
         if label.language == "en":
-            labels_tuples.append((str(concept), str(concept) + '_' + str(np.random.randint(1,100000000)), label.value))
+            labels_tuples.append((str(concept) + '_' + str(np.random.randint(1,100000000)), label.value))
 with open(labels_csvfile, 'w', newline='') as csvfile:
     labelwriter = csv.writer(csvfile, delimiter='\t', dialect='excel')
-    labelwriter.writerow(('NALT_URI', 'NALT_URI_Suffix', 'Label'))
+    labelwriter.writerow(('NALT_URI_Suffix', 'Label'))
     for line in sorted(labels_tuples):
         labelwriter.writerow(line)
 
