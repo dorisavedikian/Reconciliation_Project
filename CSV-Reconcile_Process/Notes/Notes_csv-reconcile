@@ -13,6 +13,6 @@ csv-reconcile serve
 # Select "Reconcile against no particular type" & Start reconciling. 
 # cell.recon.best.id        "Nalt_URI"       # adds the nalt_uri for the term with the highest score - so even the scores < 100% 
 # cell.recon.best.score     "Score"    
-# cell.recon.best.name      "Best_Match"
+# cell.recon.best.name      "Best_Match"     # adds the name of the best match, so even the name with a score < 100% 
 deactivate   
 
