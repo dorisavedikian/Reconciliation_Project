@@ -1,6 +1,6 @@
 # This  repo  is  to  document the reconciliation process using OpenRefine and the reconciliation service [csv-reconcile](https://github.com/gitonthescene/csv-reconcile) 
 
-Original [nalt_label.tsv](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels/nalt_labels.tsv) file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service [CSV-Reconcile]will not work. However, if we temporarily make the URI's unique by adding a suffix to the URI using a derivative of Tom Baker's [Jupyter notebook](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/Shorter_process/Python_scripts/nalt_label.py) the process works. 
+Original [nalt_label.tsv](https://github.com/woody544/nalt4ma/blob/main/nalt/nalt_labels/nalt_labels.tsv) file has 145,755 rows. Because alt and pref labels that correspond to a given concept / resource has the same URI, the openRefine reconciliation service CSV-Reconcile will not work. However, if we temporarily make the URI's unique by adding a suffix to the URI using a derivative of Tom Baker's [Jupyter notebook](https://github.com/dorisavedikian/Reconciliation_Project/blob/main/CSV-Reconcile_Process/Shorter_process/Python_scripts/nalt_label.py) the process works. 
 
 
 
